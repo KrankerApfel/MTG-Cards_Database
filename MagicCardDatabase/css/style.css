@@ -1,0 +1,57 @@
+body{background-color: #656598;font-family: 'Lato', sans-serif;margin: 0;padding: 0;}
+/*FOOTER : il est moche*/
+.footer {width: 100%;bottom: 0;margin: 0;text-align: center;overflow: hidden;background-color: #28283c;color: #fff}
+
+/*NAVBAR : ne jamais rien modifier en dehors des couleurs*/
+.topnav {width: 100%;top: 0;position: fixed;margin: 0;text-align: right;overflow: hidden;background-color: #28283c;z-index: 1;}
+.topnav ul {margin: 0;}
+.topnav li {float: left;margin-top: 4px;list-style: none; display: inline-block; }
+.topnav a {display: block; font-family:arial; font-size: 13px; margin: 0; padding: 9px 18px 9px; text-decoration: none; }
+.topnav a:hover {background-color: #ceb6ca; }
+.topnav a:active, .active{color: #fff; }
+.topnav .login-container {float: right;}
+.topnav input[type=text],input[type=password] {padding: 6px;margin-top: 4px;margin-bottom: 4px;font-size: 17px;border: none;width: 150px;}
+.topnav .login-container button {float: right;padding: 6px;margin-top: 4px;margin-bottom: 4px;margin-right: 16px;background: #ddd;font-size: 17px;border: none;cursor: pointer;}
+.topnav .login-container button:hover {background: #ccc;}
+
+/*-- RESPONSIVE NAVBAR --*/
+/*Ne jamais modifier*/
+* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav .login-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+/*-- end responsiv navbar --*/
+
+/*HEADER : rien à modifier sauf le background image et filtre si on veux*/
+header.page-header {background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(229,2,2, 0.25)), url(../img/header.jpg ) 0% 40% ;padding-left: 5%;display:flex;flex-direction: column;height: 1000px;align-items: center;color: #fff;text-shadow: #000 0 0 .9em;}
+#header-container{display: flex;margin-top : 15%;margin-bottom: 10%;}
+#header-texte {float: right;text-align: justify;margin-left: 20%;font-size: x-large;width: 750px;}
+/*-- ARROW FLOATING ANIMATION*/
+.arrow-down {animation: float 2s ease-in-out infinite;}
+@keyframes float {
+	0% {transform: translatey(0px);}
+	50% {transform: translatey(-20px);}
+	100% {transform: translatey(0px);}
+}
+/*-- end arrow floating animation*/
+
+/*MAIN : gestion du style des éléments du main*/
+/*even = pair, tout les enfants pair de main vérifie ces propriétés*/
+main :nth-child(even){background-color: #32324c;}
+.main-container p {background-color: inherit;}
+.main-container {height: 1000px;}
+/*gérer à part car est différent aux niveaux du style*/
+#membres {background-color: #a2a2c1;}
