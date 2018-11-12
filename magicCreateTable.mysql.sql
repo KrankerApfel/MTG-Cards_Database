@@ -38,5 +38,6 @@ CREATE TABLE carte_langue(
   FOREIGN KEY(lang_id) REFERENCES langue(lang_id)
 
   PRIMARY KEY(carte_id, lang_id)
-
 );
+
+
