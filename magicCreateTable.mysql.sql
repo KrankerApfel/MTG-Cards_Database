@@ -38,7 +38,7 @@ CREATE TABLE carte_virtuelle
 	carte_endurance int CHECK(carte_type = 'creature' AND carte_endurance >= 0),
 
 	carte_type varchar(20) NOT NULL CHECK(carte_type IN('terrain', 'creature', 'enchantement', 'rituel', 'ephemere', 'artefact')),
-	carte_rarete int NOT NULL CHECK(carte_type = 'creature' AND carte_rarete BETWEEN 0 AND 4),
+	carte_rarete int NOT NULL CHECK(carte_rarete BETWEEN 0 AND 4),
 	
 	carte_couleur char NOT NULL CHECK(carte_couleur IN('w', 'b', 'n', 'r', 'v', 'm', 'i')),
 	carte_ordre_serie int NOT NULL,
