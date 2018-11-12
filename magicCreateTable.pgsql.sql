@@ -39,7 +39,7 @@ CREATE TABLE carte_virtuelle (
  carte_force INT CHECK(carte_type = 'creature' AND carte_force >= -1),
  carte_endurance INT CHECK(carte_type = 'creature' AND carte_endurance >= 0),
  carte_artiste VARCHAR(50),
- carte_rarete INT NOT NULL CHECK(carte_type = 'creature' AND carte_rarete BETWEEN 0 AND 4),
+ carte_rarete INT NOT NULL CHECK(carte_rarete BETWEEN 0 AND 4),
  carte_ordre_serie INT NOT NULL,
  ser_code INT NOT NULL ,
  FOREIGN KEY(ser_code) REFERENCES serie(ser_code)
