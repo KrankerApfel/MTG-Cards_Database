@@ -62,8 +62,8 @@ CREATE  TABLE carte_virtuelle
   carte_cout          VARCHAR2(30 CHAR ) NOT NULL,
   carte_type          VARCHAR2(30 CHAR ) NOT NULL,
   carte_ordre_serie   NUMERIC(10) NOT NULL,
-  carte_endurance     NUMERIC(10) NOT NULL,
-  carte_force         NUMERIC(10) NOT NULL,
+  carte_endurance     NUMERIC(10),
+  carte_force         NUMERIC(10),
   carte_couleur       CHAR(1) NOT NULL,
   carte_rarete        NUMERIC(10) NOT NULL,
   ser_code          NUMERIC(10)  NOT NULL,
@@ -76,8 +76,8 @@ CREATE  TABLE carte_virtuelle
       REFERENCES serie(ser_code),
 
   CONSTRAINT check_carte_type       CHECK (carte_type IN ('terrain','créature', 'enchantement','rituel', 'éphémère','artefact')),
-  CONSTRAINT check_carte_endurance  CHECK (carte_endurance >0 AND carte_type ='créature'),
-  CONSTRAINT check_carte_force      CHECK (carte_force >=0 AND carte_type = 'créature'),
+  CONSTRAINT check_carte_endurance  CHECK (carte_endurance >=0 AND carte_type ='créature'),
+  CONSTRAINT check_carte_force      CHECK (carte_force >=-1 AND carte_type = 'créature'),
   CONSTRAINT check_carte_couleur    CHECK (carte_couleur IN ('w','b','n','r','v','m','i')),
   CONSTRAINT check_carte_rarete     CHECK (carte_rarete BETWEEN 0 AND 4)
 
@@ -139,19 +139,17 @@ CREATE TABLE possession
   col_id       NUMERIC(10) NOT NULL,
 
 
- CONSTRAINT possession_fk_carte
-   FOREIGN KEY (carte_id)
-   REFERENCES carte_langue(carte_id), /**/
+ CONSTRAINT possession_fk_carte_langue
+   FOREIGN KEY (carte_id,lang_id)
+   REFERENCES carte_langue(carte_id,lang_id), /* bien préciser que la clé est composite ! */
 
- CONSTRAINT possession_fk_lang
-   FOREIGN KEY (lang_id)
-   REFERENCES carte_langue(carte_id), /**/
+
 
 CONSTRAINT possession_fk_col
    FOREIGN KEY (col_id)
    REFERENCES collection(col_id),
 
-CONSTRAINT possession_pk PRIMARY KEY (carte_id, lang_id, col_id) /*MARCHE PAS CAR carte_id ET lang_id SONT PAS CLE PRIMAIRE DANS CARTE LANGUE*/
+CONSTRAINT possession_pk PRIMARY KEY (carte_id, lang_id, col_id)
 
 );
 
