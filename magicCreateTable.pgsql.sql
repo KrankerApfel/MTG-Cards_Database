@@ -4,6 +4,7 @@ DROP TABLE IF EXISTS langue_serie CASCADE;
 DROP TABLE IF EXISTS collection CASCADE;
 DROP TABLE IF EXISTS carte_virtuelle CASCADE;
 DROP TABLE IF EXISTS carte_langue;
+DROP TABLE IF EXISTS possession;
 
 
 CREATE TABLE serie (
@@ -50,5 +51,16 @@ CREATE TABLE carte_langue (
  carte_id INT NOT NULL,
  lang_id INT NOT NULL,
  FOREIGN KEY(carte_id) REFERENCES carte_virtuelle(carte_id),
- FOREIGN KEY(lang_id) REFERENCES langue(lang_id)
+ FOREIGN KEY(lang_id) REFERENCES langue(lang_id),
+ PRIMARY KEY(carte_id, lang_id)
+);
+
+CREATE TABLE possession(
+ col_id INT NOT NULL,
+ carte_id INT NOT NULL,
+ lang_id INT NOT NULL,
+ pos_quantite INT,
+ FOREIGN KEY(carte_id, lang_id) REFERENCES carte_langue(carte_id, lang_id),
+ FOREIGN KEY(col_id) REFERENCES collection(col_id),
+ PRIMARY KEY(col_id, carte_id, lang_id)
 );
