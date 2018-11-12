@@ -32,7 +32,7 @@ CREATE TABLE collection(
 
 CREATE TABLE carte_virtuelle (
  carte_id SERIAL PRIMARY KEY,
- carte_couleur CHAR NOT NULL CHECK(carte_couleur IN(w, b, n, r, v, m, i)),
+ carte_couleur CHAR NOT NULL CHECK(carte_couleur IN('w', 'b', 'n', 'r', 'v', 'm', 'i')),
  carte_type VARCHAR(20) NOT NULL CHECK(carte_type IN('terrain', 'creature', 'enchantement', 'rituel', 'ephemere', 'artefact')),
  carte_cout INT NOT NULL,
  carte_force INT CHECK(carte_type = 'creature' AND carte_force >= -1),
