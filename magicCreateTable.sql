@@ -15,7 +15,7 @@ DROP SEQUENCE collection_col_id_seq;
 /*-------------------------------------------------------------*/
 
 CREATE TABLE serie (
- ser_code    NUMERIC(10) PRIMARY KEY NOT NULL,
+ ser_code    VARCHAR2(3 CHAR) PRIMARY KEY NOT NULL,
  ser_nom     VARCHAR2(30 CHAR) NOT NULL,
  ser_date    DATE,
  ser_nbTotal NUMERIC(10) NOT NULL
@@ -26,7 +26,7 @@ CREATE TABLE langue (
  lang_nom VARCHAR2(30 char) NOT NULL
 );
 
-CREATE SEQUENCE langue_lang_id_seq;
+CREATE SEQUENCE langue_lang_id_seq START WITH 1 INCREMENT BY 1;
 
 CREATE OR REPLACE TRIGGER trig_langue
  BEFORE INSERT ON langue
@@ -39,7 +39,7 @@ CREATE OR REPLACE TRIGGER trig_langue
 
 CREATE TABLE langue_serie (
   lang_id  NUMERIC(10) NOT NULL ,
-  ser_code NUMERIC(10) NOT NULL ,
+  ser_code VARCHAR2(3 CHAR) NOT NULL ,
 
   CONSTRAINT langue_serie_lang_id_fk
     FOREIGN KEY (lang_id)
@@ -54,36 +54,36 @@ CREATE TABLE langue_serie (
 
 
 
-CREATE  TABLE carte_virtuelle
+create table CARTE_VIRTUELLE
 (
-
-  carte_id            NUMERIC(10) PRIMARY KEY NOT NULL,
-  carte_artiste       VARCHAR2(30 CHAR ),
-  carte_cout          VARCHAR2(30 CHAR ) NOT NULL,
-  carte_type          VARCHAR2(30 CHAR ) NOT NULL,
-  carte_ordre_serie   NUMERIC(10) NOT NULL,
-  carte_endurance     NUMERIC(10),
-  carte_force         NUMERIC(10),
-  carte_couleur       CHAR(1) NOT NULL,
-  carte_rarete        NUMERIC(10) NOT NULL,
-  ser_code          NUMERIC(10)  NOT NULL,
-
-
-
-
-  CONSTRAINT carte_virtuelle_pk
-      FOREIGN KEY (ser_code)
-      REFERENCES serie(ser_code),
-
-  CONSTRAINT check_carte_type       CHECK (carte_type IN ('terrain','créature', 'enchantement','rituel', 'éphémère','artefact')),
-  CONSTRAINT check_carte_endurance  CHECK (carte_endurance >=0 AND carte_type ='créature'),
-  CONSTRAINT check_carte_force      CHECK (carte_force >=-1 AND carte_type = 'créature'),
-  CONSTRAINT check_carte_couleur    CHECK (carte_couleur IN ('w','b','n','r','v','m','i')),
-  CONSTRAINT check_carte_rarete     CHECK (carte_rarete BETWEEN 0 AND 4)
-
+  CARTE_ID          NUMBER(10)        not null
+    primary key,
+  CARTE_ARTISTE     VARCHAR2(30 char),
+  CARTE_COUT        VARCHAR2(30 char),
+  CARTE_TYPE        VARCHAR2(30 char) not null
+    constraint CHECK_CARTE_TYPE
+    check (carte_type IN
+           ('terrain', 'créature', 'enchantement', 'rituel', 'éphémère', 'artefact', 'sort', 'arpenteur', 'tribal', 'permanent')),
+  CARTE_ORDRE_SERIE NUMBER(10)        not null,
+  CARTE_ENDURANCE   NUMBER(10),
+  CARTE_FORCE       NUMBER(10),
+  CARTE_COULEUR     CHAR              not null
+    constraint CHECK_CARTE_COULEUR
+    check (carte_couleur IN ('W', 'B', 'N', 'R', 'V', 'M', 'I','T')),
+  CARTE_RARETE      NUMBER(10)        not null
+    constraint CHECK_CARTE_RARETE
+    check (carte_rarete BETWEEN 0 AND 4),
+  SER_CODE          VARCHAR2(3 char)  not null
+    constraint CARTE_VIRTUELLE_PK
+    references SERIE (SER_CODE),
+  constraint CHECK_CARTE_ENDURANCE
+  check ((carte_type !='créature' AND CARTE_ENDURANCE is NULL) OR (CARTE_TYPE ='créature' AND carte_endurance >= -1)),
+  constraint CHECK_CARTE_FORCE
+  check ((carte_type !='créature' AND CARTE_FORCE is NULL) OR (CARTE_TYPE ='créature' AND CARTE_FORCE >= -1))
 );
 
-CREATE SEQUENCE carte_id_seq;
+
+CREATE SEQUENCE carte_id_seq START WITH 1 INCREMENT BY 1;
 
 CREATE OR REPLACE TRIGGER trig_carte_id
 BEFORE INSERT ON carte_virtuelle
