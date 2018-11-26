@@ -33,11 +33,11 @@ CREATE TABLE collection(
 
 CREATE TABLE carte_virtuelle (
  carte_id SERIAL PRIMARY KEY,
- carte_couleur CHAR NOT NULL CHECK(carte_couleur IN('w', 'b', 'n', 'r', 'v', 'm', 'i')),
+ carte_couleur CHAR NOT NULL CHECK(carte_couleur IN('W', 'B', 'N', 'R', 'V', 'M', 'I')),
  carte_type VARCHAR(20) NOT NULL CHECK(carte_type IN('terrain', 'creature', 'enchantement', 'rituel', 'ephemere', 'artefact')),
  carte_cout INT NOT NULL,
- carte_force INT CHECK(carte_type = 'creature' AND carte_force >= -1),
- carte_endurance INT CHECK(carte_type = 'creature' AND carte_endurance >= 0),
+ carte_force INT CHECK((carte_type = 'creature' AND carte_force >= -1) OR (carte_type != 'creature' AND carte_endurance IS NULL)),
+ carte_endurance INT CHECK((carte_type = 'creature' AND carte_endurance >= -1) OR (carte_type != 'creature' AND carte_endurance IS NULL)),
  carte_artiste VARCHAR(50),
  carte_rarete INT NOT NULL CHECK(carte_rarete BETWEEN 0 AND 4),
  carte_ordre_serie INT NOT NULL,
