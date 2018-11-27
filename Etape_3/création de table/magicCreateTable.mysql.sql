@@ -7,7 +7,7 @@ DROP TABLE IF EXISTS langue CASCADE;
 DROP TABLE IF EXISTS serie CASCADE;
 
 CREATE TABLE serie (
- ser_code    VARCHAR(3) PRIMARY KEY,
+ ser_code    VARCHAR(3) NOT NULL PRIMARY KEY,
  ser_nom     VARCHAR(30) NOT NULL,
  ser_date    DATE,
  ser_nbTotal INTEGER NOT NULL

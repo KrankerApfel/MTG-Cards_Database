@@ -58,7 +58,7 @@ INSERT INTO carte_langue VALUES
 ('Wayward Angel', 'Flying Attacking doesn''t cause Wayward Angel to tap. Threshold - Wayward Angel gets +3/+3, is black, has trample, and has "At the beginning of your upkeep, sacrifice a creature". (You have threshold as long as seven or more cards are in your graveyard.) ', 57, 1),
 ('Aboshan, Cephalid Emperor', 'Tap an untapped Cephalid you control: Tap target permanent. UUU: Tap all creatures without flying. ', 58, 1),
 ('Aboshan''s Desire', 'Enchanted creature has flying. Threshold - Enchanted creature can''t be the target of spells or abilities. (You have threshold as long as seven or more card are in your graveyard.) ', 59, 1),
-('�ther Burst', 'Return up to X target creatures to their owners'' hands, where X is one plus the number of �ther Burst cards in all graveyards as you play �ther Burst. ', 60, 1),
+('Other Burst', 'Return up to X target creatures to their owners'' hands, where X is one plus the number of Other Burst cards in all graveyards as you play Other Burst. ', 60, 1),
 ('Amugaba', 'Flying 2U, Discard a card from your hand: Return Amugaba to its owner''s hand. ', 61, 1),
 ('Aura Graft', 'Move target enchantment that''s enchanting a permanent to another permanent it can enchant. Gain control of that enchantment. (This effect doesn''t end at end of turn.) ', 62, 1),
 ('Aven Fisher', 'Flying When Aven Fisher is put into a graveyard from play, you may draw a card. ', 63, 1),
@@ -349,7 +349,6 @@ INSERT INTO carte_langue VALUES
 ('Forest', '[G] ', 348, 1),
 ('Forest', '[G] ', 349, 1),
 ('Forest', '[G] ', 350, 1),
---Insert Into carte_langue Values
 ('Angel of Retribution', 'Flying, first strike', 351, 1),
 ('Aven Trooper', 'Flying. 2W, Discard a card from your hand: Aven Trooper gets+1/+2 until end of turn.', 352, 1),
 ('Cleansing Meditation', 'Destroy all enchantments. Threshold - Instead destroy all enchantments, then return to play all cards in your graveyard destroyed this way. (You have threshold if seven or more cards are in your graveyard.)', 353, 1),
