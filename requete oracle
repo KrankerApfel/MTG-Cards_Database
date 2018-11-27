@@ -2,6 +2,30 @@
 /*Oracle 1*/
 SELECT * FROM carte_virtuelle WHERE REGEXP_LIKE(carte_artiste, '^(Mar).*');
 
+/*Oracle 2*/
+/*1*/
+SELECT carte_nom, ser_nom, carte_artiste FROM carte_langue NATURAL JOIN carte_virtuelle INNER JOIN serie
+ON carte_virtuelle.ser_code = serie.ser_code
+WHERE REGEXP_LIKE(carte_artiste, 'Mark Zug');
+/*1 V2*/
+SELECT carte_nom, ser_nom, carte_artiste FROM serie,carte_langue NATURAL JOIN carte_virtuelle WHERE
+carte_virtuelle.ser_code = serie.ser_code
+AND REGEXP_LIKE(carte_artiste, 'Mark Zug');
+/*2*/
+SELECT * FROM carte_langue INNER JOIN carte_virtuelle
+ON carte_langue.carte_id = carte_virtuelle.carte_id;
+/*2 V2*/
+SELECT * FROM carte_langue, carte_virtuelle
+WHERE carte_langue.carte_id = carte_virtuelle.carte_id;
+/*3*/
+SELECT CARTE_TEXTE, LANG_NOM  FROM CARTE_LANGUE  , LANGUE WHERE
+CARTE_LANGUE.LANG_ID = LANGUE.LANG_ID AND LANG_NOM = 'français';
+/*3 V2*/
+SELECT CARTE_TEXTE, LANG_NOM  FROM CARTE_LANGUE  NATURAL JOIN LANGUE WHERE
+LANG_NOM = 'français';
+/*4 afficher les noms de cartes de kaladesh qu'on ne possède pas dans deck1*/
+
+
 /*Oracle 3*/
 SELECT * FROM carte_virtuelle WHERE carte_couleur = 'B'
 UNION
@@ -39,3 +63,5 @@ SELECT MAX(carte_force), carte_couleur FROM carte_virtuelle where carte_type = '
 /*Oracle 9*/
 SELECT carte_artiste FROM carte_virtuelle GROUP BY carte_artiste HAVING COUNT(carte_id) > 2;
 SELECT carte_couleur from carte_langue NATURAL JOIN carte_virtuelle GROUP BY carte_couleur HAVING AVG(carte_force) > 1.3;
+
+/*Oracle 10*/
