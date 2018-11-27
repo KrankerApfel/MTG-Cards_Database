@@ -20,7 +20,6 @@ SELECT carte_nom, ser_nom, carte_artiste FROM carte_langue NATURAL JOIN carte_vi
 ON carte_virtuelle.ser_code = serie.ser_code
 WHERE REGEXP_LIKE(carte_artiste, 'Christopher Moeller');
 
-
 /*2*/
 SELECT * FROM carte_langue INNER JOIN carte_virtuelle
 ON carte_langue.carte_id = carte_virtuelle.carte_id;
@@ -78,8 +77,6 @@ SELECT * FROM carte_langue WHERE carte_id IN
 /*Oracle 5e Selectionne toute les carte qui on flying en début de description*/
 SELECT CARTE_NOM, CARTE_TEXTE FROM CARTE_LANGUE c WHERE
 EXISTS(SELECT * FROM CARTE_LANGUE c2 WHERE c.CARTE_TEXTE=c2.CARTE_TEXTE AND c2.CARTE_TEXTE LIKE 'Flying%');
-
-
 
 /*Oracle 6 :*/
 /*version jointure*/

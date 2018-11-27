@@ -92,4 +92,9 @@ SELECT carte_artiste FROM carte_virtuelle GROUP BY carte_artiste HAVING COUNT(ca
 --Sélection des couleurs ayant la force moyenne de leurs cartes supérieure à 2.3
 SELECT carte_couleur from carte_langue NATURAL JOIN carte_virtuelle GROUP BY carte_couleur HAVING AVG(carte_force) > 2.3;
 
---10--------------------------------------------------------------
+--10
+--Affiche sur une même ligne les noms de carte en anglais et en français de Kaladesh
+
+SELECT  C1.CARTE_NOM AS NOM_EN, C2.CARTE_NOM AS NOM_FR
+FROM CARTE_LANGUE C1, CARTE_LANGUE C2
+WHERE C1.CARTE_ID = C2.CARTE_ID AND C1.LANG_ID = 1 AND C2.LANG_ID = 2 ;

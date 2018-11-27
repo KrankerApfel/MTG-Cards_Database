@@ -636,5 +636,6 @@ Insert into carte_virtuelle Values
 ('M', 'creature', '5VW', 0, 0, 'Arnie Swekel', 2, 140, 3), 
 ('T', 'terrain', 'T', NULL, NULL, 'Tony Szczudlo', 1, 141, 3), 
 ('T', 'terrain', 'T', NULL, NULL, 'Rob Alexander', 1, 142, 3), 
-('T', 'terrain', 'T', NULL, NULL, 'Don Hazeltine', 1, 143, 3);
+('T', 'terrain', 'T', NULL, NULL, 'Don Hazeltine', 1, 143, 3)
+;
 
