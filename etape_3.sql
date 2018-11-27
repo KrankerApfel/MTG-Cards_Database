@@ -34,11 +34,11 @@
 
 --4
 ---Sélections de toutes les cartes à lexception des créatures
----Rôle : Afficher des cartes avec juste les types voulu
+---Rôle : Afficher les cartes à l'exception d'un critère donnée  
 /*MySQL et PGSQL*/	
 	SELECT * FROM carte_virtuelle 
 		EXCEPT
-	SELECT * FROM carte_virtuelle WHERE carte_type = 'créature';
+	SELECT * FROM carte_virtuelle WHERE carte_type = 'creature';
 /*Oracle*/
 	SELECT * FROM carte_virtuelle 
 		MINUS
@@ -48,28 +48,31 @@
 --5.a
 ---Sélection des cartes langues de couleur blanche
 ---Role : Filtre les cartes suivant la couleur
-	SELECT * FROM carte_langue WHERE carte_id IN 
+	SELECT DISTINCT * FROM carte_langue, carte_couleur WHERE carte_id IN 
 		(SELECT carte_id FROM carte_virtuelle WHERE carte_couleur = 'W');
 
 --5.b
 ---Sélection des cartes virtuelles appartenant à la série Odyssey
----Rôle : Filtre les cartes suivant 
+---Rôle : Obtenir l'ensemble des cartes d'une série 
 	SELECT * FROM carte_virtuelle WHERE ser_code = 
 		(SELECT ser_code FROM serie WHERE ser_nom = 'Odyssey');
 
 --5.c
 ---Force moyenne de l'ensemble des créatures
+---Rôle : Connaitre la force moyenne de son deck
 SELECT AVG(cnt.m) FROM 
 	(SELECT COUNT(carte_force) m FROM carte_virtuelle GROUP BY carte_type) cnt;
 
 --5.d
----Sélection des cartes langues qui ont pour id une carte dont le code de la série a pour nom Torment
+---Sélection des cartes (langues) qui ont pour id une carte dont le code de la série Tornament
+---Rôle : obtenir que le texte d'une carte d'une série donnée 
 SELECT * FROM carte_langue WHERE carte_id IN 
 	(SELECT carte_id FROM carte_virtuelle WHERE ser_code =
-		(SELECT ser_code FROM serie WHERE ser_nom = 'Torment'));
+		(SELECT ser_code FROM serie WHERE ser_nom = 'Tornament'));
 
 --7
----Sélection de lendurance moyenne des créatures
+---Sélection de l'endurance moyenne des créatures
+---Rôle : Connaitre l'endurance moyenne de ses créatures
 SELECT AVG(carte_endurance) FROM carte_virtuelle WHERE carte_type = 'creature';
 
 ---Comptage des cartes de type éphémère
