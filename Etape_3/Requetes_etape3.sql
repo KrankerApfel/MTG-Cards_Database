@@ -136,7 +136,7 @@ SELECT * FROM carte_langue WHERE carte_id IN
 (SELECT ser_code FROM serie WHERE ser_nom = 'Tornament'));
 --- E ORACLE - PGSQL - MySQL
 ---Sélection des cartes (langues) qui ont Flying en début de description
----Rôle : obtenir que le nom des cartes qui peuvent voler
+---Rôle : Filtrer les cartes selon leur capacité à voler
 SELECT CARTE_NOM, CARTE_TEXTE FROM CARTE_LANGUE c WHERE
 EXISTS(SELECT * FROM CARTE_LANGUE c2 WHERE c.CARTE_TEXTE=c2.CARTE_TEXTE AND c2.CARTE_TEXTE LIKE 'Flying%');
 

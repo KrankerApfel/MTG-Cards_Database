@@ -1,4 +1,4 @@
-/*--- Executer cette partie pour supprimer les tables et séquence.
+/*--- Executer cette partie pour supprimer les tables et séquences.
 PURGE est l'équivalent de CASCADE en MySQL, i.e. supprime aussi
  les références dans les autres tables. --*/
 DROP TABLE possession PURGE;
@@ -12,8 +12,8 @@ DROP TABLE serie PURGE;
 DROP SEQUENCE langue_lang_id_seq;
 DROP SEQUENCE carte_id_seq;
 DROP SEQUENCE collection_col_id_seq;
-/*-------------------------------------------------------------*/
 
+/*Création de la table SERIE*/
 CREATE TABLE serie (
  ser_code    VARCHAR2(3 CHAR) PRIMARY KEY NOT NULL,
  ser_nom     VARCHAR2(30 CHAR) NOT NULL,
@@ -21,6 +21,7 @@ CREATE TABLE serie (
  ser_nbTotal NUMERIC(10) NOT NULL
 );
 
+/*Création de la table LANGUE*/
 CREATE TABLE langue (
  lang_id  NUMERIC(10) PRIMARY KEY NOT NULL,
  lang_nom VARCHAR2(30 char) NOT NULL
@@ -28,6 +29,7 @@ CREATE TABLE langue (
 
 CREATE SEQUENCE langue_lang_id_seq START WITH 1 INCREMENT BY 1;
 
+--Trigger pour l'incrémentation auto lang_id
 CREATE OR REPLACE TRIGGER trig_langue
  BEFORE INSERT ON langue
  FOR EACH ROW
@@ -37,6 +39,7 @@ CREATE OR REPLACE TRIGGER trig_langue
    :new.lang_id := numlang;
  END ;
 
+/*Création de la table LANGUE_SERIE*/
 CREATE TABLE langue_serie (
   lang_id  NUMERIC(10) NOT NULL ,
   ser_code VARCHAR2(3 CHAR) NOT NULL ,
@@ -53,7 +56,7 @@ CREATE TABLE langue_serie (
 );
 
 
-
+/*Création de la table CARTE_VIRTUELLE*/
 create table CARTE_VIRTUELLE
 (
   CARTE_ID          NUMBER(10)        not null
@@ -85,6 +88,7 @@ create table CARTE_VIRTUELLE
 
 CREATE SEQUENCE carte_id_seq START WITH 1 INCREMENT BY 1;
 
+/*Trigger pour l'incrémentation auto de carte_id*/
 CREATE OR REPLACE TRIGGER trig_carte_id
 BEFORE INSERT ON carte_virtuelle
 FOR EACH ROW
@@ -95,9 +99,10 @@ BEGIN
 END;
 
 
+/*Création de la table CARTE_LANGUE*/
 CREATE TABLE  carte_langue (
  carte_nom VARCHAR2(30 CHAR) NOT NULL ,
- carte_texte VARCHAR2(100 CHAR) NOT NULL ,
+ carte_texte VARCHAR2(500 CHAR) NOT NULL ,
  carte_id NUMERIC(10) NOT NULL ,
  lang_id NUMERIC(10) NOT NULL,
 
@@ -113,14 +118,16 @@ CREATE TABLE  carte_langue (
 
 );
 
-
+/*Création de la table COLLECTION*/
 create table collection(
  col_id NUMERIC(10) PRIMARY KEY NOT NULL ,
  col_nom VARCHAR2(30 char) NOT NULL
 );
 
+
 create sequence collection_col_id_seq;
 
+/*Trigger pour l'incrémentation auto de col_id*/
 CREATE OR REPLACE TRIGGER col_langue
  BEFORE insert on collection
  FOR EACH row
@@ -131,6 +138,7 @@ CREATE OR REPLACE TRIGGER col_langue
  END ;
 
 
+/*Création de la table POSSESSION*/
 CREATE TABLE possession
 (
   pos_quantite NUMERIC(10),
@@ -142,8 +150,6 @@ CREATE TABLE possession
  CONSTRAINT possession_fk_carte_langue
    FOREIGN KEY (carte_id,lang_id)
    REFERENCES carte_langue(carte_id,lang_id), /* bien préciser que la clé est composite ! */
-
-
 
 CONSTRAINT possession_fk_col
    FOREIGN KEY (col_id)

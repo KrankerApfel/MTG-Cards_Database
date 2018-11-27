@@ -1,0 +1,2 @@
+INSERT INTO LANGUE VALUES (1, 'anglais');
+INSERT INTO LANGUE VALUES (2, 'français');

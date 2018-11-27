@@ -8,7 +8,7 @@ DROP TABLE IF EXISTS possession CASCADE;
 
 
 CREATE TABLE serie (
- ser_code    varchar(3) PRIMARY KEY,
+ ser_code    VARCHAR(3) PRIMARY KEY,
  ser_nom     VARCHAR(30) NOT NULL,
  ser_date    DATE,
  ser_nbTotal INTEGER NOT NULL
