@@ -1,6 +1,6 @@
 --1
 ---Sélection des cartes dessinées par quelqu'un dont le nom commence par Mar
----
+---Rôle : Afficher un ensemble d'artiste ayant illustré une carte
 /*MySQL et PGSQL*/
 	SELECT * FROM carte_virtuelle WHERE carte_artiste ~'^(Mar.*)'; 
 /*Oracle*/
@@ -8,6 +8,7 @@
 
 --2----------------------------------------------------------------------------------
 ----i-Affiche le nom de l'extension et le nom des cartes illustrées par Mark Zug
+------Rôle : Recherche toutes les cartes et leur nom d'extension dont un artiste a illustré
 /*Version 1*/
 	SELECT carte_nom, ser_nom FROM carte_langue INNER JOIN serie 
 		ON carte_langue.ser_code = serie.ser_code
@@ -16,6 +17,7 @@
 	SELECT 
 
 ---ii-Affiche le détail complet(nom,description,type,cout, etc..) de toutes les cartes de la base de donnée
+------Rôle : Obtenir une vue globale de la base de donnée
 	SELECT * FROM carte_langue INNER JOIN carte_virtuelle 
 		ON carte_langue.carte_id = carte_virtuelle.carte_id;
 
@@ -25,23 +27,33 @@
 
 --3
 ---Sélections des cartes de couleurs bleues et blanches
+---Role : Filtre les cartes avec deux type de couleurs ou plus 
 	SELECT * FROM carte_virtuelle WHERE carte_couleur = 'B'
 		UNION 
 	SELECT * FROM carte_virtuelle WHERE carte_couleur = 'W';
 
 --4
 ---Sélections de toutes les cartes à lexception des créatures
+---Rôle : Afficher des cartes avec juste les types voulu
+/*MySQL et PGSQL*/	
 	SELECT * FROM carte_virtuelle 
 		EXCEPT
 	SELECT * FROM carte_virtuelle WHERE carte_type = 'créature';
+/*Oracle*/
+	SELECT * FROM carte_virtuelle 
+		MINUS
+	SELECT * FROM carte_virtuelle WHERE carte_type = 'créature';
+
 
 --5.a
 ---Sélection des cartes langues de couleur blanche
+---Role : Filtre les cartes suivant la couleur
 	SELECT * FROM carte_langue WHERE carte_id IN 
 		(SELECT carte_id FROM carte_virtuelle WHERE carte_couleur = 'W');
 
 --5.b
 ---Sélection des cartes virtuelles appartenant à la série Odyssey
+---Rôle : Filtre les cartes suivant 
 	SELECT * FROM carte_virtuelle WHERE ser_code = 
 		(SELECT ser_code FROM serie WHERE ser_nom = 'Odyssey');
 
