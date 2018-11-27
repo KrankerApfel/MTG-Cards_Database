@@ -1,0 +1,41 @@
+
+/*Oracle 1*/
+SELECT * FROM carte_virtuelle WHERE REGEXP_LIKE(carte_artiste, '^(Mar).*');
+
+/*Oracle 3*/
+SELECT * FROM carte_virtuelle WHERE carte_couleur = 'B'
+UNION
+SELECT * FROM carte_virtuelle WHERE carte_couleur = 'W';
+
+/*Oracle 4*/
+SELECT * FROM carte_virtuelle
+MINUS
+SELECT * FROM carte_virtuelle WHERE carte_type = 'créature';
+
+/*Oracle 5a*/
+SELECT DISTINCT CARTE_NOM, CARTE_COULEUR FROM carte_langue, CARTE_VIRTUELLE WHERE carte_langue.carte_id IN
+(SELECT carte_id FROM carte_virtuelle WHERE carte_couleur = 'W');
+
+/*Oracle 5b*/
+SELECT * FROM carte_virtuelle WHERE ser_code =
+(SELECT ser_code FROM serie WHERE ser_nom = 'Odyssey');
+
+/*Oracle 5c*/
+SELECT AVG(cnt.m) FROM
+(SELECT COUNT(carte_force) m FROM carte_virtuelle GROUP BY carte_type) cnt;
+
+/*Oracle 5d*/
+SELECT * FROM carte_langue WHERE carte_id IN
+	(SELECT carte_id FROM carte_virtuelle WHERE ser_code =
+(SELECT ser_code FROM serie WHERE ser_nom = 'Tornament'));
+
+/*Oracle 7*/
+SELECT AVG(carte_endurance) FROM carte_virtuelle WHERE carte_type = 'créature';
+SELECT count(*) FROM carte_virtuelle WHERE carte_type = 'éphémère';
+
+/*Oracle 8*/
+SELECT MAX(carte_force), carte_couleur FROM carte_virtuelle where carte_type = 'créature' GROUP BY carte_couleur;
+
+/*Oracle 9*/
+SELECT carte_artiste FROM carte_virtuelle GROUP BY carte_artiste HAVING COUNT(carte_id) > 2;
+SELECT carte_couleur from carte_langue NATURAL JOIN carte_virtuelle GROUP BY carte_couleur HAVING AVG(carte_force) > 1.3;
