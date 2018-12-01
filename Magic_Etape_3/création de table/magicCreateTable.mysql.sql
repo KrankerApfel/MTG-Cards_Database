@@ -6,6 +6,8 @@ DROP TABLE IF EXISTS langue_serie CASCADE;
 DROP TABLE IF EXISTS langue CASCADE;
 DROP TABLE IF EXISTS serie CASCADE;
 
+
+
 CREATE TABLE serie (
  ser_code    VARCHAR(3) NOT NULL PRIMARY KEY,
  ser_nom     VARCHAR(30) NOT NULL,
@@ -63,3 +65,5 @@ CREATE TABLE possession(
  FOREIGN KEY(col_id) REFERENCES collection(col_id),
  PRIMARY KEY(col_id, carte_id, lang_id)
 );
+
+ALTER TABLE carte_virtuelle AUTO_INCREMENT = 1;
