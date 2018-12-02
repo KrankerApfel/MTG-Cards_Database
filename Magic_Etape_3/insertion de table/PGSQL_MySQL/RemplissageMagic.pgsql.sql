@@ -14,5 +14,3 @@ INSERT INTO langue_serie VALUES
 (1, 'JUD'),
 (1, 'KLD'),
 (2, 'KLD');
-
-
