@@ -1,5 +1,18 @@
 --Fonction d'insertion de carte_virtuelle et carte_langue
+Create or replace function creer_carte(nom varchar, texte varchar, langue integer, artiste varchar, cout varchar, type varchar, ordre integer, endurance integer, force integer, couleur char,    rarete integer,  serie varchar) Returns void AS
+$$
+DECLARE
+	idCarte INTEGER;
+BEGIN
+	INSERT INTO carte_virtuelle(carte_couleur, carte_type, carte_cout, carte_force, carte_endurance, carte_artiste, carte_rarete, carte_ordre_serie, ser_code) VALUES
+	(couleur, type, cout, force, endurance, artiste, rarete, ordre, serie);
 
+	Select max(carte_id) INTO idCarte from carte_virtuelle;
+
+	INSERT INTO carte_langue Values
+	(nom, texte, idCarte, langue);
+END;
+$$ LANGUAGE plpgsql;
 
 
 
