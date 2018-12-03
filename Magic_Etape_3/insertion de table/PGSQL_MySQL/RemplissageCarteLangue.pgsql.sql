@@ -1,665 +1,664 @@
-INSERT INTO carte_langue VALUES
-('Aegis of Honor', '1: The next time an instant or sorcery spell would deal damage to you this turn, that spell deals that damage to its controller instead. ', 1, 1),
-('Ancestral Tribute', 'You gain 2 life for each card in your graveyard. Flashback 9WWW (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 2, 1),
-('Angelic Wall', '(Walls can''t attack.) Flying ', 3, 1),
-('Animal Boneyard', 'Enchanted land has "Tap, Sacrifice a creature: You gain life equal to that creature''s toughness." ', 4, 1),
-('Auramancer', 'When Auramancer comes into play, you may return target enchantment card from your graveyard to your hand. ', 5, 1),
-('Aven Archer', 'Flying 2W, Tap: Aven Archer deals 2 damage to target attacking or blocking creature. ', 6, 1),
-('Aven Cloudchaser', 'Flying When Aven Cloudchaser comes into play, destroy target enchantment. ', 7, 1),
-('Aven Flock', 'Flying W: Aven Flock gets +0/+1 until end of turn. ', 8, 1),
-('Aven Shrine', 'Whenever a player plays a spell, that player gains X life, where X is the number of cards in all graveyards with the same name as that spell. ', 9, 1),
-('Balancing Act', 'Each player chooses a number of permanents he or she controls equal to the number of permanents controlled by the player who controls the fewest, then sacrifices the rest. Each player discards cards from his or her hand the same way. ', 10, 1),
-('Beloved Chaplain', 'Protection from creatures ', 11, 1),
-('Blessed Orator', 'Other creatures you control get +0/+1 ', 12, 1),
-('Cantivore', 'Attacking doesn''t cause Cantivore to tap. Cantivore''s power and toughness are equal to the number of enchantment cards in all graveyards. ', 13, 1),
-('Cease-Fire', 'Target player can''t play creature spells this turn. Draw a card. ', 14, 1),
-('Confessor', 'Whenever a player discards a card from his or her hand, you may gain 1 life. ', 15, 1),
-('Dedicated Martyr', 'W, Sacrifice Dedicated Martyr: You gain 3 life. ', 16, 1),
-('Delaying Shield', 'If you would be dealt damage, put that many delay counters on Delaying Shield instead. At the beginning of your upkeep, remove all delay counters from Delaying Shield. For each delay counter removed this way, you lose 1 life unless you pay 1W. ', 17, 1),
-('Devoted Caretaker', 'W, Tap: Target permanent you control gains protection from instant spells and from sorcery spells until end of turn. ', 18, 1),
-('Divine Sacrament', 'White creatures get +1/+1. Threshold - White creatures get an additional +1/+1. (You have threshold as long as seven or more cards are in your graveyard.) ', 19, 1),
-('Dogged Hunter', 'Tap: Destroy target creature token. ', 20, 1),
-('Earnest Fellowship', 'Each creature has protection from its colors. ', 21, 1),
-('Embolden', 'Prevent the next 4 damage that would be dealt this turn to any number of target creatures and/or players divided as you choose. Flashback 1W (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 22, 1),
-('Gallantry', 'Target blocking creature gets +4/+4 until end of turn. Draw a card. ', 23, 1),
-('Graceful Antelope', 'Plainswalk Whenever Graceful Antelope deals combat damage to a player, you may have target land become a plains until Graceful Antelope leaves play. ', 24, 1),
-('Hallowed Healer', 'Tap: Prevent the next 2 damage that would be dealt to target creature or player this turn. Threshold - Tap: Prevent the next 4 damage that would be dealt to target creature or player this turn. (Play this ability only if seven or more cards are in your graveyard.) ', 25, 1),
-('Karmic Justice', 'Whenever a spell or ability an opponent controls destroys a noncreature permanent you control, you may destroy target permanent that opponent controls. ', 26, 1),
-('Kirtar''s Desire', 'Enchanted creature can''t attack. Threshold - Enchanted creature can''t block. (You have threshold as long as seven or more cards are in your graveyard.) ', 27, 1),
-('Kirtar''s Wrath', 'Destroy all creatures. They can''t be regenerated. Threshold - Instead destroy all creatures, then put two 1/1 white Spirit creature tokens with flying into play. Creatures destroyed this way can''t be regenerated. (You have threshold if seven or more cards are in your graveyard.) ', 28, 1),
-('Lieutenant Kirtar', 'Flying 1W, Sacrifice Lieutenant Kirtar: Remove target attacking creature from the game. ', 29, 1),
-('Life Burst', 'Target player gains 4 life, then gains 4 life for each Life Burst card in each graveyard. ', 30, 1),
-('Luminous Guardian', 'W: Luminous Guardian gets +0/+1 until end of turn. 2: Luminous Guardian may block an additional creature this turn. ', 31, 1),
-('Master Apothecary', 'Tap an untapped Cleric you control: Prevent the next 2 damage that would be dealt to target creature or player this turn. ', 32, 1),
-('Mystic Crusader', 'Protection from black and from red Threshold - Mystic Crusader gets +1/+1 and has flying. (You have threshold as long as seven or more cards are in your graveyard.) ', 33, 1),
-('Mystic Penitent', 'Attacking doesn''t cause Mystic Penitent to tap. Threshold - Mystic Penitent gets +1/+1 and has flying. (You have threshold as long as seven or more cards are in your graveyard.) ', 34, 1),
-('Mystic Visionary', 'Threshold - Mystic Visionary has flying. (You have threshold as long as seven or more cards are in your graveyard.) ', 35, 1),
-('Mystic Zealot', 'Threshold - Mystic Zealot gets +1/+1 and has flying. (You have threshold as long as seven or more cards are in your graveyard.) ', 36, 1),
-('Nomad Decoy', 'W, Tap: Tap target creature. Threshold - WW, Tap: Tap two target creatures. (Play this ability only as long as seven or more cards are in your graveyard.) ', 37, 1),
-('Patrol Hound', 'Discard a card from your hand: Patrol Hound gains first strike until end of turn. ', 38, 1),
-('Pianna, Nomad Captain', 'Whenever Pianna, Nomad Captain attacks, attacking creatures get +1/+1 until end of turn. ', 39, 1),
-('Pilgrim of Justice', 'Protection from red W, Sacrifice Pilgrim of Justice: The next time a red source of your choice would deal damage this turn, prevent that damage. ', 40, 1),
-('Pilgrim of Virtue', 'Protection from black W, Sacrifice Pilgrim of Virtue: The next time a black source of your choice would deal damage this turn, prevent that damage. ', 41, 1),
-('Ray of Distortion', 'Destroy target artifact or enchantment. Flashback 4WW (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 42, 1),
-('Resilient Wanderer', 'First strike Discard a card from your hand: Resilient Wanderer gains protection from the color of your choice until end of turn. ', 43, 1),
-('Sacred Rites', 'Discard any number of cards from your hand. Creatures you control get +0/+1 until end of turn for each card discarded this way. ', 44, 1),
-('Second Thoughts', 'Remove target attacking creature from the game. Draw a card. ', 45, 1),
-('Shelter', 'Target creature you control gains protection from the color of your choice until end of turn. Draw a card. ', 46, 1),
-('Soulcatcher', 'Flying Whenever a creature with flying is put into a graveyard from play, put a +1/+1 counter on Soulcatcher. ', 47, 1),
-('Sphere of Duty', 'If a green source would deal damage to you, prevent 2 of that damage. ', 48, 1),
-('Sphere of Grace', 'If a black source would deal damage to you, prevent 2 of that damage. ', 49, 1),
-('Sphere of Law', 'If a red source would deal damage to you, prevent 2 of that damage. ', 50, 1),
-('Sphere of Reason', 'If a blue source would deal damage to you, prevent 2 of that damage. ', 51, 1),
-('Sphere of Truth', 'If a white source would deal damage to you, prevent 2 of that damage. ', 52, 1),
-('Spiritualize', 'Until end of turn, whenever target creature deals damage, you gain that much life.  Draw a card. ', 53, 1),
-('Tattoo Ward', 'Enchanted creature gets +1/+1 and has protection from enchantments. This effect doesn''t remove Tattoo Ward. Sacrifice Tattoo Ward: Destroy target enchantment. ', 54, 1),
-('Testament of Faith', 'oX: Testament of Faith becomes an X/X Wall creature until end of turn. It''s still an enchantment. (Walls can''t attack.) ', 55, 1),
-('Tireless Tribe', 'Discard a card from your hand: Tireless Tribe gets +0/+4 until end of turn. ', 56, 1),
-('Wayward Angel', 'Flying Attacking doesn''t cause Wayward Angel to tap. Threshold - Wayward Angel gets +3/+3, is black, has trample, and has "At the beginning of your upkeep, sacrifice a creature". (You have threshold as long as seven or more cards are in your graveyard.) ', 57, 1),
-('Aboshan, Cephalid Emperor', 'Tap an untapped Cephalid you control: Tap target permanent. UUU: Tap all creatures without flying. ', 58, 1),
-('Aboshan''s Desire', 'Enchanted creature has flying. Threshold - Enchanted creature can''t be the target of spells or abilities. (You have threshold as long as seven or more card are in your graveyard.) ', 59, 1),
-('Other Burst', 'Return up to X target creatures to their owners'' hands, where X is one plus the number of Other Burst cards in all graveyards as you play Other Burst. ', 60, 1),
-('Amugaba', 'Flying 2U, Discard a card from your hand: Return Amugaba to its owner''s hand. ', 61, 1),
-('Aura Graft', 'Move target enchantment that''s enchanting a permanent to another permanent it can enchant. Gain control of that enchantment. (This effect doesn''t end at end of turn.) ', 62, 1),
-('Aven Fisher', 'Flying When Aven Fisher is put into a graveyard from play, you may draw a card. ', 63, 1),
-('Aven Smokeweaver', 'Flying, protection from red ', 64, 1),
-('Aven Windreader', 'Flying 1U: Target player reveals the top card of his or her library. ', 65, 1),
-('Balshan Beguiler', 'Whenever Balshan Beguiler deals combat damage to a player, that player reveals the top two cards of his or her library. You choose one of those cards and put it into his or her graveyard. ', 66, 1),
-('Balshan Griffin', 'Flying 1U, Discard a card from your hand: Return Balshan Griffin to its owner''s hand. ', 67, 1),
-('Bamboozle', 'Target player reveals the top four cards of his or her library. You choose two of those cards and put them into his or her graveyard. Put the rest on top of his or her library in any order. ', 68, 1),
-('Battle of Wits', 'At the beginning of your upkeep, if you have 200 or more cards in your library, you win the game. ', 69, 1),
-('Careful Study', 'Draw two cards, then discard two cards from your hand. ', 70, 1),
-('Cephalid Broker', 'Tap: Target player draws two cards, then discards two cards from his or her hand. ', 71, 1),
-('Cephalid Looter', 'Tap: Target player draws a card, then discards a card from his or her hand. ', 72, 1),
-('Cephalid Retainer', 'UU: Tap target creature without flying. ', 73, 1),
-('Cephalid Scout', 'Flying 2U, Sacrifice a land: Draw a card. ', 74, 1),
-('Cephalid Shrine', 'Whenever a player plays a spell, counter that spell unless that player pays oX, where X is the number of cards in all graveyards with the same name as the spell. ', 75, 1),
-('Chamber of Manipulation', 'Enchanted land has "Tap, Discard a card from your hand: Gain control of target creature until end of turn." ', 76, 1),
-('Cognivore', 'Flying Cognivore''s power and toughness are each equal to the number of instant cards in all graveyards. ', 77, 1),
-('Concentrate', 'Draw three cards. ', 78, 1),
-('Cultural Exchange', 'Choose any number of creatures target player controls. Choose the same number of creatures another target player controls. Those players exchange control of those creatures. (This effect doesn''t end at end of turn.) ', 79, 1),
-('Deluge', 'Tap all creatures without flying. ', 80, 1),
-('Dematerialize', 'Return target permanent to its owner''s hand. Flashback 5UU (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 81, 1),
-('Divert', 'Change the target of target spell with a single target unless that spell''s controller pays 2. ', 82, 1),
-('Dreamwinder', 'Dreamwinder can''t attack unless defending player controls an island. U, Sacrifice an island: Target land becomes an island until end of turn. ', 83, 1),
-('Escape Artist', 'Escape Artist is unblockable. U, Discard a card from your hand: Return Escape Artist to its owner''s hand. ', 84, 1),
-('Extract', 'Search target player''s library for a card, and remove that card from the game. Then that player shuffles his or her library. ', 85, 1),
-('Fervent Denial', 'Counter target spell. Flashback 5UU (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 86, 1),
-('Immobilizing Ink', 'Enchanted creature doesn''t untap during its controller''s untap step. Enchanted creature has "1, Discard a card from your hand: Untap this creature." ', 87, 1),
-('Laquatus''s Creativity', 'Target player draws cards equal to the number of cards in that player''s hand, then discards that many cards. ', 88, 1),
-('Patron Wizard', 'Tap an untapped Wizard you control: Counter target spell unless its controller pays 1. ', 89, 1),
-('Pedantic Learning', 'Whenever a land card is put into your graveyard from your library, you may pay 1. If you do, draw a card. ', 90, 1),
-('Peek', 'Look at target player''s hand. Draw a card. ', 91, 1),
-('Persuasion', 'You control enchanted creature. ', 92, 1),
-('Phantom Whelp', 'When Phantom Whelp attacks or blocks, return it to its owner''s hand at end of combat. ', 93, 1),
-('Predict', 'Name a card, then put the top card of target player''s library into his or her graveyard. If that card is the named card, you draw two cards. Otherwise, you draw a card. ', 94, 1),
-('Psionic Gift', 'Enchanted creature has "Tap: This creature deals 1 damage to target creature or player." ', 95, 1),
-('Pulsating Illusion', 'Flying Discard a card from your hand: Pulsating Illusion gets +4/+4 until end of turn. Play this ability only once each turn. ', 96, 1),
-('Puppeteer', 'U, Tap: Tap or untap target creature. ', 97, 1),
-('Repel', 'Put target creature on top of its owner''s library. ', 98, 1),
-('Rites of Refusal', 'Discard any number of cards from your hand. Counter target spell unless its controller pays 3 for each card discarded this way. ', 99, 1),
-('Scrivener', 'When Scrivener comes into play, you may return target instant card from your graveyard to your hand. ', 100, 1),
-('Shifty Doppelganger', '3U, Remove Shifty Doppelganger from the game: Put a creature card from your hand into play. That creature gains haste until end of turn. At end of turn, sacrifice that creature. If you do, return Shifty Doppelganger to play. ', 101, 1),
-('Standstill', 'When a player plays a spell, sacrifice Standstill. If you do, then each of that player''s opponents draws three cards. ', 102, 1),
-('Syncopate', 'Counter target spell unless its controller pays oX. If that spell is countered this way, remove it from the game instead of putting it into its owner''s graveyard. ', 103, 1),
-('Think Tank', 'At the beginning of your upkeep, look at the top card of your library. You may put that card into your graveyard. ', 104, 1),
-('Thought Devourer', 'Flying Your maximum hand size is reduced by four. ', 105, 1),
-('Thought Eater', 'Flying Your maximum hand size is reduced by three. ', 106, 1),
-('Thought Nibbler', 'Flying Your maximum hand size is reduced by two. ', 107, 1),
-('Time Stretch', 'Target player takes two extra turns after this one. ', 108, 1),
-('Touch of Invisibility', 'Target creature is unblockable this turn. Draw a card. ', 109, 1),
-('Traumatize', 'Target player puts the top half of his or her library, rounded down, into his or her graveyard. ', 110, 1),
-('Treetop Sentinel', 'Flying, protection from green ', 111, 1),
-('Unifying Theory', 'Whenever a player plays a spell, that player may pay 2. If the player does, he or she draws a card. ', 112, 1),
-('Upheaval', 'Return all permanents to their owners'' hands. ', 113, 1),
-('Words of Wisdom', 'You draw two cards, then each other player draws a card. ', 114, 1),
-('Afflict', 'Target creature gets -1/-1 until end of turn. Draw a card. ', 115, 1),
-('Bloodcurdler', 'Flying At the beginning of your upkeep, put the top card of your library into your graveyard. Threshold - Bloodcurdler gets +1/+1 and has "At the end of your turn, remove two cards in your graveyard from the game." (You have threshold as long as seven or more cards are in your graveyard.) ', 116, 1),
-('Braids, Cabal Minion', 'At the beginning of each player''s upkeep, that player sacrifices an artifact, creature, or land. ', 117, 1),
-('Buried Alive', 'Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library. ', 118, 1),
-('Cabal Inquisitor', 'Threshold - 1B, Tap, Remove two cards in your graveyard from the game: Target player discards a card from his or her hand. Play this ability only any time you could play a sorcery. (Play this ability only if seven or more cards are in your graveyard.) ', 119, 1),
-('Cabal Patriarch', '2B, Sacrifice a creature: Target creature gets -2/-2 until end of turn. 2B, Remove a creature card in your graveyard from the game: Target creature gets -2/-2 until end of turn. ', 120, 1),
-('Cabal Shrine', 'Whenever a player plays a spell, that player discards X cards from his or her hand, where X is the number of cards in all graveyards with the same name as that spell. ', 121, 1),
-('Caustic Tar', 'Enchanted land has "Tap: Target player loses 3 life." ', 122, 1),
-('Childhood Horror', 'Flying Threshold - Childhood Horror gets +2/+2 and can''t block. (You have threshold as long as seven or more cards are in your graveyard.) ', 123, 1),
-('Coffin Purge', 'Remove target card in a graveyard from the game. Flashback B (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 124, 1),
-('Crypt Creeper', 'Sacrifice Crypt Creeper: Remove target card in a graveyard from the game. ', 125, 1),
-('Cursed Monstrosity', 'Flying Whenever Cursed Monstrosity becomes the target of a spell or ability, sacrifice it unless you discard a land card from your hand. ', 126, 1),
-('Decaying Soil', 'At the beginning of your upkeep, remove a card in your graveyard from the game. Threshold - Whenever a nontoken creature is put into your graveyard from play, you may pay 1. If you do, return that card to your hand. (You have threshold as long as seven or more cards are in your graveyard.) ', 127, 1),
-('Decompose', 'Remove up to three target cards in a single graveyard from the game. ', 128, 1),
-('Diabolic Tutor', 'Search your library for a card, and put that card into your hand. Then shuffle your library. ', 129, 1),
-('Dirty Wererat', 'B, Discard a card from your hand: Regenerate Dirty Wererat. Threshold - Dirty Wererat gets +2/+2 and can''t block. (You have threshold as long as seven or more cards are in your graveyard.) ', 130, 1),
-('Dusk Imp', 'Flying ', 131, 1),
-('Entomb', 'Search your library for a card and put that card into your graveyard. Then shuffle your library. ', 132, 1),
-('Execute', 'Destroy target white creature. It can''t be regenerated. Draw a card. ', 133, 1),
-('Face of Fear', '2B, Discard a card from your hand: Face of Fear can''t be blocked this turn except by artifact creatures and/or black creatures. ', 134, 1),
-('Famished Ghoul', '1B, Sacrifice Famished Ghoul: Remove up to two target cards in a single graveyard from the game. ', 135, 1),
-('Filthy Cur', 'Whenever Filthy Cur is dealt damage, you lose that much life. ', 136, 1),
-('Fledgling Imp', 'B, Discard a card from your hand: Fledgling Imp gains flying until end of turn. ', 137, 1),
-('Frightcrawler', 'Frightcrawler can''t be blocked except by artifact creatures and/or black creatures. Threshold - Frightcrawler gets +2/+2 and can''t block. (You have threshold as long as seven or more cards are in your graveyard.) ', 138, 1),
-('Ghastly Demise', 'Destroy target nonblack creature if its toughness is less than or equal to the number of cards in your graveyard. ', 139, 1),
-('Gravedigger', 'When Gravedigger comes into play, you may return target creature card from your graveyard to your hand. ', 140, 1),
-('Gravestorm', 'At the beginning of your upkeep, target opponent may remove a card in his or her graveyard from the game. If that player doesn''t, you may draw a card. ', 141, 1),
-('Haunting Echoes', 'Remove all cards in target player''s graveyard other than basic land cards from the game. Search that player''s library for all cards with the same name as cards removed this way, and remove them from the game. Then that player shuffles his or her library. ', 142, 1),
-('Hint of Insanity', 'Target player reveals his or her hand. That player discards from it all nonland cards with the same name as another card in his or her hand. ', 143, 1),
-('Infected Vermin', '2B: Infected Vermin deals 1 damage to each creature and each player.  Threshold - 3B: Infected Vermin deals 3 damage to each creature and each player. (Play this ability only if seven or more cards are in your graveyard.) ', 144, 1),
-('Innocent Blood', 'Each player sacrifices a creature. ', 145, 1),
-('Last Rites', 'Discard any number of cards from your hand. Target player reveals his or her hand, then you choose a nonland card from it for each card discarded this way. That player discards those cards. ', 146, 1),
-('Malevolent Awakening', '1BB, Sacrifice a creature: Return target creature card from your graveyard to your hand. ', 147, 1),
-('Mind Burst', 'Target player discards X cards from his or her hand, where X is one plus the number of Mind Burst cards in all graveyards. ', 148, 1),
-('Mindslicer', 'When Mindslicer is put into a graveyard from play, each player discards his or her hand. ', 149, 1),
-('Morbid Hunger', 'Morbid Hunger deals 3 damage to target creature or player.  You gain 3 life. Flashback 7BB (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 150, 1),
-('Morgue Theft', 'Return target creature card from your graveyard to your hand. Flashback 4B (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 151, 1),
-('Mortivore', 'Mortivore''s power and toughness are each equal to the number of creature cards in all graveyards. B: Regenerate Mortivore. ', 152, 1),
-('Nefarious Lich', 'If you would be dealt damage, remove that many cards in your graveyard from the game instead. If you can''t, you lose the game. If you would gain life, draw that many cards instead. When Nefarious Lich leaves play, you lose the game. ', 153, 1),
-('Overeager Apprentice', 'Discard a card from your hand, Sacrifice Overeager Apprentice: Add BBB to your mana pool. ', 154, 1),
-('Painbringer', 'Tap, Remove any number of cards in your graveyard from the game: Target creature gets -X/-X until end of turn, where X is the number of cards removed this way. ', 155, 1),
-('Patriarch''s Desire', 'Enchanted creature gets +2/-2. Threshold - Enchanted creature gets an additional +2/-2. (You have threshold as long as seven or more cards are in your graveyard.) ', 156, 1),
-('Repentant Vampire', 'Flying Whenever a creature dealt damage by Repentant Vampire this turn is put into a graveyard, put a +1/+1 counter on Repentant Vampire. Threshold - Repentant Vampire is white and has "Tap: Destroy target black creature." ', 157, 1),
-('Rotting Giant', 'Whenever Rotting Giant attacks or blocks sacrifice it unless you remove a card in your graveyard from the game. ', 158, 1),
-('Sadistic Hypnotist', 'Sacrifice a creature: Target player discards two cards from his or her hand. Play this ability only any time you could play a sorcery. ', 159, 1),
-('Screams of the Damned', '1B, Remove a card in your graveyard from the game: Screams of the Damned deals 1 damage to each creature and each player. ', 160, 1),
-('Skeletal Scrying', 'As an additional cost to play Skeletal Scrying, remove X cards in your graveyard from the game. You draw X cards and you lose X life. ', 161, 1),
-('Skull Fracture', 'Target player discards a card from his or her hand. Flashback 3B (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 162, 1),
-('Stalking Bloodsucker', 'Flying 1B, Discard a card from your hand: Stalking Bloodsucker gets +2/+2 until end of turn. ', 163, 1),
-('Tainted Pact', 'Remove the top card of your library from the game. You may put that card into your hand unless it has the same name as another card removed this way. Repeat this process until you put a card into your hand or you remove two cards with the same name, whichever comes first. ', 164, 1),
-('Tombfire', 'Target player removes all cards with flashback in his or her graveyard from the game. ', 165, 1),
-('Traveling Plague', 'At the beginning of each player''s upkeep, put a plague counter on Traveling Plague. Enchanted creature gets -1/-1 for each plague counter on Traveling Plague. When enchanted creature leaves play, that creature''s controller returns Traveling Plague from its owner''s graveyard to play. ', 166, 1),
-('Whispering Shade', 'Swampwalk B: Whispering Shade gets +1/+1 until end of turn ', 167, 1),
-('Zombie Assassin', 'Tap, Remove two cards in your graveyard and Zombie Assassin from the game: Destroy target nonblack creature. It can''t be regenerated. ', 168, 1),
-('Zombie Cannibal', 'Whenever Zombie Cannibal deals combat damage to a player, you may remove target card in that player''s graveyard from the game. ', 169, 1),
-('Zombie Infestation', 'Discard two cards from your hand: Put a 2/2 black Zombie creature token into play. ', 170, 1),
-('Zombify', 'Return target creature card from your graveyard to play. ', 171, 1),
-('Acceptable Losses', 'As an additional cost to play Acceptable Losses, discard a card at random from your hand. Acceptable Losses deals 5 damage to target creature. ', 172, 1),
-('Anarchist', 'When Anarchist comes into play, you may return target sorcery card from your graveyard to your hand. ', 173, 1),
-('Ashen Firebeast', '1R: Ashen Firebeast deals 1 damage to each creature without flying. ', 174, 1),
-('Barbarian Lunatic', '2R, Sacrifice Barbarian Lunatic: Barbarian Lunatic deals 2 damage to target creature. ', 175, 1),
-('Bash to Bits', 'Destroy target artifact. Flashback 4RR (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 176, 1),
-('Battle Strain', 'Whenever a creature blocks, Battle Strain deals 1 damage to that creature''s controller. ', 177, 1),
-('Blazing Salvo', 'Blazing Salvo deals 3 damage to target creature unless that creature''s controller has Blazing Salvo deal 5 damage to him or her. ', 178, 1),
-('Bomb Squad', 'Tap: Put a fuse counter on target creature. At the beginning of your upkeep, put a fuse counter on each creature that has a fuse counter on it. Whenever a creature has four or more fuse counters on it, remove all fuse counters from it and destroy it. That creature deals 4 damage to its controller. ', 179, 1),
-('Burning Sands', 'Whenever a creature is put into a graveyard from play, that creature''s controller sacrifices a land. ', 180, 1),
-('Chainflinger', '1R, Tap: Chainflinger deals 1 damage to target creature or player. Threshold - 2R, Tap: Chainflinger deals 2 damage to target creature or player. (Play this ability only if seven or more cards are in your graveyard.) ', 181, 1),
-('Chance Encounter', 'Whenever you win a coin flip, put a luck counter on Chance Encounter. At the beginning of your upkeep, if Chance Encounter has ten or more luck counters on it, you win the game. ', 182, 1),
-('Demolish', 'Destroy target artifact or land. ', 183, 1),
-('Demoralize', 'Each creature can''t be blocked this turn except by two or more creatures.  Threshold - Creatures can''t block this turn. (You have threshold if seven or more cards are in your graveyard.) ', 184, 1),
-('Dwarven Grunt', 'Mountainwalk ', 185, 1),
-('Dwarven Recruiter', 'When Dwarven Recruiter comes into play, search your library for any number of Dwarf cards and reveal those cards. Shuffle your library, then put them on top of it in any order. ', 186, 1),
-('Dwarven Shrine', 'Whenever a player plays a spell, Dwarven Shrine deals X damage to that player, where X is twice the number of cards in all graveyards with the same name as that spell. ', 187, 1),
-('Dwarven Strike Force', 'Discard a card at random from your hand: Dwarven Strike Force gains first strike and haste until end of turn. ', 188, 1),
-('Earth Rift', 'Destroy target land. Flashback 5RR (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 189, 1),
-('Ember Beast', 'Ember Beast can''t attack or block alone. ', 190, 1),
-('Engulfing Flames', 'Engulfing Flames deals 1 damage to target creature. It can''t be regenerated this turn. Flashback 3R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 191, 1),
-('Epicenter', 'Target player sacrifices a land. Threshold - All players sacrifice all lands instead. (You have threshold if seven or more cards are in your graveyard.) ', 192, 1),
-('Firebolt', 'Firebolt deals 2 damage to target creature or player. Flashback 4R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 193, 1),
-('Flame Burst', 'Flame Burst deals X damage to target creature or player, where X is 2 plus the number of Flame Burst cards in all graveyards. ', 194, 1),
-('Frenetic Ogre', 'R, Discard a card at random from your hand: Frenetic Ogre gets +3/+0 until end of turn. ', 195, 1),
-('Halberdier', 'First strike ', 196, 1),
-('Impulsive Maneuvers', 'Whenever a creature attacks, flip a coin. If you win the flip, the next time that creature would deal combat damage this turn, it deals double that damage instead. If you lose the flip, the next time that creature would deal combat damage this turn, prevent that damage. ', 197, 1),
-('Kamahl, Pit Fighter', 'Haste Tap: Kamahl, Pit Fighter deals 3 damage to target creature or player. ', 198, 1),
-('Kamahl''s Desire', 'Enchanted creature has first strike.  Threshold - Enchanted creature gets +3/+0. (You have threshold as long as seven or more cards are in your graveyard.) ', 199, 1),
-('Lava Blister', 'Destroy target nonbasic land unless its controller has Lava Blister deal 6 damage to him or her. ', 200, 1),
-('Liquid Fire', 'Liquid Fire deals 5 damage divided as you choose between target creature and the creature''s controller. ', 201, 1),
-('Mad Dog', 'At the end of your turn, if Mad Dog didn''t attack or come under your control this turn, sacrifice it. ', 202, 1),
-('Magma Vein', 'R, Sacrifice a land: Magma Vein deals 1 damage to each creature without flying. ', 203, 1),
-('Magnivore', 'Haste Magnivore''s power and toughness are each equal to the number of sorcery cards in all graveyards. ', 204, 1),
-('Mine Layer', '1R, Tap: Put a mine counter on target land. Whenever a land with a mine counter on it becomes tapped, destroy it. When Mine Layer leaves play, remove all mine counters from all lands. ', 205, 1),
-('Minotaur Explorer', 'When Minotaur Explorer comes into play, sacrifice it unless you discard a card at random from your hand. ', 206, 1),
-('Molten Influence', 'Counter target instant or sorcery spell unless its controller has Molten Influence deal 4 damage to him or her. ', 207, 1),
-('Mudhole', 'Target player removes all land cards in his or her graveyard from the game. ', 208, 1),
-('Need for Speed', 'Sacrifice a land: Target creature gains haste until end of turn. ', 209, 1),
-('Obstinate Familiar', 'If you would draw a card, you may skip that draw instead. ', 210, 1),
-('Pardic Firecat', 'Haste If Pardic Firecat is in a graveyard, Flame Burst''s effect counts it as a Flame Burst. ', 211, 1),
-('Pardic Miner', 'Sacrifice Pardic Miner: Target player can''t play lands this turn. ', 212, 1),
-('Pardic Swordsmith', 'R, Discard a card at random from your hand: Pardic Swordsmith gets +2/+0 until end of turn. ', 213, 1),
-('Price of Glory', 'Whenever a player taps a land for mana during another player''s turn, destroy that land. ', 214, 1),
-('Reckless Charge', 'Target creature gets +3/+0 and gains haste until end of turn. Flashback 2R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 215, 1),
-('Recoup', 'Target sorcery card in your graveyard gains flashback until end of turn. Its flashback cost is equal to its mana cost. (Mana cost includes color.) Flashback 3R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 216, 1),
-('Rites of Initiation', 'Discard any number of cards at random from your hand. Creatures you control get +1/+0 until end of turn for each card discarded this way. ', 217, 1),
-('Savage Firecat', 'Trample Savage Firecat comes into play with seven +1/+1 counters on it. Whenever you tap a land for mana, remove a +1/+1 counter from Savage Firecat. ', 218, 1),
-('Scorching Missile', 'Scorching Missile deals 4 damage to target player. Flashback 9R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 219, 1),
-('Seize the Day', 'Untap target creature. After this phase, there is an additional combat phase followed by an additional main phase. Flashback 2R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 220, 1),
-('Shower of Coals', 'Shower of Coals deals 2 damage to each of up to three target creatures and/or players. Threshold - Shower of Coals deals 4 damage to each of those creatures and/or players instead. (You have theshold if seven or more cards are in your graveyard.) ', 221, 1),
-('Spark Mage', 'Whenever Spark Mage deals combat damage to a player, you may have Spark Mage deal 1 damage to target creature that player controls. ', 222, 1),
-('Steam Vines', 'When enchanted land becomes tapped, destroy it and Steam Vines deals 1 damage to that land''s controller. That player moves Steam Vines to a land of his or her choice. ', 223, 1),
-('Thermal Blast', 'Thermal Blast deals 3 damage to target creature. Threshold - Thermal Blast deals 5 damage to that creature instead. (You have threshold as long as seven or more cards are in your graveyard.) ', 224, 1),
-('Tremble', 'Each player sacrifices a land. ', 225, 1),
-('Volcanic Spray', 'Volcanic Spray deals 1 damage to each creature without flying and each player. Flashback 1R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 226, 1),
-('Volley of Boulders', 'Volley of Boulders deals 6 damage divided as you choose among any number of target creatures and/or players. Flashback RRRRRR (You may play this card from your graveyard for the flashback cost. Then remove it from the game.) ', 227, 1),
-('Whipkeeper', 'Tap: Whipkeeper deals damage to target creature equal to the damage already dealt to it this turn. ', 228, 1),
-('Bearscape', '1G, Remove two cards in your graveyard from the game: Put a 2/2 green Bear creature token into play. ', 229, 1),
-('Beast Attack', 'Put a 4/4 green Beast creature token into play. Flashback 2GGG (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 230, 1),
-('Call of the Herd', 'Put a 3/3 green Elephant creature token into play. Flashback 3G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 231, 1),
-('Cartographer', 'When Cartographer comes into play, you may return target land card from your graveyard to your hand. ', 232, 1),
-('Chatter of the Squirrel', 'Put a 1/1 green Squirrel creature token into play. Flashback 1G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 233, 1),
-('Chlorophant', 'At the beginning of your upkeep, you may put a +1/+1 counter on Chlorophant. Threshold - At the beginning of your upkeep, you may put another +1/+1 counter on Chlorophant. (You have threshold as long as seven or more cards are in your graveyard.) ', 234, 1),
-('Crashing Centaur', 'G, Discard a card from your hand: Crashing Centaur gains trample until end of turn. Threshold - Crashing Centaur gets +2/+2 and can''t be the target of spells or abilities. (You have threshold as long as seven or more cards are in your graveyard.) ', 235, 1),
-('Deep Reconnaissance', 'Search your library for a basic land card and put that card into play tapped. Then shuffle your library. Flashback 4G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 236, 1),
-('Diligent Farmhand', '1G, Sacrifice Diligent Farmhand: Search your library for a basic land card, and put that card into play tapped. Then shuffle your library. If Diligent Farmhand is in a graveyard, Muscle Burst''s effect counts it as a Muscle Burst. ', 237, 1),
-('Druid Lyrist', 'G, Tap, Sacrifice Druid Lyrist: Destroy target enchantment. ', 238, 1),
-('Druid''s Call', 'Whenever enchanted creature is dealt damage, its controller puts that many 1/1 green Squirrel creature tokens into play. ', 239, 1),
-('Elephant Ambush', 'Put a 3/3 green Elephant creature token into play. Flashback 6GG (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 240, 1),
-('Gorilla Titan', 'Trample   Gorilla Titan gets +4/+4 as long as there are no cards in your graveyard. ', 241, 1),
-('Ground Seal', 'When Ground Seal comes into play, draw a card. Cards in graveyards can''t be the targets of spells or abilities. ', 242, 1),
-('Holistic Wisdom', '2, Remove a card in your hand from the game: Return target card from your graveyard to your hand if it shares a type with the card removed this way. (The card types are artifact, creature, enchantment, instant, land and sorcery.) ', 243, 1),
-('Howling Gale', 'Howling Gale deals 1 damage to each creature with flying and to each player. Flashback 1G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 244, 1),
-('Ivy Elemental', 'Ivy Elemental comes into play with X +1/+1 counters on it. ', 245, 1),
-('Krosan Archer', 'Krosan Archer may block as though it has flying. G, Discard a card from your hand: Krosan Archer gets +0/+2 until end of turn. ', 246, 1),
-('Krosan Avenger', 'Trample Threshold - 1G: Regenerate Krosan Avenger. (Play this ability only if seven or more cards are in your graveyard.) ', 247, 1),
-('Krosan Beast', 'Threshold - Krosan Beast gets +7/+7. (You have threshold as long as seven or more cards are in your graveyard.) ', 248, 1),
-('Leaf Dancer', 'Forestwalk ', 249, 1),
-('Metamorphic Wurm', 'Threshold - Metamorphic Wurm gets +4/+4. (You have threshold as long as seven or more cards are in your graveyard.) ', 250, 1),
-('Moment''s Peace', 'Prevent all combat damage that would be dealt this turn. Flashback 2G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 251, 1),
-('Muscle Burst', 'Target creature gets +X/+X until end of turn, where X is 3 plus the number of Muscle Burst cards in all graveyards. ', 252, 1),
-('Nantuko Disciple', 'G, Tap: Target creature gets +2/+2 until end of turn. ', 253, 1),
-('Nantuko Elder', 'Tap: Add 1G to your mana pool. ', 254, 1),
-('Nantuko Mentor', '2G, Tap: Target creature gets +X/+X until end of turn, where X is that creature''s power. ', 255, 1),
-('Nantuko Shrine', 'Whenever a player plays a spell, that player puts X 1/1 green Squirrel creature tokens into play, where X is the number of cards in all graveyards with the same name as that spell. ', 256, 1),
-('New Frontiers', 'Each player may search his or her library for up to X basic land cards and put them into play tapped. Then each player who searched his or her library this way shuffles it. ', 257, 1),
-('Nimble Mongoose', 'Nimble Mongoose can''t be the target of spells or abilities. Threshold - Nimble Mongoose gets +2/+2. (You have threshold as long as seven or more cards are in your graveyard.) ', 258, 1),
-('Nut Collector', 'At the beginning of your upkeep, you may put a 1/1 green Squirrel creature token into play. Threshold - All Squirrels get +2/+2. (You have threshold as long as seven or more cards are in your graveyard.) ', 259, 1),
-('Overrun', 'Creatures you control get +3/+3 and gain trample until end of turn. ', 260, 1),
-('Piper''s Melody', 'Shuffle any number of target creature cards from your graveyard into your library. ', 261, 1),
-('Primal Frenzy', 'Enchanted creature has trample. ', 262, 1),
-('Rabid Elephant', 'Whenever Rabid Elephant becomes blocked, it gets +2/+2 until end of turn for each creature blocking it. ', 263, 1),
-('Refresh', 'Regenerate target creature. Draw a card. ', 264, 1),
-('Rites of Spring', 'Discard any number of cards from your hand. Search your library for that many basic land cards, reveal those cards, and put them into your hand. Then shuffle your library. ', 265, 1),
-('Roar of the Wurm', 'Put a 6/6 green Wurm creature token into play. Flashback 3G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 266, 1),
-('Seton, Krosan Protector', 'Tap an untapped Druid you control: Add G to your mana pool. ', 267, 1),
-('Seton''s Desire', 'Enchanted creature gets +2/+2. Threshold - All creatures able to block enchanted creature do so. (You have threshold as long as seven or more cards are in your graveyard.) ', 268, 1),
-('Simplify', 'Each player sacrifices an enchantment. ', 269, 1),
-('Skyshooter', 'Skyshooter may block as though it has flying. Tap, Sacrifice Skyshooter: Destroy target attacking or blocking creature with flying. ', 270, 1),
-('Spellbane Centaur', 'Creatures you control can''t be the targets of blue spells or abilities from blue sources. ', 271, 1),
-('Springing Tiger', 'Threshold - Springing Tiger gets +2/+2. (You have threshold as long as seven or more cards are in your graveyard.) ', 272, 1),
-('Squirrel Mob', 'Squirrel Mob gets +1/+1 for each other Squirrel in play. ', 273, 1),
-('Squirrel Nest', 'Enchanted land has "Tap: Put a 1/1 green Squirrel creature token into play." ', 274, 1),
-('Still Life', 'GG: Still Life becomes a 4/3 Centaur creature until end of turn. It''s still an enchantment. ', 275, 1),
-('Stone-Tongue Basilisk', 'Whenever Stone-Tongue Basilisk deals combat damage to a creature, destroy that creature at end of combat. Threshold - All creatures able to block Stone-Tongue Basilisk do so. (You have threshold as long as seven or more cards are in your graveyard.) ', 276, 1),
-('Sylvan Might', 'Target creature gets +2/+2 and gains trample until end of turn. Flashback 2GG (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 277, 1),
-('Terravore', 'Trample Terravore''s power and toughness are each equal to the number of land cards in all graveyards. ', 278, 1),
-('Twigwalker', '1G, Sacrifice Twigwalker: Two target creatures each get +2/+2 until end of turn. ', 279, 1),
-('Verdant Succession', 'Whenever a green nontoken creature is put into a graveyard from play, that creature''s controller may search his or her library for a card with the same name as that creature and put it into play. If that player does, he or she then shuffles his or her library. ', 280, 1),
-('Vivify', 'Target land becomes a 3/3 creature until end of turn. It''s still a land. Draw a card. ', 281, 1),
-('Werebear', 'Tap: Add G to your mana pool. Threshold - Werebear gets +3/+3. (You have threshold as long as seven or more cards are in your graveyard.) ', 282, 1),
-('Wild Mongrel', 'Discard a card from your hand: Wild Mongrel gets +1/+1 and becomes the color of your choice until end of turn. ', 283, 1),
-('Woodland Druid', ' ', 284, 1),
-('Zoologist', '3G, Tap: Reveal the top card of your library. If it''s a creature card, put it into play. Otherwise, put it into your graveyard. ', 285, 1),
-('Atogatog', 'Sacrifice an Atog: Atogatog gets +X/+X until end of turn where X is the sacrificed Atog''s power. ', 286, 1),
-('Decimate', 'Destroy target artifact, target creature, target enchantment, and target land. ', 287, 1),
-('Iridescent Angel', 'Flying, protection from all colors ', 288, 1),
-('Lithatog', 'Sacrifice an artifact: Lithatog gets +1/+1 until end of turn. Sacrifice a land: Lithatog gets +1/+1 until end of turn. ', 289, 1),
-('Mystic Enforcer', 'Protection from black Threshold - Mystic Enforcer gets +3/+3 and has flying. (You have threshold as long as seven or more cards are in your graveyard.) ', 290, 1),
-('Phantatog', 'Sacrifice an enchantment: Phantatog gets +1/+1 until end of turn. Discard a card from your hand: Phantatog gets +1/+1 until end of turn. ', 291, 1),
-('Psychatog', 'Discard a card from your hand: Psychatog gets +1/+1 until end of turn. Remove two cards in your graveyard from the game: Psychatog gets +1/+1 until end of turn. ', 292, 1),
-('Sarcatog', 'Remove two cards in your graveyard from the game: Sarcatog gets +1/+1 until end of turn. Sacrifice an artifact: Sarcatog gets +1/+1 until end of turn. ', 293, 1),
-('Shadowmage Infiltrator', 'Shadowmage Infiltrator can''t be blocked except by artifact creatures and/or black creatures. Whenever Shadowmage Infiltrator deals combat damage to a player, you may draw a card. ', 294, 1),
-('Thaumatog', 'Sacrifice a land: Thaumatog gets +1/+1 until end of turn. Sacrifice an enchantment: Thaumatog gets +1/+1 until end of turn. ', 295, 1),
-('Vampiric Dragon', 'Flying Whenever a creature dealt damage by Vampiric Dragon this turn is put into a graveyard, put a +1/+1 counter on Vampiric Dragon. 1R: Vampiric Dragon deals 1 damage to target creature. ', 296, 1),
-('Catalyst Stone', 'Flashback costs you pay cost up to 2 less. Flashback costs your opponents pay cost 2 more. ', 297, 1),
-('Charmed Pendant', 'Tap, Put the top card of your library into your graveyard: For each colored mana symbol in that card''s mana cost, add one mana of that color to your mana pool. Play this ability only any time you could play an instant. (For example, if the card''s mana cost is 3UUB, you add UUB to your mana pool.) ', 298, 1),
-('Darkwater Egg', '2, Tap, Sacrifice Darkwater Egg: Add UB to your mana pool. Draw a card. ', 299, 1),
-('Junk Golem', 'Junk Golem comes into play with three +1/+1 counters on it. At the beginning of your upkeep, sacrifice Junk Golem unless you remove a +1/+1 counter from it. 1, Discard a card from your hand: Put a +1/+1 counter on Junk Golem. ', 300, 1),
-('Limestone Golem', '2, Sacrifice Limestone Golem: Target player draws a card. ', 301, 1),
-('Millikin', 'Tap, Put the top card of your library into your graveyard: Add one colorless mana to your mana pool. ', 302, 1),
-('Mirari', 'Whenever you play an instant or sorcery spell, you may pay 3. If you do, put a copy of that spell onto the stack. You may choose new targets for the copy. ', 303, 1),
-('Mossfire Egg', '2, Tap, Sacrifice Mossfire Egg: Add RG to your mana pool. Draw a card. ', 304, 1),
-('Otarian Juggernaut', 'Otarian Juggernaut can''t be blocked by Walls. Threshold - Otarian Juggernaut gets +3/+0 and attacks each turn if able. (You have threshold as long as seven or more cards are in your graveyard.) ', 305, 1),
-('Patchwork Gnomes', 'Discard a card from your hand: Regenerate Patchwork Gnomes. ', 306, 1),
-('Sandstone Deadfall', 'Tap, Sacrifice two lands and Sandstone Deadfall: Destroy target attacking creature. ', 307, 1),
-('Shadowblood Egg', '2, Tap, Sacrifice Shadowblood Egg: Add BR to your mana pool. Draw a card. ', 308, 1),
-('Skycloud Egg', '2, Tap, Sacrifice Skycloud Egg: Add WU to your mana pool. Draw a card. ', 309, 1),
-('Steamclaw', '3, Tap: Remove target card in a graveyard from the game.   1, Sacrifice Steamclaw: Remove target card in a graveyard from the game. ', 310, 1),
-('Sungrass Egg', '2, Tap, Sacrifice Sungrass Egg: Add GW to your mana pool. Draw a card. ', 311, 1),
-('Abandoned Outpost', 'Abandoned Outpost comes into play tapped. Tap: Add W to your mana pool. Tap, Sacrifice Abandoned Outpost: Add one mana of any color to your mana pool. ', 312, 1),
-('Barbarian Ring', 'Tap: Add R to your mana pool. Barbarian Ring deals 1 damage to you. Threshold - R, Tap, Sacrifice Barbarian Ring: Barbarian Ring deals 2 damage to target creature or player. (Play this ability only if seven or more cards are in your graveyard.) ', 313, 1),
-('Bog Wreckage', 'Bog Wreckage comes into play tapped. Tap: Add B to your mana pool. Tap, Sacrifice Bog Wreckage: Add one mana of any color to your mana pool. ', 314, 1),
-('Cabal Pit', 'Tap: Add B to your mana pool. Cabal Pit deals 1 damage to you. Threshold - B, Tap, Sacrifice Cabal Pit: Target creature gets -2/-2 until end of turn. (Play this ability only if seven or more cards are in your graveyard.) ', 315, 1),
-('Centaur Garden', 'Tap: Add G to your mana pool. Centaur Garden deals 1 damage to you. Threshold - G, Tap, Sacrifice Centaur Garden: Target creature gets +3/+3 until end of turn. (Play this ability only if seven or more cards are in your graveyard.) ', 316, 1),
-('Cephalid Coliseum', 'Tap: Add U to your mana pool. Cephalid Coliseum deals 1 damage to you. Threshold - U, Tap, Sacifice Cephalid Coliseum: Target player draws three cards, then discards three cards from his or her hand. (Play this ability only if seven or more cards are in your graveyard.) ', 317, 1),
-('Crystal Quarry', 'Tap: Add one colorless mana to your mana pool. 5, Tap: Add WUBRG to your mana pool. ', 318, 1),
-('Darkwater Catacombs', '1, Tap: Add UB to your mana pool. ', 319, 1),
-('Deserted Temple', 'Tap: Add one colorless mana to your mana pool 1, Tap: Untap target land. ', 320, 1),
-('Mossfire Valley', '1, Tap: Add RG to your mana pool. ', 321, 1),
-('Nomad Stadium', 'Tap: Add W to your mana pool. Nomad Stadium deals 1 damage to you. Threshold - W, Tap, Sacrifice Nomad Stadium: You gain 4 life. (Play this ability only if seven or more cards are in your graveyard.) ', 322, 1),
-('Petrified Field', 'Tap: Add one colorless mana to your mana pool. Tap, Sacrifice Petrified Field: Return target land card from your graveyard to your hand. ', 323, 1),
-('Ravaged Highlands', 'Ravaged Highlands comes into play tapped. Tap: Add R to your mana pool. Tap, Sacrifice Ravaged Highlands: Add one mana of any color to your mana pool. ', 324, 1),
-('Seafloor Debris', 'Seafloor Debris comes into play tapped. Tap: Add U to your mana pool. Tap, Sacrifice Seafloor Debris: Add one mana of any color to your mana pool. ', 325, 1),
-('Shadowblood Ridge', '1, Tap: Add BR to your mana pool. ', 326, 1),
-('Skycloud Expanse', '1, Tap: Add WU to your mana pool. ', 327, 1),
-('Sungrass Prairie', '1, Tap: Add GW to your mana pool. ', 328, 1),
-('Tarnished Citadel', 'Tap: Add one colorless mana to your mana pool. Tap: Add one mana of any color to your mana pool. Tarnished Citadel deals 3 damage to you. ', 329, 1),
-('Timberland Ruins', 'Timberland Ruins comes into play tapped. Tap: Add G to your mana pool. Tap, Sacrifice Timberland Ruins: Add one mana of any color to your mana pool. ', 330, 1),
-('Plains', '[W] ', 331, 1),
-('Plains', '[W] ', 332, 1),
-('Plains', '[W] ', 333, 1),
-('Plains', '[W] ', 334, 1),
-('Island', '[U] ', 335, 1),
-('Island', '[U] ', 336, 1),
-('Island', '[U] ', 337, 1),
-('Island', '[U] ', 338, 1),
-('Swamp', '[B] ', 339, 1),
-('Swamp', '[B] ', 340, 1),
-('Swamp', '[B] ', 341, 1),
-('Swamp', '[B] ', 342, 1),
-('Mountain', '[R] ', 343, 1),
-('Mountain', '[R] ', 344, 1),
-('Mountain', '[R] ', 345, 1),
-('Mountain', '[R] ', 346, 1),
-('Forest', '[G] ', 347, 1),
-('Forest', '[G] ', 348, 1),
-('Forest', '[G] ', 349, 1),
-('Forest', '[G] ', 350, 1),
-('Angel of Retribution', 'Flying, first strike', 351, 1),
-('Aven Trooper', 'Flying. 2W, Discard a card from your hand: Aven Trooper gets+1/+2 until end of turn.', 352, 1),
-('Cleansing Meditation', 'Destroy all enchantments. Threshold - Instead destroy all enchantments, then return to play all cards in your graveyard destroyed this way. (You have threshold if seven or more cards are in your graveyard.)', 353, 1),
-('Equal Treatment', 'If any source would deal 1 or more damage to a creature or player this turn, it deals 2 damage to that creature or player instead. Draw a card.', 354, 1),
-('Floating Shield', 'As Floating Shield comes into play, choose a color. Enchanted creature has protection from the chosen color. This effect doesn''t remove Floating Shield. Sacrifice Floating Shield: Target creature gains protection from the chosen color until end of turn.', 355, 1),
-('Frantic Purification', 'Destroy target enchantment. Madness W (You may play this card for its madness cost at the time you discard it from your hand.)', 356, 1),
-('Hypochondria', 'W, Discard a card from your hand: Prevent the next 3 damage that would be dealt to target creature or player this turn. W, Sacrifice Hypochondria: Prevent the next 3 damage that would be dealt to target creature or player this turn.', 357, 1),
-('Major Teroh', 'Flying. 3WW, Sacrifice Major Teroh: Remove all black creatures from the game.', 358, 1),
-('Militant Monk', 'Attacking doesn''t cause Militant Monk to tap. TAP: Prevent the next 1 damage that would be dealt to target creature or player this turn.', 359, 1),
-('Morningtide', 'Remove all cards in all graveyards from the game.', 360, 1),
-('Mystic Familiar', 'Flying. Threshold - Mystic Familiar gets +1/+1 and has protection from black. (You have threshold as long as seven or more cards are in your graveyard.)', 361, 1),
-('Pay No Heed', 'Prevent all damage a source of your choice would deal this turn.', 362, 1),
-('Possessed Nomad', 'Attacking doesn''t cause Possessed Nomad to tap. Threshold - Possessed Nomad gets +1/+1, is black, and has "2B, TAP: Destroy target white creature." (You have threshold as long as seven or more cards are in your graveyard.)', 363, 1),
-('Reborn Hero', 'Attacking doesn''t cause Reborn Hero to tap. Threshold - When Reborn Hero is put into a graveyard from play, you may pay WW. If you do, return Reborn Hero to play under your control. (You have threshold if seven or more cards are in your graveyard.)', 364, 1),
-('Spirit Flare', 'Tap target untapped creature you control. If you do, it deals damage equal to its power to target attacking or blocking creature an opponent controls. Flashback-1W, Pay 3 life. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 365, 1),
-('Stern Judge', 'TAP: Each player loses 1 life for each swamp he or she controls.', 366, 1),
-('Strength of Isolation', 'Enchanted creature gets +1/+2 and has protection from black. Madness W (You may play this card for its madness cost at the time you discard it from your hand.)', 367, 1),
-('Teroh''s Faithful', 'When Teroh''s Faithful comes into play, you gain 4 life.', 368, 1),
-('Teroh''s Vanguard', 'You may play Teroh''s Vanguard any time you could play an instant. Threshold - When Teroh''s Vanguard comes into play, creatures you control gain protection from black until end of turn. (You have threshold if seven or more cards are in your graveyard.)', 369, 1),
-('Transcendence', 'You don''t lose the game for having 0 or less life. When you have 20 or more life, you lose the game. Whenever you lose life, you gain 2 life for each 1 life you lost. (Damage dealt to you causes you to lose life.)', 370, 1),
-('Vengeful Dreams', 'As an additional cost to play Vengeful Dreams, discard X cards from your hand. Remove X target attacking creatures from the game.', 371, 1),
-('Alter Reality', 'Change the text of target permanent or spell by replacing all instances of one color word with another. (This effect doesn''t end at end of turn.) Flashback 1U (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 372, 1),
-('Ambassador Laquatus', '3: Target player puts the top three cards of his or her library into his or her graveyard.', 373, 1),
-('Aquamoeba', 'Discard a card from your hand: Switch Aquamoeba''s power and toughness until end of turn.', 374, 1),
-('Balshan Collaborator', 'Flying. B: Balshan Collaborator gets +1/+1 until end of turn.', 375, 1),
-('Breakthrough', 'Draw four cards, then choose X cards in your hand and discard the rest from it.', 376, 1),
-('Cephalid Aristocrat', 'Whenever Cephalid Aristocrat becomes the target of a spell or ability, put the top two cards of your library into your graveyard.', 377, 1),
-('Cephalid Illusionist', 'Whenever Cephalid Illusionist becomes the target of a spell or ability, put the top three cards of your library into your graveyard. 2U, TAP: This turn prevent all combat damage that would be dealt to and dealt by target creature you control.', 378, 1),
-('Cephalid Sage', 'Threshold - When Cephalid Sage comes into play, draw three cards, then discard two cards from your hand. (You have threshold if seven or more cards are in your graveyard.)', 379, 1),
-('Cephalid Snitch', 'Sacrifice Cephalid Snitch: Target creature loses protection from black until end of turn.', 380, 1),
-('Cephalid Vandal', 'At the beginning of your upkeep, put a shred counter on Cephalid Vandal. Then put the top card of your library into your graveyard for each shred counter on Cephalid Vandal.', 381, 1),
-('Churning Eddy', 'Return target creature and target land to their owners'' hands.', 382, 1),
-('Circular Logic', 'Counter target spell unless its controller pays 1 for each card in your graveyard. Madness U (You may play this card for its madness cost at the time you discard it from your hand.)', 383, 1),
-('Compulsion', '1U, Discard a card from your hand: Draw a card.  1U, Sacrifice Compulsion: Draw a card.', 384, 1),
-('Coral Net', 'Coral Net can enchant only a green or white creature. Enchanted creature has "At the beginning of your upkeep, sacrifice this creature unless you discard a card from your hand."', 385, 1),
-('Deep Analysis', 'Target player draws two cards. Flashback-1U, Pay 3 life. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 386, 1),
-('False Memories', 'Put the top seven cards of your library into your graveyard. At end of turn, remove seven cards in your graveyard from the game.', 387, 1),
-('Ghostly Wings', 'Enchanted creature gets +1/+1 and has flying. Discard a card from your hand: Return enchanted creature to its owner''s hand.', 388, 1),
-('Hydromorph Guardian', 'U, Sacrifice Hydromorph Guardian: Counter target spell that targets one or more creatures you control.', 389, 1),
-('Hydromorph Gull', 'Flying. U, Sacrifice Hydromorph Gull: Counter target spell that targets one or more creatures you control.', 390, 1),
-('Liquify', 'Counter target spell with converted mana cost 3 or less. If it''s countered this way, remove it from the game instead of putting it into its owner''s graveyard.', 391, 1),
-('Llawan, Cephalid Empress', 'When Llawan, Cephalid Empress comes into play, return all blue creatures your opponents control to their owners'' hands. Your opponents can''t play blue creature spells.', 392, 1),
-('Obsessive Search', 'Draw a card. Madness U (You may play this card for its madness cost at the time you discard it from your hand.)', 393, 1),
-('Plagiarize', 'Until end of turn, if target player would draw a card, instead that player skips that draw and you draw a card.', 394, 1),
-('Possessed Aven', 'Flying. Threshold - Possessed Aven gets +1/+1, is black, and has "2B, TAP: Destroy target blue creature."" (You have threshold as long as seven or more cards are in your graveyard.)', 395, 1),
-('Retraced Image', 'Reveal a card in your hand, then put that card into play if it has the same name as a permanent in play.', 396, 1),
-('Skywing Aven', 'Flying. Discard a card from your hand: Return Skywing Aven to its owner''s hand.', 397, 1),
-('Stupefying Touch', 'When Stupefying Touch comes into play, draw a card. s activated abilities can''t be played.', 398, 1),
-('Turbulent Dreams', 'As an additional cost to play Turbulent Dreams, discard X cards from your hand. Return X target nonland permanents to their owners'' hands.', 399, 1),
-('Boneshard Slasher', 'Flying. Threshold - Boneshard Slasher gets +2/+2 and has "When Boneshard Slasher becomes the target of a spell or ability, sacrifice it." (You have threshold as long as seven or more cards are in your graveyard.)', 400, 1),
-('Cabal Ritual', 'Add BBB to your mana pool. Threshold - Instead add BBBBB to your mana pool. (You have threshold if seven or more cards are in your graveyard.)', 401, 1),
-('Cabal Surgeon', '2BB, TAP, Remove two cards in your graveyard from the game: Return target creature card from your graveyard to your hand.', 402, 1),
-('Cabal Torturer', 'B, TAP: Target creature gets -1/-1 until end of turn. Threshold - 3BB, TAP: Target creature gets -2/-2 until end of turn. (Play this ability only if seven or more cards are in your graveyard.)', 403, 1),
-('Carrion Rats', 'Whenever Carrion Rats attacks or blocks, any player may remove a card in his or her graveyard from the game. If a player does, Carrion Rats deals no combat damage this turn.', 404, 1),
-('Carrion Wurm', 'Whenever Carrion Wurm attacks or blocks, any player may remove three cards in his or her graveyard from the game. If a player does, Carrion Wurm deals no combat damage this turn.', 405, 1),
-('Chainer, Dementia Master', 'All Nightmares get +1/+1. BBB, Pay 3 life: Put target creature card from a graveyard into play under your control. That creature is black and is a Nightmare in addition to its creature types. When Chainer, Dementia Master leaves play, remove all Nightmares from the game.', 406, 1),
-('Chainer''s Edict', 'Target player sacrifices a creature. Flashback 5BB (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 407, 1),
-('Crippling Fatigue', 'Target creature gets -2/-2 until end of turn. Flashback-1B, Pay 3 life. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 408, 1),
-('Dawn of the Dead', 'At the beginning of your upkeep, you lose 1 life. At the beginning of your upkeep, you may return target creature card from your graveyard to play. That creature gains haste until end of turn. Remove it from the game at end of turn.', 409, 1),
-('Faceless Butcher', 'When Faceless Butcher comes into play, remove target creature other than Faceless Butcher from the game. When Faceless Butcher leaves play, return the removed card to play under its owner''s control.', 410, 1),
-('Gloomdrifter', 'Flying. Threshold - When Gloomdrifter comes into play, nonblack creatures get -2/-2 until end of turn. (You have threshold if seven or more cards are in your graveyard.)', 411, 1),
-('Gravegouger', 'When Gravegouger comes into play, remove up to two target cards in a single graveyard from the game. When Gravegouger leaves play, return the removed cards to their owner''s graveyard.', 412, 1),
-('Grotesque Hybrid', 'Whenever Grotesque Hybrid deals combat damage to a creature, destroy that creature. It can''t be regenerated. Discard a card from your hand: Grotesque Hybrid gains flying and protection from green and from white until end of turn.', 413, 1),
-('Hypnox', 'Flying. When Hypnox comes into play, if you played it from your hand, remove all cards in target opponent''s hand from the game. When Hypnox leaves play, return the removed cards to their owner''s hand.', 414, 1),
-('Ichorid', 'Haste. At end of turn, sacrifice Ichorid. At the beginning of your upkeep, if Ichorid is in your graveyard, you may remove a black creature card in your graveyard other than Ichorid from the game. If you do, return Ichorid to play.', 415, 1),
-('Insidious Dreams', 'As an additional cost to play Insidious Dreams, discard X cards from your hand. Search your library for X cards. Then shuffle your library and put those cards on top of it in any order.', 416, 1),
-('Laquatus''s Champion', 'When Laquatus''s Champion comes into play, target player loses 6 life.  When Laquatus''s Champion leaves play, that player gains 6 life. B: Regenerate Laquatus''s Champion.', 417, 1),
-('Last Laugh', 'Whenever a permanent other than Last Laugh is put into a graveyard from play, Last Laugh deals 1 damage to each creature and each player. When no creatures are in play, sacrifice Last Laugh.', 418, 1),
-('Mesmeric Fiend', 'When Mesmeric Fiend comes into play, target opponent reveals his or her hand and you choose a nonland card from it. Remove that card from the game. When Mesmeric Fiend leaves play, return the removed card to its owner''s hand.', 419, 1),
-('Mind Sludge', 'Target player discards a card from his or her hand for each swamp you control.', 420, 1),
-('Mortal Combat', 'At the beginning of your upkeep, if twenty or more creature cards are in your graveyard, you win the game.', 421, 1),
-('Mortiphobia', '1B, Discard a card from your hand: Remove target card in a graveyard from the game. 1B, Sacrifice Mortiphobia: Remove target card in a graveyard from the game.', 422, 1),
-('Mutilate', 'All creatures get -1/-1 until end of turn for each swamp you control.', 423, 1),
-('Nantuko Shade', 'B: Nantuko Shade gets +1/+1 until end of turn.', 424, 1),
-('Organ Grinder', 'TAP, Remove three cards in your graveyard from the game: Target player loses 3 life.', 425, 1),
-('Psychotic Haze', 'Psychotic Haze deals 1 damage to each creature and each player. Madness 1B (You may play this card for its madness cost at the time you discard it from your hand.)', 426, 1),
-('Putrid Imp', 'Discard a card from your hand: Putrid Imp gains flying until end of turn. Threshold - Putrid Imp gets +1/+1 and can''t block. (You have threshold as long as seven or more cards are in your graveyard.)', 427, 1),
-('Rancid Earth', 'Destroy target land. Threshold - Instead destroy that land and Rancid Earth deals 1 damage to each creature and each player. (You have threshold if seven or more cards are in your graveyard.)', 428, 1),
-('Restless Dreams', 'As an additional cost to play Restless Dreams, discard X cards from your hand. Return X target creature cards from your graveyard to your hand.', 429, 1),
-('Sengir Vampire', 'Flying. Whenever a creature dealt damage by Sengir Vampire this turn is put into a graveyard, put a +1/+1 counter on Sengir Vampire.', 430, 1),
-('Shade''s Form', 'Enchanted creature has "B: This creature gets +1/+1 until end of turn." When enchanted creature is put into a graveyard, return that creature to play under your control.', 431, 1),
-('Shambling Swarm', 'When Shambling Swarm is put into a graveyard from play, distribute three -1/-1 counters among one, two, or three target creatures. Remove those counters at end of turn.', 432, 1),
-('Sickening Dreams', 'As an additional cost to play Sickening Dreams, discard X cards from your hand. Sickening Dreams deals X damage to each creature and each player.', 433, 1),
-('Slithery Stalker', 'Swampwalk. When Slithery Stalker comes into play, remove target green or white creature an opponent controls from the game. When Slithery Stalker leaves play, return the removed card to play under its owner''s control.', 434, 1),
-('Soul Scourge', 'Flying. When Soul Scourge comes into play, target player loses 3 life. When Soul Scourge leaves play, that player gains 3 life.', 435, 1),
-('Strength of Lunacy', 'Enchanted creature gets +2/+1 and has protection from white. Madness B (You may play this card for its madness cost at the time you discard it from your hand.)', 436, 1),
-('Unhinge', 'Target player discards a card from his or her hand. Draw a card.', 437, 1),
-('Waste Away', 'As an additional cost to play Waste Away, discard a card from your hand. Target creature gets -5/-5 until end of turn.', 438, 1),
-('Zombie Trailblazer', 'Tap an untapped Zombie you control: Target land becomes a swamp until end of turn. Tap an untapped Zombie you control: Target creature gains swampwalk until end of turn.', 439, 1),
-('Accelerate', 'Target creature gains haste until end of turn. Draw a card.', 440, 1),
-('Balthor the Stout', 'All Barbarians get +1/+1. R: Target Barbarian gets +1/+0 until end of turn.', 441, 1),
-('Barbarian Outcast', 'When you control no swamps, sacrifice Barbarian Outcast.', 442, 1),
-('Crackling Club', 'Enchanted creature gets +1/+0. Sacrifice Crackling Club: Crackling Club deals 1 damage to target creature.', 443, 1),
-('Crazed Firecat', 'When Crazed Firecat comes into play, flip a coin until you lose a flip. Put a +1/+1 counter on Crazed Firecat for each flip you win.', 444, 1),
-('Devastating Dreams', 'As an additional cost to play Devastating Dreams, discard X cards at random from your hand. Each player sacrifices X lands. Devastating Dreams deals X damage to each creature.', 445, 1),
-('Enslaved Dwarf', 'R, Sacrifice Enslaved Dwarf: Target black creature gets +1/+0 and gains first strike until end of turn.', 446, 1),
-('Fiery Temper', 'Fiery Temper deals 3 damage to target creature or player. Madness R (You may play this card for its madness cost at the time you discard it from your hand.)', 447, 1),
-('Flaming Gambit', 'Flaming Gambit deals X damage to target player. That player may choose a creature he or she controls and have Flaming Gambit deal that damage to it instead. Flashback XRR (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 448, 1),
-('Flash of Defiance', 'Players can''t block with green and/or white creatures this turn. Flashback-1R, Pay 3 life. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 449, 1),
-('Grim Lavamancer', 'R, TAP, Remove two cards in your graveyard from the game: Grim Lavamancer deals 2 damage to target creature or player.', 450, 1),
-('Hell-Bent Raider', 'First strike, haste. Discard a card at random from your hand: Hell-Bent Raider gains protection from white until end of turn.', 451, 1),
-('Kamahl''s Sledge', 'Kamahl''s Sledge deals 4 damage to target creature. Threshold - Instead Kamahl''s Sledge deals 4 damage to that creature and 4 damage to that creature''s controller. (You have threshold if seven or more cards are in your graveyard.)', 452, 1),
-('Longhorn Firebeast', 'When Longhorn Firebeast comes into play, any opponent may have it deal 5 damage to him or her. If a player does, sacrifice Longhorn Firebeast.', 453, 1),
-('Overmaster', 'The next instant or sorcery spell you play this turn can''t be countered by spells or abilities. Draw a card.', 454, 1),
-('Pardic Arsonist', 'Threshold - When Pardic Arsonist comes into play, it deals 3 damage to target creature or player. (You have threshold if seven or more cards are in your graveyard.)', 455, 1),
-('Pardic Collaborator', 'First strike. B: Pardic Collaborator gets +1/+1 until end of turn.', 456, 1),
-('Pardic Lancer', 'Discard a card at random from your hand: Pardic Lancer gets +1/+0 and gains first strike until end of turn.', 457, 1),
-('Petradon', 'When Petradon comes into play, remove two target lands from the game. When Petradon leaves play, return the removed cards to play under their owners'' control. R: Petradon gets +1/+0 until end of turn.', 458, 1),
-('Petravark', 'When Petravark comes into play, remove target land from the game. When Petravark leaves play, return the removed card to play under its owner''s control.', 459, 1),
-('Pitchstone Wall', '(Walls can''t attack.) Whenever you discard a card from your hand, you may sacrifice Pitchstone Wall. If you do, return the discarded card from your graveyard to your hand.', 460, 1),
-('Possessed Barbarian', 'First strike. Threshold - Possessed Barbarian gets +1/+1, is black, and has "2B, TAP: Destroy target red creature."(You have threshold as long as seven or more cards are in your graveyard.)', 461, 1),
-('Pyromania', '1R, Discard a card at random from your hand: Pyromania deals 1 damage to target creature or player. 1R, Sacrifice Pyromania: Pyromania deals 1 damage to target creature or player.', 462, 1),
-('Radiate', 'Choose target instant or sorcery spell that targets only a single permanent or player. For each other permanent or player that spell could target, put a copy of the spell onto the stack. Each copy targets a different one of those permanents and players.', 463, 1),
-('Skullscorch', 'Target player discards two cards at random from his or her hand unless that player has Skullscorch deal 4 damage to him or her.', 464, 1),
-('Sonic Seizure', 'As an additional cost to play Sonic Seizure, discard a card at random from your hand. Sonic Seizure deals 3 damage to target creature or player.', 465, 1),
-('Temporary Insanity', 'Untap target creature with power less than the number of cards in your graveyard and gain control of it until end of turn. That creature gains haste until end of turn.', 466, 1),
-('Violent Eruption', 'Violent Eruption deals 4 damage divided as you choose among any number of target creatures and/or players. Madness 1RR (You may play this card for its madness cost at the time you discard it from your hand.)', 467, 1),
-('Acorn Harvest', 'Put two 1/1 green Squirrel creature tokens into play. Flashback-1G, Pay 3 life. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 468, 1),
-('Anurid Scavenger', 'Protection from black. At the beginning of your upkeep, sacrifice Anurid Scavenger unless you put a card from your graveyard on the bottom of your library.', 469, 1),
-('Arrogant Wurm', 'Trample. Madness 2G (You may play this card for its madness cost at the time you discard it from your hand.)', 470, 1),
-('Basking Rootwalla', '1G: Basking Rootwalla gets +2/+2 until end of turn. Play this ability only once each turn. Madness 0 (You may play this card for its madness cost at the time you discard it from your hand.)', 471, 1),
-('Centaur Chieftain', 'Haste. Threshold - When Centaur Chieftain comes into play, creatures you control get +1/+1 and gain trample until end of turn. (You have threshold if seven or more cards are in your graveyard.)', 472, 1),
-('Centaur Veteran', 'Trample. G, Discard a card from your hand: Regenerate Centaur Veteran.', 473, 1),
-('Dwell on the Past', 'Target player shuffles up to four target cards from his or her graveyard into his or her library.', 474, 1),
-('Far Wanderings', 'Search your library for a basic land card and put that card into play tapped. Then shuffle your library. Threshold - Instead search your library for three basic land cards and put them into play tapped. Then shuffle your library. (You have threshold if seven or more cards are in your graveyard.)', 475, 1),
-('Gurzigost', 'At the beginning of your upkeep, sacrifice Gurzigost unless you put two cards from your graveyard on the bottom of your library. GG, Discard a card from your hand: You may have Gurzigost deal its combat damage to defending player this turn as though it weren''t blocked.', 476, 1),
-('Insist', 'The next creature spell you play this turn can''t be countered by spells or abilities. Draw a card.', 477, 1),
-('Invigorating Falls', 'You gain life equal to the number of creature cards in all graveyards.', 478, 1),
-('Krosan Constrictor', 'Swampwalk. TAP: Target black creature gets -2/-0 until end of turn.', 479, 1),
-('Krosan Restorer', 'TAP: Untap target land. Threshold - TAP: Untap up to three target lands. (Play this ability only if seven or more cards are in your graveyard.)', 480, 1),
-('Nantuko Blightcutter', 'Protection from black. Threshold - Nantuko Blightcutter gets +1/+1 for each black permanent your opponents control. (You have threshold as long as seven or more cards are in your graveyard.)', 481, 1),
-('Nantuko Calmer', 'G, TAP, Sacrifice Nantuko Calmer: Destroy target enchantment. Threshold - Nantuko Calmer gets +1/+1. (You have threshold as long as seven or more cards are in your graveyard.)', 482, 1),
-('Nantuko Cultivator', 'When Nantuko Cultivator comes into play, you may discard any number of land cards from your hand. Put that many +1/+1 counters on Nantuko Cultivator and draw that many cards."', 483, 1),
-('Narcissism', 'G, Discard a card from your hand: Target creature gets +2/+2 until end of turn. G, Sacrifice Narcissism: Target creature gets +2/+2 until end of turn.', 484, 1),
-('Nostalgic Dreams', 'As an additional cost to play Nostalgic Dreams, discard X cards from your hand. Return X target cards from your graveyard to your hand. Remove Nostalgic Dreams from the game.', 485, 1),
-('Parallel Evolution', 'For each creature token in play, its controller puts a creature token into play that''s a copy of that creature. Flashback 4GGG (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 486, 1),
-('Possessed Centaur', 'Trample. Threshold - Possessed Centaur gets +1/+1, is black, and has ""2B, TAP: Destroy target green creature." (You have threshold as long as seven or more cards are in your graveyard.)', 487, 1),
-('Seton''s Scout', 'Seton''s Scout may block as though it had flying. Threshold - Seton''s Scout gets +2/+2. (You have threshold as long as seven or more cards are in your graveyard.)', 488, 1),
-('Cabal Coffers', '2, TAP: Add B to your mana pool for each swamp you control.', 489, 1),
-('Tainted Field', 'TAP: Add one colorless mana to your mana pool. TAP: Add W or B to your mana pool. Play this ability only if you control a swamp.', 490, 1),
-('Tainted Isle', 'TAP: Add one colorless mana to your mana pool. TAP: Add U or B to your mana pool. Play this ability only if you control a swamp.', 491, 1),
-('Tainted Peak', 'TAP: Add one colorless mana to your mana pool. TAP: Add B or R to your mana pool. Play this ability only if you control a swamp.', 492, 1),
-('Tainted Wood', 'TAP: Add one colorless mana to your mana pool. TAP: Add B or G to your mana pool. Play this ability only if you control a swamp.', 493, 1),
-('Ancestor''s Chosen', '"First strike When Ancestor''s Chosen comes into play, you gain 1 life for each card in your graveyard."', 494, 1),
-('Aven Warcraft', 'Creatures you control get +0/+2 until end of turn. Threshold - Creatures you control also gain protection from the color of your choice until end of turn. (You have threshold if seven or more cards are in your graveyard.)', 495, 1),
-('Battle Screech', 'Put two 1/1 white Bird creature tokens with flying into play. Flashback-Tap three untapped white creatures you control. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 496, 1),
-('Battlewise Aven', 'Flying. Threshold - Battlewise Aven gets +1/+1 and has first strike. (You have threshold as long as seven or more cards are in your graveyard.)', 497, 1),
-('Benevolent Bodyguard', 'Sacrifice Benevolent Bodyguard: Target creature you control gains protection from the color of your choice until end of turn.', 498, 1),
-('Border Patrol', 'Attacking doesn''t cause Border Patrol to tap.', 499, 1),
-('Cagemail', 'Enchanted creature gets +2/+2 and can''t attack.', 500, 1),
-('Chastise', 'Destroy target attacking creature. You gain life equal to its power.', 501, 1),
-('Commander Eesha', 'Flying, protection from creatures', 502, 1),
-('Funeral Pyre', 'Remove target card in a graveyard from the game. Its owner puts a 1/1 white Spirit creature token with flying into play.', 503, 1),
-('Glory', 'Flying. 2W: Creatures you control gain protection from the color of your choice until end of turn. Play this ability only if Glory is in your graveyard.', 504, 1),
-('Golden Wish', '"Choose an artifact or enchantment card you own from outside the game, reveal that card, and put it into your hand. Remove Golden Wish from the game."', 505, 1),
-('Guided Strike', 'Target creature gets +1/+0 and gains first strike until end of turn. Draw a card.', 506, 1),
-('Lead Astray', 'Tap up to two target creatures.', 507, 1),
-('Nomad Mythmaker', 'W, {tap}: Put target enchant creature card from a graveyard into play enchanting a creature you control. (You control that enchantment.)', 508, 1),
-('Phantom Flock', 'Flying. Phantom Flock comes into play with three +1/+1 counters on it. If damage would be dealt to Phantom Flock, prevent that damage. Remove a +1/+1 counter from Phantom Flock.', 509, 1),
-('Phantom Nomad', 'Phantom Nomad comes into play with two +1/+1 counters on it. If damage would be dealt to Phantom Nomad, prevent that damage. Remove a +1/+1 counter from Phantom Nomad.', 510, 1),
-('Prismatic Strands', 'Prevent all damage that sources of the color of your choice would deal this turn. Flashback-Tap an untapped white creature you control. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 511, 1),
-('Pulsemage Advocate', '{tap}: Return three target cards in an opponent''s graveyard to his or her hand.  Return target creature card from your graveyard to play.', 512, 1),
-('Ray of Revelation', 'Destroy target enchantment. Flashback G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 513, 1),
-('Selfless Exorcist', '{tap}: Remove target creature card in a graveyard from the game. That card deals damage equal to its power to Selfless Exorcist. (A * on a card not in play is 0.)', 514, 1),
-('Shieldmage Advocate', '{tap}: Return target card in an opponent''s graveyard to his or her hand. Prevent all damage that would be dealt to target creature or player this turn by a source of your choice.', 515, 1),
-('Silver Seraph', 'Flying. Threshold - Other creatures you control get +2/+2. (You have threshold as long as seven or more cards are in your graveyard.)', 516, 1),
-('Solitary Confinement', 'At the beginning of your upkeep, sacrifice Solitary Confinement unless you discard a card from your hand.Skip your draw step. You can''t be the target of spells or abilities. Prevent all damage that would be dealt to you.', 517, 1),
-('Soulcatchers'' Aerie', 'Whenever a Bird is put into your graveyard from play, put a feather counter on Soulcatchers'' Aerie. All Birds get +1/+1 for each feather counter on Soulcatchers'' Aerie.', 518, 1),
-('Spirit Cairn', 'Whenever a player discards a card from his or her hand, you may pay W. If you do, put a 1/1 white Spirit creature token with flying into play.', 519, 1),
-('Spurnmage Advocate', '{tap}: Return two target cards in an opponent''s graveyard to his or her hand. Destroy target attacking creature.', 520, 1),
-('Suntail Hawk', 'Flying.', 521, 1),
-('Test of Endurance', 'At the beginning of your upkeep, if you have 50 or more life, you win the game.', 522, 1),
-('Trained Pronghorn', 'Discard a card from your hand: Prevent all damage that would be dealt to Trained Pronghorn this turn.', 523, 1),
-('Unquestioned Authority', 'When Unquestioned Authority comes into play, draw a card. Enchanted creature has protection from creatures.', 524, 1),
-('Valor', 'First strike As long as Valor is in your graveyard and you control a plains, creatures you control have first strike.', 525, 1),
-('Vigilant Sentry', 'Threshold - Vigilant Sentry gets +1/+1 and has "{tap}: Target attacking or blocking creature gets +3/+3 until end of turn." (You have threshold as long as seven or more cards are in your graveyard.)', 526, 1),
-('Aven Fogbringer', 'Flying. When Aven Fogbringer comes into play, return target land to its owner''s hand.', 527, 1),
-('Cephalid Constable', 'Whenever Cephalid Constable deals combat damage to a player, return up to X target permanents that player controls to their owners'' hands, where X is the damage it dealt to that player.', 528, 1),
-('Cephalid Inkshrouder', 'Discard a card from your hand: Cephalid Inkshrouder can''t be the target of spells or abilities and is unblockable this turn.', 529, 1),
-('Cunning Wish', 'Choose an instant card you own from outside the game, reveal that card, and put it into your hand. Remove Cunning Wish from the game.', 530, 1),
-('Defy Gravity', 'Target creature gains flying until end of turn. Flashback U (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 531, 1),
-('Envelop', 'Counter target sorcery spell.', 532, 1),
-('Flash of Insight', 'Look at the top X cards of your library. Put one of them into your hand and the rest on the bottom of your library. Flashback-1U, Remove X blue cards in your graveyard from the game. (You can''t remove Flash of Insight to pay for its own flashback cost.)', 533, 1),
-('Grip of Amnesia', 'Counter target spell unless its controller removes his or her graveyard from the game. Draw a card.', 534, 1),
-('Hapless Researcher', 'Sacrifice Hapless Researcher: Draw a card, then discard a card from your hand.', 535, 1),
-('Keep Watch', 'Draw a card for each attacking creature.', 536, 1),
-('Laquatus''s Disdain', 'Counter target spell played from a graveyard. Draw a card.', 537, 1),
-('Lost in Thought', 'Enchanted creature can''t attack or block and its activated abilities can''t be played. Its controller may remove three cards in his or her graveyard from the game to ignore this ability until end of turn.', 538, 1),
-('Mental Note', 'Put the top two cards of your library into your graveyard. Draw a card.', 539, 1),
-('Mirror Wall', '(Walls can''t attack.) W: Mirror Wall may attack this turn as though it weren''t a Wall. ', 540, 1),
-('Mist of Stagnation', 't untap during their controllers'' untap steps. At the beginning of each player''s upkeep, that player untaps a permanent for each card in his or her graveyard.', 541, 1),
-('Quiet Speculation', 'Search target player''s library for up to three cards with flashback and put them into that player''s graveyard. Then the player shuffles his or her library.', 542, 1),
-('Scalpelexis', 'Flying. Whenever Scalpelexis deals combat damage to a player, that player removes the top four cards of his or her library from the game. If two or more of those cards have the same name, repeat this process.', 543, 1),
-('Spelljack', 'Counter target spell. If it''s countered this way, remove it from the game instead of putting it into its owner''s graveyard. As long as it remains removed from the game, you may play it as though it were in your hand without paying its mana cost. If it has X in its mana cost, X is 0.', 544, 1),
-('Telekinetic Bonds', 'Whenever a player discards a card from his or her hand, you may pay 1U. If you do, tap or untap target permanent.', 545, 1),
-('Web of Inertia', 'At the beginning of each opponent''s combat phase, that player may remove a card in his or her graveyard from the game. If the player t, creatures he or she controls can''t attack you this turn.', 546, 1),
-('Wonder', 'Flying. As long as Wonder is in your graveyard and you control an island, creatures you control have flying.', 547, 1),
-('Wormfang Behemoth', 'When Wormfang Behemoth comes into play, remove all cards in your hand from the game. When Wormfang Behemoth leaves play, return the removed cards to their owner''s hand.', 548, 1),
-('Wormfang Crab', 'Wormfang Crab is unblockable. When Wormfang Crab comes into play, an opponent chooses a permanent you control and removes it from the game. When Wormfang Crab leaves play, return the removed card to play under its owner''s control.', 549, 1),
-('Wormfang Drake', 'Flying. When Wormfang Drake comes into play, sacrifice it unless you remove a creature you control other than Wormfang Drake from the game. When Wormfang Drake leaves play, return the removed card to play under its owner''s control.', 550, 1),
-('Wormfang Manta', 'Flying. When Wormfang Manta comes into play, you skip your next turn. When Wormfang Manta leaves play, you take an extra turn after this one.', 551, 1),
-('Wormfang Newt', 'When Wormfang Newt comes into play, remove a land you control from the game. When Wormfang Newt leaves play, return the removed card to play under its owner''s control.', 552, 1),
-('Wormfang Turtle', 'When Wormfang Turtle comes into play, remove a land you control from the game. When Wormfang Turtle leaves play, return the removed card to play under its owner''s control.', 553, 1),
-('Balthor the Defiled', 'All Minions get +1/+1. BBB, Remove Balthor the Defiled from the game: Each player returns all black and all red creature cards from his or her graveyard to play.', 554, 1),
-('Cabal Therapy', 'Name a nonland card. Target player reveals his or her hand and discards from it all cards with that name. Flashback-Sacrifice a creature. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 555, 1),
-('Cabal Trainee', 'Sacrifice Cabal Trainee: Target creature gets -2/-0 until end of turn.', 556, 1),
-('Death Wish', 'Choose a card you own from outside the game and put it into your hand. You lose half your life, rounded up. Remove Death Wish from the game.', 557, 1),
-('Earsplitting Rats', 'When Earsplitting Rats comes into play, each player discards a card from his or her hand. Discard a card from your hand: Regenerate Earsplitting Rats.', 558, 1),
-('Filth', 'Swampwalk As long as Filth is in your graveyard and you control a swamp, creatures you control have swampwalk.', 559, 1),
-('Grave Consequences', 'Each player may remove any number of cards in his or her graveyard from the game. Then each player loses 1 life for each card in his or her graveyard. Draw a card.', 560, 1),
-('Guiltfeeder', 'Guiltfeeder can''t be blocked except by artifact creatures and/or black creatures. Whenever Guiltfeeder attacks and isn''t blocked, defending player loses 1 life for each card in his or her graveyard.', 561, 1),
-('Masked Gorgon', 'Green creatures and white creatures have protection from Gorgons. Threshold - Masked Gorgon has protection from green and from white. (You have threshold as long as seven or more cards are in your graveyard.)', 562, 1),
-('Morality Shift', 'Exchange your graveyard and library. Then shuffle your library.', 563, 1),
-('Rats'' Feast', 'Remove X target cards in a single graveyard from the game.', 564, 1),
-('Stitch Together', 'Return target creature card from your graveyard to your hand. Threshold - Instead return that card from your graveyard to play. (You have threshold if seven or more cards are in your graveyard.)', 565, 1),
-('Sutured Ghoul', 'Trample. As Sutured Ghoul comes into play, remove any number of creature cards in your graveyard from the game. Sutured Ghoul''s power is equal to the total power of the removed cards and its toughness is equal to their total toughness. (A * on a card not in play is 0.)', 566, 1),
-('Toxic Stench', 'Target nonblack creature gets -1/-1 until end of turn. Threshold - Instead destroy that creature. It can''t be regenerated. (You have threshold if seven or more cards are in your graveyard.)', 567, 1),
-('Treacherous Vampire', 'Flying. Whenever Treacherous Vampire attacks or blocks, sacrifice it unless you remove a card in your graveyard from the game. Threshold - Treacherous Vampire gets +2/+2 and has "When Treacherous Vampire is put into a graveyard from play, you lose 6 life.', 568, 1),
-('Treacherous Werewolf', 'Threshold - Treacherous Werewolf gets +2/+2 and has "When Treacherous Werewolf is put into a graveyard from play, you lose 4 life." (You have threshold as long as seven or more cards are in your graveyard.)', 569, 1),
-('Anger', 'Haste. As long as Anger is in your graveyard and you control a mountain, creatures you control have haste.', 570, 1),
-('Arcane Teachings', 'Enchanted creature gets +2/+2 and has "{tap}: This creature deals 1 damage to target creature or player.', 571, 1),
-('Barbarian Bully', 'Discard a card at random from your hand: Barbarian Bully gets +2/+2 until end of turn unless a player has Barbarian Bully deal 4 damage to him or her. Play this ability only once each turn.', 572, 1),
-('Book Burning', 'Unless a player has Book Burning deal 6 damage to him or her, put the top six cards of target player''slibrary into his or her graveyard.', 573, 1),
-('Breaking Point', 'Destroy all creatures unless a player has Breaking Point deal 6 damage to him or her. Creatures destroyed this way can''t be regenerated.', 574, 1),
-('Browbeat', 'Unless a player has Browbeat deal 5 damage to him or her, target player draws three cards.', 575, 1),
-('Burning Wish', 'Choose a sorcery card you own from outside the game, reveal that card, and put it into your hand. RemoveBurning Wish from the game.', 576, 1),
-('Dwarven Bloodboiler', 'Tap an untapped Dwarf you control: Target creature gets +2/+0 until end of turn.', 577, 1),
-('Dwarven Driller', '{tap}: Destroy target land unless its controller has Dwarven Driller deal 2 damage to him or her.', 578, 1),
-('Dwarven Scorcher', 'Sacrifice Dwarven Scorcher: Dwarven Scorcher deals 1 damage to target creature unless that creature''s controller has Dwarven Scorcher deal 2 damage to him or her.', 579, 1),
-('Ember Shot', 'Ember Shot deals 3 damage to target creature or player. Draw a card.', 580, 1),
-('Firecat Blitz', 'Put X 1/1 red Cat creature tokens with haste into play. Remove them from the game at end of turn. Flashback-RR, Sacrifice X mountains. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 581, 1),
-('Flaring Pain', 'Damage can''t be prevented this turn. Flashback R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 582, 1),
-('Fledgling Dragon', 'Flying. Threshold - Fledgling Dragon gets +3/+3 and has "R: Fledgling Dragon gets +1/+0 until end of turn." (You have threshold as long as seven or more cards are in your graveyard.)', 583, 1),
-('Goretusk Firebeast', 'When Goretusk Firebeast comes into play, it deals 4 damage to target player.', 584, 1),
-('Infectious Rage', 'Enchanted creature gets +2/-1. When enchanted creature is put into a graveyard, choose a creature at random Infectious Rage can enchant. Return Infectious Rage to play enchanting that creature.', 585, 1),
-('Jeska, Warrior Adept', 'First strike, haste. {tap}: Jeska, Warrior Adept deals 1 damage to target creature or player.', 586, 1),
-('Lava Dart', 'Lava Dart deals 1 damage to target creature or player. Flashback-Sacrifice a mountain. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 587, 1),
-('Liberated Dwarf', 'R, Sacrifice Liberated Dwarf: Target green creature gets +1/+0 and gains first strike until end of turn.', 588, 1),
-('Lightning Surge', 'Lightning Surge deals 4 damage to target creature or player. Threshold - Instead Lightning Surge deals 6 damage to that creature or player and the damage can''t be prevented. Flashback 5RR (You may play this card from yourgraveyard for its flashback cost. Then remove it from the game.)', 589, 1),
-('Planar Chaos', 'At the beginning of your upkeep, flip a coin. If you lose the flip, sacrifice Planar Chaos. Whenever a player plays a spell, that player flips a coin. If he or she loses the flip, counter that spell.', 590, 1),
-('Shaman''s Trance', 'Until end of turn, other players can''t play cards from their graveyards, and you may play cards from other players'' graveyards as though they were in your graveyard.', 591, 1),
-('Soulgorger Orgg', 'Trample. When Soulgorger Orgg comes into play, you lose all but 1 life. When Soulgorger Orgg leaves play, you gain life equal to the life you lost when it came into play.', 592, 1),
-('Spellgorger Barbarian', 'When Spellgorger Barbarian comes into play, discard a card at random from your hand. When Spellgorger Barbarian leaves play, draw a card.', 593, 1),
-('Swelter', 'Swelter deals 2 damage to each of two target creatures.', 594, 1),
-('Swirling Sandstorm', 'Threshold - Swirling Sandstorm deals 5 damage to each creature without flying. (You have threshold if seven or more cards are in your graveyard.)', 595, 1),
-('Worldgorger Dragon', 'Flying, trample. When Worldgorger Dragon comes into play, remove all other permanents you control from the game. When Worldgorger Dragon leaves play, return the removed cards to play under their owners'' control.', 596, 1),
-('Anurid Barkripper', 'Threshold - Anurid Barkripper gets +2/+2. (You have threshold as long as seven or more cards are in your graveyard.)', 597, 1),
-('Anurid Swarmsnapper', 'Anurid Swarmsnapper may block as though it had flying. 1G: Anurid Swarmsnapper may block an additional creature this turn.', 598, 1),
-('Battlefield Scrounger', 'Threshold - Put three cards from your graveyard on the bottom of your library: Battlefield Scrounger gets +3/+3 until end of turn. Play this ability only once each turn. (Play this ability only if seven or more cards are in yourgraveyard.)', 599, 1),
-('Brawn', 'Trample. As long as Brawn is in your graveyard and you control a forest, creatures you control have trample.', 600, 1),
-('Canopy Claws', 'Target creature loses flying until end of turn. Flashback G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 601, 1),
-('Centaur Rootcaster', 'Whenever Centaur Rootcaster deals combat damage to a player, you may search your library for a basic land card and put that card into play tapped. If you do, shuffle your library.', 602, 1),
-('Crush of Wurms', 'Put three 6/6 green Wurm creature tokens into play. Flashback 9GGG (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 603, 1),
-('Elephant Guide', 'Enchanted creature gets +3/+3. When enchanted creature is put into a graveyard, put a 3/3 green Elephant creature token into play.', 604, 1),
-('Epic Struggle', 'At the beginning of your upkeep, if you control twenty or more creatures, you win the game.', 605, 1),
-('Erhnam Djinn', 'At the beginning of your upkeep, target non-Wall creature an opponent controls gains forestwalk until your next upkeep.', 606, 1),
-('Exoskeletal Armor', 'Enchanted creature gets +X/+X, where X is the number of creature cards in all graveyards.', 607, 1),
-('Folk Medicine', 'You gain 1 life for each creature you control. Flashback 1W (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 608, 1),
-('Forcemage Advocate', '{tap}: Return target card in an opponent''s graveyard to his or her hand. Put a +1/+1 counter on target creature.', 609, 1),
-('Genesis', 'At the beginning of your upkeep, if Genesis is in your graveyard, you may pay 2G. If you do, return target creature card from your graveyard to your hand."', 610, 1),
-('Giant Warthog', 'Trample', 611, 1),
-('Grizzly Fate', 'Put two 2/2 green Bear creature tokens into play. Threshold - Instead put four 2/2 green Bear creature tokens into play. Flashback 5GG (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 612, 1),
-('Harvester Druid', '{tap}: Add to your mana pool one mana of any color that a land you control could produce.', 613, 1),
-('Ironshell Beetle', 'When Ironshell Beetle comes into play, put a +1/+1 counter on target creature.', 614, 1),
-('Krosan Reclamation', 'Target player shuffles up to two target cards from his or her graveyard into his or her library. Flashback 1G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 615, 1),
-('Krosan Wayfarer', 'Sacrifice Krosan Wayfarer: Put a land card from your hand into play.', 616, 1),
-('Living Wish', 'Choose a creature or land card you own from outside the game, reveal that card, and put it into your hand. Remove Living Wish from the game.', 617, 1),
-('Nantuko Tracer', 'When Nantuko Tracer comes into play, you may put target card from a graveyard on the bottom of its owner''s library.', 618, 1),
-('Nullmage Advocate', '{tap}: Return two target cards in an opponent''s graveyard to his or her hand. Destroy target artifact or enchantment.', 619, 1),
-('Phantom Centaur', 'Protection from black. Phantom Centaur comes into play with three +1/+1 counters on it. If damage would be dealt to Phantom Centaur, prevent that damage. Remove a +1/+1 counter from Phantom Centaur.', 620, 1),
-('Phantom Nantuko', 'Trample. Phantom Nantuko comes into play with two +1/+1 counters on it. If damage would be dealt to Phantom Nantuko, prevent that damage. Remove a +1/+1 counter from Phantom Nantuko. {tap}: Put a +1/+1 counter on Phantom Nantuko.', 621, 1),
-('Phantom Tiger', 'Phantom Tiger comes into play with two +1/+1 counters on it. If damage would be dealt to Phantom Tiger, prevent that damage. Remove a +1/+1 counter from Phantom Tiger.', 622, 1),
-('Seedtime', 'Play Seedtime only during your turn. Take an extra turn after this one if an opponent played a blue spell this turn.', 623, 1),
-('Serene Sunset', 'Prevent all combat damage X target creatures would deal this turn.', 624, 1),
-('Sudden Strength', 'Target creature gets +3/+3 until end of turn. Draw a card.', 625, 1),
-('Sylvan Safekeeper', 'Sacrifice a land: Target creature you control can''t be the target of spells or abilities this turn.', 626, 1),
-('"Thriss, Nantuko Primus"', 'G, {tap}: Target creature gets +5/+5 until end of turn.', 627, 1),
-('Tunneler Wurm', 'Discard a card from your hand: Regenerate Tunneler Wurm.', 628, 1),
-('Venomous Vines', 'Destroy target enchanted permanent.', 629, 1),
-('Anurid Brushhopper', 'Discard two cards from your hand: Remove Anurid Brushhopper from the game. Return it to play under its owner''s control at end of turn.', 630, 1),
-('Hunting Grounds', 'Threshold - Whenever an opponent plays a spell, you may put a creature card from your hand into play. (You have threshold as long as seven or more cards are in your graveyard.)', 631, 1),
-('Mirari''s Wake', 'Creatures you control get +1/+1. Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced.', 632, 1),
-('Phantom Nishoba ', 'Trample. Phantom Nishoba comes into play with seven +1/+1 counters on it. Whenever Phantom Nishoba deals damage, you gain that much life. If damage would be dealt to Phantom Nishoba, prevent that damage. Remove a +1/+1 counter from Phantom Nishoba.', 633, 1),
-('Krosan Verge', 'Krosan Verge comes into play tapped. {tap}: Add one colorless mana to your mana pool. 2, {tap}, Sacrifice Krosan Verge: Search your library for a forest card and a plains card and put them into play tapped. Then shuffle your library.', 634, 1),
-('Nantuko Monastery', '{tap}: Add one colorless mana to your mana pool. Threshold - GW: Nantuko Monastery becomes a 4/4 green and white creature with first strike until end of turn. It''s still a land. (Play this ability only if seven or more cards are in your graveyard.)', 635, 1),
-('Riftstone Portal', '{tap}: Add one colorless mana to your mana pool. As long as Riftstone Portal is in your graveyard, lands you control have "{tap}: Add G or W to your mana pool."', 636, 1),
- ('Manoeuvre acrobatique', 'Exilez une créature ciblée que vous contrôlez, puis renvoyez cette carte sur le champ de bataille sous le contrôle de son propriétaire. Piochez une carte.', 637, 2),
-('Secoureur aérien', 'Vol, vigilance, lien de vie', 638, 2),
-('Rokh tempéther', 'À chaque fois que le Rokh tempéther ou une autre créature arrive sur le champ de bataille sous votre contrôle, vous gagnez e (un marqueur « énergie »). À chaque fois que le Rokh tempéther attaque, vous pouvez payer ee. Si vous faites ainsi, mettez un marqueur +1/+1 sur lui et engagez jusqu''à une créature ciblée que le joueur défenseur contrôle.', 639, 2),
-('Ange de l’inventivité', 'Vol, vigilance, lien de vie Fabrication 2 (Quand cette créature arrive sur le champ de bataille, mettez deux marqueurs +1/+1 sur elle ou créez deux jetons de créature-artefact 1/1 incolore Servo.) Les autres créatures que vous contrôlez gagnent +1/+1.', 640, 2),
-('Autorité des consuls', 'Les créatures que vos adversaires contrôlent arrivent sur le champ de bataille engagées. À chaque fois qu''une créature arrive sur le champ de bataille sous le contrôle d''un adversaire, vous gagnez 1 point de vie.', 641, 2),
-('Mécanicienne de la volière', 'Quand la Mécanicienne de la volière arrive sur le champ de bataille, vous pouvez renvoyer un autre permanent que vous contrôlez dans la main de son propriétaire.', 642, 2),
-('Construit pour durer', 'La créature ciblée gagne +2/+2 jusqu''à la fin du tour. Si c''est une créature-artefact, elle acquiert l''indestructible jusqu''à la fin du tour. (Les blessures et les effets qui disent « détruisez » ne la détruisent pas.)', 643, 2),
-('Capturée par le consultant', 'La créature enchantée ne peut pas attaquer. À chaque fois qu''un adversaire lance un sort, s''il a une seule cible, remplacez la cible par la créature enchantée si possible.', 644, 2),
-('Carcasse mécanique cataclysme', 'Quand la Carcasse mécanique cataclysmique arrive sur le champ de bataille, chaque joueur choisit un artefact, une créature, un enchantement et un planeswalker parmi les permanents non-terrain qu''il contrôle, puis sacrifie le reste.', 645, 2),
-('Surveillance du consulat', 'Quand la Surveillance du consulat arrive sur le champ de bataille, vous gagnez eeee (quatre marqueurs « énergie »). Payez ee : Prévenez toutes les blessures qui devraient vous être infligées ce tour-ci par une source de votre choix.', 646, 2),
-('Gardebouclier du consul', 'Quand le Gardebouclier du consul arrive sur le champ de bataille, vous gagnez ee (deux marqueurs « énergie »). À chaque fois que le Gardebouclier du consul attaque, vous pouvez payer e. Si vous faites ainsi, une autre créature attaquante ciblée acquiert l''indestructible jusqu''à la fin du tour.', 647, 2),
-('Faucon des courants', 'Quand le Faucon des courants arrive sur le champ de bataille, vous gagnez ee (deux marqueurs « énergie »). À chaque fois que le Faucon des courants attaque, vous pouvez payer e. Si vous faites ainsi, une autre créature attaquante ciblée acquiert le vol jusqu''à la fin du tour.', 648, 2),
-('Garde de la foire', 'Quand le Garde de la foire arrive sur le champ de bataille, exilez une créature ciblée qu''un adversaire contrôle jusqu''à ce que le Garde de la foire quitte le champ de bataille.', 649, 2),
-('Fragmentation', 'Détruisez l''artefact ou l''enchantement avec un coût converti de mana inférieur ou égal à 4 ciblé.', 650, 2),
-('Acrobatic Maneuver', 'Exile target creature you control, then return that card to the battlefield under its owner''s control. Draw a card.', 637, 1),
-('Aerial Responder', 'Flying, vigilance, lifelink', 638, 1),
-('Aetherstorm Roc', 'Whenever Aetherstorm Roc or another creature enters the battlefield under your control, you get {E} (an energy counter). Whenever Aetherstorm Roc attacks, you may pay {E}{E}. If you do, put a +1/+1 counter on it and tap up to one target creature defending player controls.', 639, 1),
-('Angel of Invention', 'Flying, vigilance, lifelink Fabricate 2 (When this creature enters the battlefield, put two +1/+1 counters on it or create two 1/1 colorless Servo artifact creature tokens.) Other creatures you control get +1/+1.', 640, 1),
-('Authority of the Consuls', 'Creatures your opponents control enter the battlefield tapped. Whenever a creature enters the battlefield under an opponent''s control, you gain 1 life.', 641, 1),
-('Aviary Mechanic', 'When Aviary Mechanic enters the battlefield, you may return another permanent you control to its owner''s hand.', 642, 1),
-('Built to Last', 'Target creature gets +2/+2 until end of turn. If it''s an artifact creature, it gains indestructible until end of turn. (Damage and effects that say "destroy" don''t destroy it.)', 643, 1),
-('Captured by the Consulate', 'Enchant creature you don''t control Enchanted creature can''t attack. Whenever an opponent casts a spell, if it has a single target, change the target to enchanted creature if able.', 644, 1),
-('Cataclysmic Gearhulk', 'When Cataclysmic Gearhulk enters the battlefield, each player chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents he or she controls, then sacrifices the rest.', 645, 1),
-('Consulate Surveillance', 'When Consulate Surveillance enters the battlefield, you get {E}{E}{E}{E} (four energy counters). Pay {E}{E}: Prevent all damage that would be dealt to you this turn by a source of your choice.', 646, 1),
-('Consul''s Shieldguard', 'When Consul''s Shieldguard enters the battlefield, you get ee (two energy counters). Whenever Consul''s Shieldguard attacks, you may pay e. If you do, another target attacking creature gains indestructible until end of turn.', 647, 1),
-('Eddytrail Hawk', 'When Eddytrail Hawk enters the battlefield, you get ee (two energy counters). Whenever Eddytrail Hawk attacks, you may pay e. If you do, another target attacking creature gains flying until end of turn.', 648, 1),
-('Fairgrounds Warden', 'When Fairgrounds Warden enters the battlefield, exile target creature an opponent controls until Fairgrounds Warden leaves the battlefield.', 649, 1),
-('Fragmentize', 'Destroy target artifact or enchantment with converted mana cost 4 or less.', 650, 1);
+INSERT INTO carte_langue VALUES ('Aegis of Honor', '1: The next time an instant or sorcery spell would deal damage to you this turn, that spell deals that damage to its controller instead. ', 1, 1);
+INSERT INTO carte_langue VALUES ('Ancestral Tribute', 'You gain 2 life for each card in your graveyard. Flashback 9WWW (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 2, 1);
+INSERT INTO carte_langue VALUES ('Angelic Wall', '(Walls can''t attack.) Flying ', 3, 1);
+INSERT INTO carte_langue VALUES ('Animal Boneyard', 'Enchanted land has "Tap, Sacrifice a creature: You gain life equal to that creature''s toughness." ', 4, 1);
+INSERT INTO carte_langue VALUES ('Auramancer', 'When Auramancer comes into play, you may return target enchantment card from your graveyard to your hand. ', 5, 1);
+INSERT INTO carte_langue VALUES ('Aven Archer', 'Flying 2W, Tap: Aven Archer deals 2 damage to target attacking or blocking creature. ', 6, 1);
+INSERT INTO carte_langue VALUES ('Aven Cloudchaser', 'Flying When Aven Cloudchaser comes into play, destroy target enchantment. ', 7, 1);
+INSERT INTO carte_langue VALUES ('Aven Flock', 'Flying W: Aven Flock gets +0/+1 until end of turn. ', 8, 1);
+INSERT INTO carte_langue VALUES ('Aven Shrine', 'Whenever a player plays a spell, that player gains X life, where X is the number of cards in all graveyards with the same name as that spell. ', 9, 1);
+INSERT INTO carte_langue VALUES ('Balancing Act', 'Each player chooses a number of permanents he or she controls equal to the number of permanents controlled by the player who controls the fewest, then sacrifices the rest. Each player discards cards from his or her hand the same way. ', 10, 1);
+INSERT INTO carte_langue VALUES ('Beloved Chaplain', 'Protection from creatures ', 11, 1);
+INSERT INTO carte_langue VALUES ('Blessed Orator', 'Other creatures you control get +0/+1 ', 12, 1);
+INSERT INTO carte_langue VALUES ('Cantivore', 'Attacking doesn''t cause Cantivore to tap. Cantivore''s power and toughness are equal to the number of enchantment cards in all graveyards. ', 13, 1);
+INSERT INTO carte_langue VALUES ('Cease-Fire', 'Target player can''t play creature spells this turn. Draw a card. ', 14, 1);
+INSERT INTO carte_langue VALUES ('Confessor', 'Whenever a player discards a card from his or her hand, you may gain 1 life. ', 15, 1);
+INSERT INTO carte_langue VALUES ('Dedicated Martyr', 'W, Sacrifice Dedicated Martyr: You gain 3 life. ', 16, 1);
+INSERT INTO carte_langue VALUES ('Delaying Shield', 'If you would be dealt damage, put that many delay counters on Delaying Shield instead. At the beginning of your upkeep, remove all delay counters from Delaying Shield. For each delay counter removed this way, you lose 1 life unless you pay 1W. ', 17, 1);
+INSERT INTO carte_langue VALUES ('Devoted Caretaker', 'W, Tap: Target permanent you control gains protection from instant spells and from sorcery spells until end of turn. ', 18, 1);
+INSERT INTO carte_langue VALUES ('Divine Sacrament', 'White creatures get +1/+1. Threshold - White creatures get an additional +1/+1. (You have threshold as long as seven or more cards are in your graveyard.) ', 19, 1);
+INSERT INTO carte_langue VALUES ('Dogged Hunter', 'Tap: Destroy target creature token. ', 20, 1);
+INSERT INTO carte_langue VALUES ('Earnest Fellowship', 'Each creature has protection from its colors. ', 21, 1);
+INSERT INTO carte_langue VALUES ('Embolden', 'Prevent the next 4 damage that would be dealt this turn to any number of target creatures and/or players divided as you choose. Flashback 1W (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 22, 1);
+INSERT INTO carte_langue VALUES ('Gallantry', 'Target blocking creature gets +4/+4 until end of turn. Draw a card. ', 23, 1);
+INSERT INTO carte_langue VALUES ('Graceful Antelope', 'Plainswalk Whenever Graceful Antelope deals combat damage to a player, you may have target land become a plains until Graceful Antelope leaves play. ', 24, 1);
+INSERT INTO carte_langue VALUES ('Hallowed Healer', 'Tap: Prevent the next 2 damage that would be dealt to target creature or player this turn. Threshold - Tap: Prevent the next 4 damage that would be dealt to target creature or player this turn. (Play this ability only if seven or more cards are in your graveyard.) ', 25, 1);
+INSERT INTO carte_langue VALUES ('Karmic Justice', 'Whenever a spell or ability an opponent controls destroys a noncreature permanent you control, you may destroy target permanent that opponent controls. ', 26, 1);
+INSERT INTO carte_langue VALUES ('Kirtar''s Desire', 'Enchanted creature can''t attack. Threshold - Enchanted creature can''t block. (You have threshold as long as seven or more cards are in your graveyard.) ', 27, 1);
+INSERT INTO carte_langue VALUES ('Kirtar''s Wrath', 'Destroy all creatures. They can''t be regenerated. Threshold - Instead destroy all creatures, then put two 1/1 white Spirit creature tokens with flying into play. Creatures destroyed this way can''t be regenerated. (You have threshold if seven or more cards are in your graveyard.) ', 28, 1);
+INSERT INTO carte_langue VALUES ('Lieutenant Kirtar', 'Flying 1W, Sacrifice Lieutenant Kirtar: Remove target attacking creature from the game. ', 29, 1);
+INSERT INTO carte_langue VALUES ('Life Burst', 'Target player gains 4 life, then gains 4 life for each Life Burst card in each graveyard. ', 30, 1);
+INSERT INTO carte_langue VALUES ('Luminous Guardian', 'W: Luminous Guardian gets +0/+1 until end of turn. 2: Luminous Guardian may block an additional creature this turn. ', 31, 1);
+INSERT INTO carte_langue VALUES ('Master Apothecary', 'Tap an untapped Cleric you control: Prevent the next 2 damage that would be dealt to target creature or player this turn. ', 32, 1);
+INSERT INTO carte_langue VALUES ('Mystic Crusader', 'Protection from black and from red Threshold - Mystic Crusader gets +1/+1 and has flying. (You have threshold as long as seven or more cards are in your graveyard.) ', 33, 1);
+INSERT INTO carte_langue VALUES ('Mystic Penitent', 'Attacking doesn''t cause Mystic Penitent to tap. Threshold - Mystic Penitent gets +1/+1 and has flying. (You have threshold as long as seven or more cards are in your graveyard.) ', 34, 1);
+INSERT INTO carte_langue VALUES ('Mystic Visionary', 'Threshold - Mystic Visionary has flying. (You have threshold as long as seven or more cards are in your graveyard.) ', 35, 1);
+INSERT INTO carte_langue VALUES ('Mystic Zealot', 'Threshold - Mystic Zealot gets +1/+1 and has flying. (You have threshold as long as seven or more cards are in your graveyard.) ', 36, 1);
+INSERT INTO carte_langue VALUES ('Nomad Decoy', 'W, Tap: Tap target creature. Threshold - WW, Tap: Tap two target creatures. (Play this ability only as long as seven or more cards are in your graveyard.) ', 37, 1);
+INSERT INTO carte_langue VALUES ('Patrol Hound', 'Discard a card from your hand: Patrol Hound gains first strike until end of turn. ', 38, 1);
+INSERT INTO carte_langue VALUES ('Pianna, Nomad Captain', 'Whenever Pianna, Nomad Captain attacks, attacking creatures get +1/+1 until end of turn. ', 39, 1);
+INSERT INTO carte_langue VALUES ('Pilgrim of Justice', 'Protection from red W, Sacrifice Pilgrim of Justice: The next time a red source of your choice would deal damage this turn, prevent that damage. ', 40, 1);
+INSERT INTO carte_langue VALUES ('Pilgrim of Virtue', 'Protection from black W, Sacrifice Pilgrim of Virtue: The next time a black source of your choice would deal damage this turn, prevent that damage. ', 41, 1);
+INSERT INTO carte_langue VALUES ('Ray of Distortion', 'Destroy target artifact or enchantment. Flashback 4WW (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 42, 1);
+INSERT INTO carte_langue VALUES ('Resilient Wanderer', 'First strike Discard a card from your hand: Resilient Wanderer gains protection from the color of your choice until end of turn. ', 43, 1);
+INSERT INTO carte_langue VALUES ('Sacred Rites', 'Discard any number of cards from your hand. Creatures you control get +0/+1 until end of turn for each card discarded this way. ', 44, 1);
+INSERT INTO carte_langue VALUES ('Second Thoughts', 'Remove target attacking creature from the game. Draw a card. ', 45, 1);
+INSERT INTO carte_langue VALUES ('Shelter', 'Target creature you control gains protection from the color of your choice until end of turn. Draw a card. ', 46, 1);
+INSERT INTO carte_langue VALUES ('Soulcatcher', 'Flying Whenever a creature with flying is put into a graveyard from play, put a +1/+1 counter on Soulcatcher. ', 47, 1);
+INSERT INTO carte_langue VALUES ('Sphere of Duty', 'If a green source would deal damage to you, prevent 2 of that damage. ', 48, 1);
+INSERT INTO carte_langue VALUES ('Sphere of Grace', 'If a black source would deal damage to you, prevent 2 of that damage. ', 49, 1);
+INSERT INTO carte_langue VALUES ('Sphere of Law', 'If a red source would deal damage to you, prevent 2 of that damage. ', 50, 1);
+INSERT INTO carte_langue VALUES ('Sphere of Reason', 'If a blue source would deal damage to you, prevent 2 of that damage. ', 51, 1);
+INSERT INTO carte_langue VALUES ('Sphere of Truth', 'If a white source would deal damage to you, prevent 2 of that damage. ', 52, 1);
+INSERT INTO carte_langue VALUES ('Spiritualize', 'Until end of turn, whenever target creature deals damage, you gain that much life.  Draw a card. ', 53, 1);
+INSERT INTO carte_langue VALUES ('Tattoo Ward', 'Enchanted creature gets +1/+1 and has protection from enchantments. This effect doesn''t remove Tattoo Ward. Sacrifice Tattoo Ward: Destroy target enchantment. ', 54, 1);
+INSERT INTO carte_langue VALUES ('Testament of Faith', 'oX: Testament of Faith becomes an X/X Wall creature until end of turn. It''s still an enchantment. (Walls can''t attack.) ', 55, 1);
+INSERT INTO carte_langue VALUES ('Tireless Tribe', 'Discard a card from your hand: Tireless Tribe gets +0/+4 until end of turn. ', 56, 1);
+INSERT INTO carte_langue VALUES ('Wayward Angel', 'Flying Attacking doesn''t cause Wayward Angel to tap. Threshold - Wayward Angel gets +3/+3, is black, has trample, and has "At the beginning of your upkeep, sacrifice a creature". (You have threshold as long as seven or more cards are in your graveyard.) ', 57, 1);
+INSERT INTO carte_langue VALUES ('Aboshan, Cephalid Emperor', 'Tap an untapped Cephalid you control: Tap target permanent. UUU: Tap all creatures without flying. ', 58, 1);
+INSERT INTO carte_langue VALUES ('Aboshan''s Desire', 'Enchanted creature has flying. Threshold - Enchanted creature can''t be the target of spells or abilities. (You have threshold as long as seven or more card are in your graveyard.) ', 59, 1);
+INSERT INTO carte_langue VALUES ('Æther Burst', 'Return up to X target creatures to their owners'' hands, where X is one plus the number of Æther Burst cards in all graveyards as you play Æther Burst. ', 60, 1);
+INSERT INTO carte_langue VALUES ('Amugaba', 'Flying 2U, Discard a card from your hand: Return Amugaba to its owner''s hand. ', 61, 1);
+INSERT INTO carte_langue VALUES ('Aura Graft', 'Move target enchantment that''s enchanting a permanent to another permanent it can enchant. Gain control of that enchantment. (This effect doesn''t end at end of turn.) ', 62, 1);
+INSERT INTO carte_langue VALUES ('Aven Fisher', 'Flying When Aven Fisher is put into a graveyard from play, you may draw a card. ', 63, 1);
+INSERT INTO carte_langue VALUES ('Aven Smokeweaver', 'Flying, protection from red ', 64, 1);
+INSERT INTO carte_langue VALUES ('Aven Windreader', 'Flying 1U: Target player reveals the top card of his or her library. ', 65, 1);
+INSERT INTO carte_langue VALUES ('Balshan Beguiler', 'Whenever Balshan Beguiler deals combat damage to a player, that player reveals the top two cards of his or her library. You choose one of those cards and put it into his or her graveyard. ', 66, 1);
+INSERT INTO carte_langue VALUES ('Balshan Griffin', 'Flying 1U, Discard a card from your hand: Return Balshan Griffin to its owner''s hand. ', 67, 1);
+INSERT INTO carte_langue VALUES ('Bamboozle', 'Target player reveals the top four cards of his or her library. You choose two of those cards and put them into his or her graveyard. Put the rest on top of his or her library in any order. ', 68, 1);
+INSERT INTO carte_langue VALUES ('Battle of Wits', 'At the beginning of your upkeep, if you have 200 or more cards in your library, you win the game. ', 69, 1);
+INSERT INTO carte_langue VALUES ('Careful Study', 'Draw two cards, then discard two cards from your hand. ', 70, 1);
+INSERT INTO carte_langue VALUES ('Cephalid Broker', 'Tap: Target player draws two cards, then discards two cards from his or her hand. ', 71, 1);
+INSERT INTO carte_langue VALUES ('Cephalid Looter', 'Tap: Target player draws a card, then discards a card from his or her hand. ', 72, 1);
+INSERT INTO carte_langue VALUES ('Cephalid Retainer', 'UU: Tap target creature without flying. ', 73, 1);
+INSERT INTO carte_langue VALUES ('Cephalid Scout', 'Flying 2U, Sacrifice a land: Draw a card. ', 74, 1);
+INSERT INTO carte_langue VALUES ('Cephalid Shrine', 'Whenever a player plays a spell, counter that spell unless that player pays oX, where X is the number of cards in all graveyards with the same name as the spell. ', 75, 1);
+INSERT INTO carte_langue VALUES ('Chamber of Manipulation', 'Enchanted land has "Tap, Discard a card from your hand: Gain control of target creature until end of turn." ', 76, 1);
+INSERT INTO carte_langue VALUES ('Cognivore', 'Flying Cognivore''s power and toughness are each equal to the number of instant cards in all graveyards. ', 77, 1);
+INSERT INTO carte_langue VALUES ('Concentrate', 'Draw three cards. ', 78, 1);
+INSERT INTO carte_langue VALUES ('Cultural Exchange', 'Choose any number of creatures target player controls. Choose the same number of creatures another target player controls. Those players exchange control of those creatures. (This effect doesn''t end at end of turn.) ', 79, 1);
+INSERT INTO carte_langue VALUES ('Deluge', 'Tap all creatures without flying. ', 80, 1);
+INSERT INTO carte_langue VALUES ('Dematerialize', 'Return target permanent to its owner''s hand. Flashback 5UU (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 81, 1);
+INSERT INTO carte_langue VALUES ('Divert', 'Change the target of target spell with a single target unless that spell''s controller pays 2. ', 82, 1);
+INSERT INTO carte_langue VALUES ('Dreamwinder', 'Dreamwinder can''t attack unless defending player controls an island. U, Sacrifice an island: Target land becomes an island until end of turn. ', 83, 1);
+INSERT INTO carte_langue VALUES ('Escape Artist', 'Escape Artist is unblockable. U, Discard a card from your hand: Return Escape Artist to its owner''s hand. ', 84, 1);
+INSERT INTO carte_langue VALUES ('Extract', 'Search target player''s library for a card, and remove that card from the game. Then that player shuffles his or her library. ', 85, 1);
+INSERT INTO carte_langue VALUES ('Fervent Denial', 'Counter target spell. Flashback 5UU (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 86, 1);
+INSERT INTO carte_langue VALUES ('Immobilizing Ink', 'Enchanted creature doesn''t untap during its controller''s untap step. Enchanted creature has "1, Discard a card from your hand: Untap this creature." ', 87, 1);
+INSERT INTO carte_langue VALUES ('Laquatus''s Creativity', 'Target player draws cards equal to the number of cards in that player''s hand, then discards that many cards. ', 88, 1);
+INSERT INTO carte_langue VALUES ('Patron Wizard', 'Tap an untapped Wizard you control: Counter target spell unless its controller pays 1. ', 89, 1);
+INSERT INTO carte_langue VALUES ('Pedantic Learning', 'Whenever a land card is put into your graveyard from your library, you may pay 1. If you do, draw a card. ', 90, 1);
+INSERT INTO carte_langue VALUES ('Peek', 'Look at target player''s hand. Draw a card. ', 91, 1);
+INSERT INTO carte_langue VALUES ('Persuasion', 'You control enchanted creature. ', 92, 1);
+INSERT INTO carte_langue VALUES ('Phantom Whelp', 'When Phantom Whelp attacks or blocks, return it to its owner''s hand at end of combat. ', 93, 1);
+INSERT INTO carte_langue VALUES ('Predict', 'Name a card, then put the top card of target player''s library into his or her graveyard. If that card is the named card, you draw two cards. Otherwise, you draw a card. ', 94, 1);
+INSERT INTO carte_langue VALUES ('Psionic Gift', 'Enchanted creature has "Tap: This creature deals 1 damage to target creature or player." ', 95, 1);
+INSERT INTO carte_langue VALUES ('Pulsating Illusion', 'Flying Discard a card from your hand: Pulsating Illusion gets +4/+4 until end of turn. Play this ability only once each turn. ', 96, 1);
+INSERT INTO carte_langue VALUES ('Puppeteer', 'U, Tap: Tap or untap target creature. ', 97, 1);
+INSERT INTO carte_langue VALUES ('Repel', 'Put target creature on top of its owner''s library. ', 98, 1);
+INSERT INTO carte_langue VALUES ('Rites of Refusal', 'Discard any number of cards from your hand. Counter target spell unless its controller pays 3 for each card discarded this way. ', 99, 1);
+INSERT INTO carte_langue VALUES ('Scrivener', 'When Scrivener comes into play, you may return target instant card from your graveyard to your hand. ', 100, 1);
+INSERT INTO carte_langue VALUES ('Shifty Doppelganger', '3U, Remove Shifty Doppelganger from the game: Put a creature card from your hand into play. That creature gains haste until end of turn. At end of turn, sacrifice that creature. If you do, return Shifty Doppelganger to play. ', 101, 1);
+INSERT INTO carte_langue VALUES ('Standstill', 'When a player plays a spell, sacrifice Standstill. If you do, then each of that player''s opponents draws three cards. ', 102, 1);
+INSERT INTO carte_langue VALUES ('Syncopate', 'Counter target spell unless its controller pays oX. If that spell is countered this way, remove it from the game instead of putting it into its owner''s graveyard. ', 103, 1);
+INSERT INTO carte_langue VALUES ('Think Tank', 'At the beginning of your upkeep, look at the top card of your library. You may put that card into your graveyard. ', 104, 1);
+INSERT INTO carte_langue VALUES ('Thought Devourer', 'Flying Your maximum hand size is reduced by four. ', 105, 1);
+INSERT INTO carte_langue VALUES ('Thought Eater', 'Flying Your maximum hand size is reduced by three. ', 106, 1);
+INSERT INTO carte_langue VALUES ('Thought Nibbler', 'Flying Your maximum hand size is reduced by two. ', 107, 1);
+INSERT INTO carte_langue VALUES ('Time Stretch', 'Target player takes two extra turns after this one. ', 108, 1);
+INSERT INTO carte_langue VALUES ('Touch of Invisibility', 'Target creature is unblockable this turn. Draw a card. ', 109, 1);
+INSERT INTO carte_langue VALUES ('Traumatize', 'Target player puts the top half of his or her library, rounded down, into his or her graveyard. ', 110, 1);
+INSERT INTO carte_langue VALUES ('Treetop Sentinel', 'Flying, protection from green ', 111, 1);
+INSERT INTO carte_langue VALUES ('Unifying Theory', 'Whenever a player plays a spell, that player may pay 2. If the player does, he or she draws a card. ', 112, 1);
+INSERT INTO carte_langue VALUES ('Upheaval', 'Return all permanents to their owners'' hands. ', 113, 1);
+INSERT INTO carte_langue VALUES ('Words of Wisdom', 'You draw two cards, then each other player draws a card. ', 114, 1);
+INSERT INTO carte_langue VALUES ('Afflict', 'Target creature gets -1/-1 until end of turn. Draw a card. ', 115, 1);
+INSERT INTO carte_langue VALUES ('Bloodcurdler', 'Flying At the beginning of your upkeep, put the top card of your library into your graveyard. Threshold - Bloodcurdler gets +1/+1 and has "At the end of your turn, remove two cards in your graveyard from the game." (You have threshold as long as seven or more cards are in your graveyard.) ', 116, 1);
+INSERT INTO carte_langue VALUES ('Braids, Cabal Minion', 'At the beginning of each player''s upkeep, that player sacrifices an artifact, creature, or land. ', 117, 1);
+INSERT INTO carte_langue VALUES ('Buried Alive', 'Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library. ', 118, 1);
+INSERT INTO carte_langue VALUES ('Cabal Inquisitor', 'Threshold - 1B, Tap, Remove two cards in your graveyard from the game: Target player discards a card from his or her hand. Play this ability only any time you could play a sorcery. (Play this ability only if seven or more cards are in your graveyard.) ', 119, 1);
+INSERT INTO carte_langue VALUES ('Cabal Patriarch', '2B, Sacrifice a creature: Target creature gets -2/-2 until end of turn. 2B, Remove a creature card in your graveyard from the game: Target creature gets -2/-2 until end of turn. ', 120, 1);
+INSERT INTO carte_langue VALUES ('Cabal Shrine', 'Whenever a player plays a spell, that player discards X cards from his or her hand, where X is the number of cards in all graveyards with the same name as that spell. ', 121, 1);
+INSERT INTO carte_langue VALUES ('Caustic Tar', 'Enchanted land has "Tap: Target player loses 3 life." ', 122, 1);
+INSERT INTO carte_langue VALUES ('Childhood Horror', 'Flying Threshold - Childhood Horror gets +2/+2 and can''t block. (You have threshold as long as seven or more cards are in your graveyard.) ', 123, 1);
+INSERT INTO carte_langue VALUES ('Coffin Purge', 'Remove target card in a graveyard from the game. Flashback B (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 124, 1);
+INSERT INTO carte_langue VALUES ('Crypt Creeper', 'Sacrifice Crypt Creeper: Remove target card in a graveyard from the game. ', 125, 1);
+INSERT INTO carte_langue VALUES ('Cursed Monstrosity', 'Flying Whenever Cursed Monstrosity becomes the target of a spell or ability, sacrifice it unless you discard a land card from your hand. ', 126, 1);
+INSERT INTO carte_langue VALUES ('Decaying Soil', 'At the beginning of your upkeep, remove a card in your graveyard from the game. Threshold - Whenever a nontoken creature is put into your graveyard from play, you may pay 1. If you do, return that card to your hand. (You have threshold as long as seven or more cards are in your graveyard.) ', 127, 1);
+INSERT INTO carte_langue VALUES ('Decompose', 'Remove up to three target cards in a single graveyard from the game. ', 128, 1);
+INSERT INTO carte_langue VALUES ('Diabolic Tutor', 'Search your library for a card, and put that card into your hand. Then shuffle your library. ', 129, 1);
+INSERT INTO carte_langue VALUES ('Dirty Wererat', 'B, Discard a card from your hand: Regenerate Dirty Wererat. Threshold - Dirty Wererat gets +2/+2 and can''t block. (You have threshold as long as seven or more cards are in your graveyard.) ', 130, 1);
+INSERT INTO carte_langue VALUES ('Dusk Imp', 'Flying ', 131, 1);
+INSERT INTO carte_langue VALUES ('Entomb', 'Search your library for a card and put that card into your graveyard. Then shuffle your library. ', 132, 1);
+INSERT INTO carte_langue VALUES ('Execute', 'Destroy target white creature. It can''t be regenerated. Draw a card. ', 133, 1);
+INSERT INTO carte_langue VALUES ('Face of Fear', '2B, Discard a card from your hand: Face of Fear can''t be blocked this turn except by artifact creatures and/or black creatures. ', 134, 1);
+INSERT INTO carte_langue VALUES ('Famished Ghoul', '1B, Sacrifice Famished Ghoul: Remove up to two target cards in a single graveyard from the game. ', 135, 1);
+INSERT INTO carte_langue VALUES ('Filthy Cur', 'Whenever Filthy Cur is dealt damage, you lose that much life. ', 136, 1);
+INSERT INTO carte_langue VALUES ('Fledgling Imp', 'B, Discard a card from your hand: Fledgling Imp gains flying until end of turn. ', 137, 1);
+INSERT INTO carte_langue VALUES ('Frightcrawler', 'Frightcrawler can''t be blocked except by artifact creatures and/or black creatures. Threshold - Frightcrawler gets +2/+2 and can''t block. (You have threshold as long as seven or more cards are in your graveyard.) ', 138, 1);
+INSERT INTO carte_langue VALUES ('Ghastly Demise', 'Destroy target nonblack creature if its toughness is less than or equal to the number of cards in your graveyard. ', 139, 1);
+INSERT INTO carte_langue VALUES ('Gravedigger', 'When Gravedigger comes into play, you may return target creature card from your graveyard to your hand. ', 140, 1);
+INSERT INTO carte_langue VALUES ('Gravestorm', 'At the beginning of your upkeep, target opponent may remove a card in his or her graveyard from the game. If that player doesn''t, you may draw a card. ', 141, 1);
+INSERT INTO carte_langue VALUES ('Haunting Echoes', 'Remove all cards in target player''s graveyard other than basic land cards from the game. Search that player''s library for all cards with the same name as cards removed this way, and remove them from the game. Then that player shuffles his or her library. ', 142, 1);
+INSERT INTO carte_langue VALUES ('Hint of Insanity', 'Target player reveals his or her hand. That player discards from it all nonland cards with the same name as another card in his or her hand. ', 143, 1);
+INSERT INTO carte_langue VALUES ('Infected Vermin', '2B: Infected Vermin deals 1 damage to each creature and each player.  Threshold - 3B: Infected Vermin deals 3 damage to each creature and each player. (Play this ability only if seven or more cards are in your graveyard.) ', 144, 1);
+INSERT INTO carte_langue VALUES ('Innocent Blood', 'Each player sacrifices a creature. ', 145, 1);
+INSERT INTO carte_langue VALUES ('Last Rites', 'Discard any number of cards from your hand. Target player reveals his or her hand, then you choose a nonland card from it for each card discarded this way. That player discards those cards. ', 146, 1);
+INSERT INTO carte_langue VALUES ('Malevolent Awakening', '1BB, Sacrifice a creature: Return target creature card from your graveyard to your hand. ', 147, 1);
+INSERT INTO carte_langue VALUES ('Mind Burst', 'Target player discards X cards from his or her hand, where X is one plus the number of Mind Burst cards in all graveyards. ', 148, 1);
+INSERT INTO carte_langue VALUES ('Mindslicer', 'When Mindslicer is put into a graveyard from play, each player discards his or her hand. ', 149, 1);
+INSERT INTO carte_langue VALUES ('Morbid Hunger', 'Morbid Hunger deals 3 damage to target creature or player.  You gain 3 life. Flashback 7BB (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 150, 1);
+INSERT INTO carte_langue VALUES ('Morgue Theft', 'Return target creature card from your graveyard to your hand. Flashback 4B (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 151, 1);
+INSERT INTO carte_langue VALUES ('Mortivore', 'Mortivore''s power and toughness are each equal to the number of creature cards in all graveyards. B: Regenerate Mortivore. ', 152, 1);
+INSERT INTO carte_langue VALUES ('Nefarious Lich', 'If you would be dealt damage, remove that many cards in your graveyard from the game instead. If you can''t, you lose the game. If you would gain life, draw that many cards instead. When Nefarious Lich leaves play, you lose the game. ', 153, 1);
+INSERT INTO carte_langue VALUES ('Overeager Apprentice', 'Discard a card from your hand, Sacrifice Overeager Apprentice: Add BBB to your mana pool. ', 154, 1);
+INSERT INTO carte_langue VALUES ('Painbringer', 'Tap, Remove any number of cards in your graveyard from the game: Target creature gets -X/-X until end of turn, where X is the number of cards removed this way. ', 155, 1);
+INSERT INTO carte_langue VALUES ('Patriarch''s Desire', 'Enchanted creature gets +2/-2. Threshold - Enchanted creature gets an additional +2/-2. (You have threshold as long as seven or more cards are in your graveyard.) ', 156, 1);
+INSERT INTO carte_langue VALUES ('Repentant Vampire', 'Flying Whenever a creature dealt damage by Repentant Vampire this turn is put into a graveyard, put a +1/+1 counter on Repentant Vampire. Threshold - Repentant Vampire is white and has "Tap: Destroy target black creature." ', 157, 1);
+INSERT INTO carte_langue VALUES ('Rotting Giant', 'Whenever Rotting Giant attacks or blocks sacrifice it unless you remove a card in your graveyard from the game. ', 158, 1);
+INSERT INTO carte_langue VALUES ('Sadistic Hypnotist', 'Sacrifice a creature: Target player discards two cards from his or her hand. Play this ability only any time you could play a sorcery. ', 159, 1);
+INSERT INTO carte_langue VALUES ('Screams of the Damned', '1B, Remove a card in your graveyard from the game: Screams of the Damned deals 1 damage to each creature and each player. ', 160, 1);
+INSERT INTO carte_langue VALUES ('Skeletal Scrying', 'As an additional cost to play Skeletal Scrying, remove X cards in your graveyard from the game. You draw X cards and you lose X life. ', 161, 1);
+INSERT INTO carte_langue VALUES ('Skull Fracture', 'Target player discards a card from his or her hand. Flashback 3B (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 162, 1);
+INSERT INTO carte_langue VALUES ('Stalking Bloodsucker', 'Flying 1B, Discard a card from your hand: Stalking Bloodsucker gets +2/+2 until end of turn. ', 163, 1);
+INSERT INTO carte_langue VALUES ('Tainted Pact', 'Remove the top card of your library from the game. You may put that card into your hand unless it has the same name as another card removed this way. Repeat this process until you put a card into your hand or you remove two cards with the same name, whichever comes first. ', 164, 1);
+INSERT INTO carte_langue VALUES ('Tombfire', 'Target player removes all cards with flashback in his or her graveyard from the game. ', 165, 1);
+INSERT INTO carte_langue VALUES ('Traveling Plague', 'At the beginning of each player''s upkeep, put a plague counter on Traveling Plague. Enchanted creature gets -1/-1 for each plague counter on Traveling Plague. When enchanted creature leaves play, that creature''s controller returns Traveling Plague from its owner''s graveyard to play. ', 166, 1);
+INSERT INTO carte_langue VALUES ('Whispering Shade', 'Swampwalk B: Whispering Shade gets +1/+1 until end of turn ', 167, 1);
+INSERT INTO carte_langue VALUES ('Zombie Assassin', 'Tap, Remove two cards in your graveyard and Zombie Assassin from the game: Destroy target nonblack creature. It can''t be regenerated. ', 168, 1);
+INSERT INTO carte_langue VALUES ('Zombie Cannibal', 'Whenever Zombie Cannibal deals combat damage to a player, you may remove target card in that player''s graveyard from the game. ', 169, 1);
+INSERT INTO carte_langue VALUES ('Zombie Infestation', 'Discard two cards from your hand: Put a 2/2 black Zombie creature token into play. ', 170, 1);
+INSERT INTO carte_langue VALUES ('Zombify', 'Return target creature card from your graveyard to play. ', 171, 1);
+INSERT INTO carte_langue VALUES ('Acceptable Losses', 'As an additional cost to play Acceptable Losses, discard a card at random from your hand. Acceptable Losses deals 5 damage to target creature. ', 172, 1);
+INSERT INTO carte_langue VALUES ('Anarchist', 'When Anarchist comes into play, you may return target sorcery card from your graveyard to your hand. ', 173, 1);
+INSERT INTO carte_langue VALUES ('Ashen Firebeast', '1R: Ashen Firebeast deals 1 damage to each creature without flying. ', 174, 1);
+INSERT INTO carte_langue VALUES ('Barbarian Lunatic', '2R, Sacrifice Barbarian Lunatic: Barbarian Lunatic deals 2 damage to target creature. ', 175, 1);
+INSERT INTO carte_langue VALUES ('Bash to Bits', 'Destroy target artifact. Flashback 4RR (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 176, 1);
+INSERT INTO carte_langue VALUES ('Battle Strain', 'Whenever a creature blocks, Battle Strain deals 1 damage to that creature''s controller. ', 177, 1);
+INSERT INTO carte_langue VALUES ('Blazing Salvo', 'Blazing Salvo deals 3 damage to target creature unless that creature''s controller has Blazing Salvo deal 5 damage to him or her. ', 178, 1);
+INSERT INTO carte_langue VALUES ('Bomb Squad', 'Tap: Put a fuse counter on target creature. At the beginning of your upkeep, put a fuse counter on each creature that has a fuse counter on it. Whenever a creature has four or more fuse counters on it, remove all fuse counters from it and destroy it. That creature deals 4 damage to its controller. ', 179, 1);
+INSERT INTO carte_langue VALUES ('Burning Sands', 'Whenever a creature is put into a graveyard from play, that creature''s controller sacrifices a land. ', 180, 1);
+INSERT INTO carte_langue VALUES ('Chainflinger', '1R, Tap: Chainflinger deals 1 damage to target creature or player. Threshold - 2R, Tap: Chainflinger deals 2 damage to target creature or player. (Play this ability only if seven or more cards are in your graveyard.) ', 181, 1);
+INSERT INTO carte_langue VALUES ('Chance Encounter', 'Whenever you win a coin flip, put a luck counter on Chance Encounter. At the beginning of your upkeep, if Chance Encounter has ten or more luck counters on it, you win the game. ', 182, 1);
+INSERT INTO carte_langue VALUES ('Demolish', 'Destroy target artifact or land. ', 183, 1);
+INSERT INTO carte_langue VALUES ('Demoralize', 'Each creature can''t be blocked this turn except by two or more creatures.  Threshold - Creatures can''t block this turn. (You have threshold if seven or more cards are in your graveyard.) ', 184, 1);
+INSERT INTO carte_langue VALUES ('Dwarven Grunt', 'Mountainwalk ', 185, 1);
+INSERT INTO carte_langue VALUES ('Dwarven Recruiter', 'When Dwarven Recruiter comes into play, search your library for any number of Dwarf cards and reveal those cards. Shuffle your library, then put them on top of it in any order. ', 186, 1);
+INSERT INTO carte_langue VALUES ('Dwarven Shrine', 'Whenever a player plays a spell, Dwarven Shrine deals X damage to that player, where X is twice the number of cards in all graveyards with the same name as that spell. ', 187, 1);
+INSERT INTO carte_langue VALUES ('Dwarven Strike Force', 'Discard a card at random from your hand: Dwarven Strike Force gains first strike and haste until end of turn. ', 188, 1);
+INSERT INTO carte_langue VALUES ('Earth Rift', 'Destroy target land. Flashback 5RR (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 189, 1);
+INSERT INTO carte_langue VALUES ('Ember Beast', 'Ember Beast can''t attack or block alone. ', 190, 1);
+INSERT INTO carte_langue VALUES ('Engulfing Flames', 'Engulfing Flames deals 1 damage to target creature. It can''t be regenerated this turn. Flashback 3R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 191, 1);
+INSERT INTO carte_langue VALUES ('Epicenter', 'Target player sacrifices a land. Threshold - All players sacrifice all lands instead. (You have threshold if seven or more cards are in your graveyard.) ', 192, 1);
+INSERT INTO carte_langue VALUES ('Firebolt', 'Firebolt deals 2 damage to target creature or player. Flashback 4R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 193, 1);
+INSERT INTO carte_langue VALUES ('Flame Burst', 'Flame Burst deals X damage to target creature or player, where X is 2 plus the number of Flame Burst cards in all graveyards. ', 194, 1);
+INSERT INTO carte_langue VALUES ('Frenetic Ogre', 'R, Discard a card at random from your hand: Frenetic Ogre gets +3/+0 until end of turn. ', 195, 1);
+INSERT INTO carte_langue VALUES ('Halberdier', 'First strike ', 196, 1);
+INSERT INTO carte_langue VALUES ('Impulsive Maneuvers', 'Whenever a creature attacks, flip a coin. If you win the flip, the next time that creature would deal combat damage this turn, it deals double that damage instead. If you lose the flip, the next time that creature would deal combat damage this turn, prevent that damage. ', 197, 1);
+INSERT INTO carte_langue VALUES ('Kamahl, Pit Fighter', 'Haste Tap: Kamahl, Pit Fighter deals 3 damage to target creature or player. ', 198, 1);
+INSERT INTO carte_langue VALUES ('Kamahl''s Desire', 'Enchanted creature has first strike.  Threshold - Enchanted creature gets +3/+0. (You have threshold as long as seven or more cards are in your graveyard.) ', 199, 1);
+INSERT INTO carte_langue VALUES ('Lava Blister', 'Destroy target nonbasic land unless its controller has Lava Blister deal 6 damage to him or her. ', 200, 1);
+INSERT INTO carte_langue VALUES ('Liquid Fire', 'Liquid Fire deals 5 damage divided as you choose between target creature and the creature''s controller. ', 201, 1);
+INSERT INTO carte_langue VALUES ('Mad Dog', 'At the end of your turn, if Mad Dog didn''t attack or come under your control this turn, sacrifice it. ', 202, 1);
+INSERT INTO carte_langue VALUES ('Magma Vein', 'R, Sacrifice a land: Magma Vein deals 1 damage to each creature without flying. ', 203, 1);
+INSERT INTO carte_langue VALUES ('Magnivore', 'Haste Magnivore''s power and toughness are each equal to the number of sorcery cards in all graveyards. ', 204, 1);
+INSERT INTO carte_langue VALUES ('Mine Layer', '1R, Tap: Put a mine counter on target land. Whenever a land with a mine counter on it becomes tapped, destroy it. When Mine Layer leaves play, remove all mine counters from all lands. ', 205, 1);
+INSERT INTO carte_langue VALUES ('Minotaur Explorer', 'When Minotaur Explorer comes into play, sacrifice it unless you discard a card at random from your hand. ', 206, 1);
+INSERT INTO carte_langue VALUES ('Molten Influence', 'Counter target instant or sorcery spell unless its controller has Molten Influence deal 4 damage to him or her. ', 207, 1);
+INSERT INTO carte_langue VALUES ('Mudhole', 'Target player removes all land cards in his or her graveyard from the game. ', 208, 1);
+INSERT INTO carte_langue VALUES ('Need for Speed', 'Sacrifice a land: Target creature gains haste until end of turn. ', 209, 1);
+INSERT INTO carte_langue VALUES ('Obstinate Familiar', 'If you would draw a card, you may skip that draw instead. ', 210, 1);
+INSERT INTO carte_langue VALUES ('Pardic Firecat', 'Haste If Pardic Firecat is in a graveyard, Flame Burst''s effect counts it as a Flame Burst. ', 211, 1);
+INSERT INTO carte_langue VALUES ('Pardic Miner', 'Sacrifice Pardic Miner: Target player can''t play lands this turn. ', 212, 1);
+INSERT INTO carte_langue VALUES ('Pardic Swordsmith', 'R, Discard a card at random from your hand: Pardic Swordsmith gets +2/+0 until end of turn. ', 213, 1);
+INSERT INTO carte_langue VALUES ('Price of Glory', 'Whenever a player taps a land for mana during another player''s turn, destroy that land. ', 214, 1);
+INSERT INTO carte_langue VALUES ('Reckless Charge', 'Target creature gets +3/+0 and gains haste until end of turn. Flashback 2R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 215, 1);
+INSERT INTO carte_langue VALUES ('Recoup', 'Target sorcery card in your graveyard gains flashback until end of turn. Its flashback cost is equal to its mana cost. (Mana cost includes color.) Flashback 3R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 216, 1);
+INSERT INTO carte_langue VALUES ('Rites of Initiation', 'Discard any number of cards at random from your hand. Creatures you control get +1/+0 until end of turn for each card discarded this way. ', 217, 1);
+INSERT INTO carte_langue VALUES ('Savage Firecat', 'Trample Savage Firecat comes into play with seven +1/+1 counters on it. Whenever you tap a land for mana, remove a +1/+1 counter from Savage Firecat. ', 218, 1);
+INSERT INTO carte_langue VALUES ('Scorching Missile', 'Scorching Missile deals 4 damage to target player. Flashback 9R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 219, 1);
+INSERT INTO carte_langue VALUES ('Seize the Day', 'Untap target creature. After this phase, there is an additional combat phase followed by an additional main phase. Flashback 2R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 220, 1);
+INSERT INTO carte_langue VALUES ('Shower of Coals', 'Shower of Coals deals 2 damage to each of up to three target creatures and/or players. Threshold - Shower of Coals deals 4 damage to each of those creatures and/or players instead. (You have theshold if seven or more cards are in your graveyard.) ', 221, 1);
+INSERT INTO carte_langue VALUES ('Spark Mage', 'Whenever Spark Mage deals combat damage to a player, you may have Spark Mage deal 1 damage to target creature that player controls. ', 222, 1);
+INSERT INTO carte_langue VALUES ('Steam Vines', 'When enchanted land becomes tapped, destroy it and Steam Vines deals 1 damage to that land''s controller. That player moves Steam Vines to a land of his or her choice. ', 223, 1);
+INSERT INTO carte_langue VALUES ('Thermal Blast', 'Thermal Blast deals 3 damage to target creature. Threshold - Thermal Blast deals 5 damage to that creature instead. (You have threshold as long as seven or more cards are in your graveyard.) ', 224, 1);
+INSERT INTO carte_langue VALUES ('Tremble', 'Each player sacrifices a land. ', 225, 1);
+INSERT INTO carte_langue VALUES ('Volcanic Spray', 'Volcanic Spray deals 1 damage to each creature without flying and each player. Flashback 1R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 226, 1);
+INSERT INTO carte_langue VALUES ('Volley of Boulders', 'Volley of Boulders deals 6 damage divided as you choose among any number of target creatures and/or players. Flashback RRRRRR (You may play this card from your graveyard for the flashback cost. Then remove it from the game.) ', 227, 1);
+INSERT INTO carte_langue VALUES ('Whipkeeper', 'Tap: Whipkeeper deals damage to target creature equal to the damage already dealt to it this turn. ', 228, 1);
+INSERT INTO carte_langue VALUES ('Bearscape', '1G, Remove two cards in your graveyard from the game: Put a 2/2 green Bear creature token into play. ', 229, 1);
+INSERT INTO carte_langue VALUES ('Beast Attack', 'Put a 4/4 green Beast creature token into play. Flashback 2GGG (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 230, 1);
+INSERT INTO carte_langue VALUES ('Call of the Herd', 'Put a 3/3 green Elephant creature token into play. Flashback 3G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 231, 1);
+INSERT INTO carte_langue VALUES ('Cartographer', 'When Cartographer comes into play, you may return target land card from your graveyard to your hand. ', 232, 1);
+INSERT INTO carte_langue VALUES ('Chatter of the Squirrel', 'Put a 1/1 green Squirrel creature token into play. Flashback 1G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 233, 1);
+INSERT INTO carte_langue VALUES ('Chlorophant', 'At the beginning of your upkeep, you may put a +1/+1 counter on Chlorophant. Threshold - At the beginning of your upkeep, you may put another +1/+1 counter on Chlorophant. (You have threshold as long as seven or more cards are in your graveyard.) ', 234, 1);
+INSERT INTO carte_langue VALUES ('Crashing Centaur', 'G, Discard a card from your hand: Crashing Centaur gains trample until end of turn. Threshold - Crashing Centaur gets +2/+2 and can''t be the target of spells or abilities. (You have threshold as long as seven or more cards are in your graveyard.) ', 235, 1);
+INSERT INTO carte_langue VALUES ('Deep Reconnaissance', 'Search your library for a basic land card and put that card into play tapped. Then shuffle your library. Flashback 4G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 236, 1);
+INSERT INTO carte_langue VALUES ('Diligent Farmhand', '1G, Sacrifice Diligent Farmhand: Search your library for a basic land card, and put that card into play tapped. Then shuffle your library. If Diligent Farmhand is in a graveyard, Muscle Burst''s effect counts it as a Muscle Burst. ', 237, 1);
+INSERT INTO carte_langue VALUES ('Druid Lyrist', 'G, Tap, Sacrifice Druid Lyrist: Destroy target enchantment. ', 238, 1);
+INSERT INTO carte_langue VALUES ('Druid''s Call', 'Whenever enchanted creature is dealt damage, its controller puts that many 1/1 green Squirrel creature tokens into play. ', 239, 1);
+INSERT INTO carte_langue VALUES ('Elephant Ambush', 'Put a 3/3 green Elephant creature token into play. Flashback 6GG (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 240, 1);
+INSERT INTO carte_langue VALUES ('Gorilla Titan', 'Trample   Gorilla Titan gets +4/+4 as long as there are no cards in your graveyard. ', 241, 1);
+INSERT INTO carte_langue VALUES ('Ground Seal', 'When Ground Seal comes into play, draw a card. Cards in graveyards can''t be the targets of spells or abilities. ', 242, 1);
+INSERT INTO carte_langue VALUES ('Holistic Wisdom', '2, Remove a card in your hand from the game: Return target card from your graveyard to your hand if it shares a type with the card removed this way. (The card types are artifact, creature, enchantment, instant, land and sorcery.) ', 243, 1);
+INSERT INTO carte_langue VALUES ('Howling Gale', 'Howling Gale deals 1 damage to each creature with flying and to each player. Flashback 1G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 244, 1);
+INSERT INTO carte_langue VALUES ('Ivy Elemental', 'Ivy Elemental comes into play with X +1/+1 counters on it. ', 245, 1);
+INSERT INTO carte_langue VALUES ('Krosan Archer', 'Krosan Archer may block as though it has flying. G, Discard a card from your hand: Krosan Archer gets +0/+2 until end of turn. ', 246, 1);
+INSERT INTO carte_langue VALUES ('Krosan Avenger', 'Trample Threshold - 1G: Regenerate Krosan Avenger. (Play this ability only if seven or more cards are in your graveyard.) ', 247, 1);
+INSERT INTO carte_langue VALUES ('Krosan Beast', 'Threshold - Krosan Beast gets +7/+7. (You have threshold as long as seven or more cards are in your graveyard.) ', 248, 1);
+INSERT INTO carte_langue VALUES ('Leaf Dancer', 'Forestwalk ', 249, 1);
+INSERT INTO carte_langue VALUES ('Metamorphic Wurm', 'Threshold - Metamorphic Wurm gets +4/+4. (You have threshold as long as seven or more cards are in your graveyard.) ', 250, 1);
+INSERT INTO carte_langue VALUES ('Moment''s Peace', 'Prevent all combat damage that would be dealt this turn. Flashback 2G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 251, 1);
+INSERT INTO carte_langue VALUES ('Muscle Burst', 'Target creature gets +X/+X until end of turn, where X is 3 plus the number of Muscle Burst cards in all graveyards. ', 252, 1);
+INSERT INTO carte_langue VALUES ('Nantuko Disciple', 'G, Tap: Target creature gets +2/+2 until end of turn. ', 253, 1);
+INSERT INTO carte_langue VALUES ('Nantuko Elder', 'Tap: Add 1G to your mana pool. ', 254, 1);
+INSERT INTO carte_langue VALUES ('Nantuko Mentor', '2G, Tap: Target creature gets +X/+X until end of turn, where X is that creature''s power. ', 255, 1);
+INSERT INTO carte_langue VALUES ('Nantuko Shrine', 'Whenever a player plays a spell, that player puts X 1/1 green Squirrel creature tokens into play, where X is the number of cards in all graveyards with the same name as that spell. ', 256, 1);
+INSERT INTO carte_langue VALUES ('New Frontiers', 'Each player may search his or her library for up to X basic land cards and put them into play tapped. Then each player who searched his or her library this way shuffles it. ', 257, 1);
+INSERT INTO carte_langue VALUES ('Nimble Mongoose', 'Nimble Mongoose can''t be the target of spells or abilities. Threshold - Nimble Mongoose gets +2/+2. (You have threshold as long as seven or more cards are in your graveyard.) ', 258, 1);
+INSERT INTO carte_langue VALUES ('Nut Collector', 'At the beginning of your upkeep, you may put a 1/1 green Squirrel creature token into play. Threshold - All Squirrels get +2/+2. (You have threshold as long as seven or more cards are in your graveyard.) ', 259, 1);
+INSERT INTO carte_langue VALUES ('Overrun', 'Creatures you control get +3/+3 and gain trample until end of turn. ', 260, 1);
+INSERT INTO carte_langue VALUES ('Piper''s Melody', 'Shuffle any number of target creature cards from your graveyard into your library. ', 261, 1);
+INSERT INTO carte_langue VALUES ('Primal Frenzy', 'Enchanted creature has trample. ', 262, 1);
+INSERT INTO carte_langue VALUES ('Rabid Elephant', 'Whenever Rabid Elephant becomes blocked, it gets +2/+2 until end of turn for each creature blocking it. ', 263, 1);
+INSERT INTO carte_langue VALUES ('Refresh', 'Regenerate target creature. Draw a card. ', 264, 1);
+INSERT INTO carte_langue VALUES ('Rites of Spring', 'Discard any number of cards from your hand. Search your library for that many basic land cards, reveal those cards, and put them into your hand. Then shuffle your library. ', 265, 1);
+INSERT INTO carte_langue VALUES ('Roar of the Wurm', 'Put a 6/6 green Wurm creature token into play. Flashback 3G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 266, 1);
+INSERT INTO carte_langue VALUES ('Seton, Krosan Protector', 'Tap an untapped Druid you control: Add G to your mana pool. ', 267, 1);
+INSERT INTO carte_langue VALUES ('Seton''s Desire', 'Enchanted creature gets +2/+2. Threshold - All creatures able to block enchanted creature do so. (You have threshold as long as seven or more cards are in your graveyard.) ', 268, 1);
+INSERT INTO carte_langue VALUES ('Simplify', 'Each player sacrifices an enchantment. ', 269, 1);
+INSERT INTO carte_langue VALUES ('Skyshooter', 'Skyshooter may block as though it has flying. Tap, Sacrifice Skyshooter: Destroy target attacking or blocking creature with flying. ', 270, 1);
+INSERT INTO carte_langue VALUES ('Spellbane Centaur', 'Creatures you control can''t be the targets of blue spells or abilities from blue sources. ', 271, 1);
+INSERT INTO carte_langue VALUES ('Springing Tiger', 'Threshold - Springing Tiger gets +2/+2. (You have threshold as long as seven or more cards are in your graveyard.) ', 272, 1);
+INSERT INTO carte_langue VALUES ('Squirrel Mob', 'Squirrel Mob gets +1/+1 for each other Squirrel in play. ', 273, 1);
+INSERT INTO carte_langue VALUES ('Squirrel Nest', 'Enchanted land has "Tap: Put a 1/1 green Squirrel creature token into play." ', 274, 1);
+INSERT INTO carte_langue VALUES ('Still Life', 'GG: Still Life becomes a 4/3 Centaur creature until end of turn. It''s still an enchantment. ', 275, 1);
+INSERT INTO carte_langue VALUES ('Stone-Tongue Basilisk', 'Whenever Stone-Tongue Basilisk deals combat damage to a creature, destroy that creature at end of combat. Threshold - All creatures able to block Stone-Tongue Basilisk do so. (You have threshold as long as seven or more cards are in your graveyard.) ', 276, 1);
+INSERT INTO carte_langue VALUES ('Sylvan Might', 'Target creature gets +2/+2 and gains trample until end of turn. Flashback 2GG (You may play this card from your graveyard for its flashback cost. Then remove it from the game.) ', 277, 1);
+INSERT INTO carte_langue VALUES ('Terravore', 'Trample Terravore''s power and toughness are each equal to the number of land cards in all graveyards. ', 278, 1);
+INSERT INTO carte_langue VALUES ('Twigwalker', '1G, Sacrifice Twigwalker: Two target creatures each get +2/+2 until end of turn. ', 279, 1);
+INSERT INTO carte_langue VALUES ('Verdant Succession', 'Whenever a green nontoken creature is put into a graveyard from play, that creature''s controller may search his or her library for a card with the same name as that creature and put it into play. If that player does, he or she then shuffles his or her library. ', 280, 1);
+INSERT INTO carte_langue VALUES ('Vivify', 'Target land becomes a 3/3 creature until end of turn. It''s still a land. Draw a card. ', 281, 1);
+INSERT INTO carte_langue VALUES ('Werebear', 'Tap: Add G to your mana pool. Threshold - Werebear gets +3/+3. (You have threshold as long as seven or more cards are in your graveyard.) ', 282, 1);
+INSERT INTO carte_langue VALUES ('Wild Mongrel', 'Discard a card from your hand: Wild Mongrel gets +1/+1 and becomes the color of your choice until end of turn. ', 283, 1);
+INSERT INTO carte_langue VALUES ('Woodland Druid', ' ', 284, 1);
+INSERT INTO carte_langue VALUES ('Zoologist', '3G, Tap: Reveal the top card of your library. If it''s a creature card, put it into play. Otherwise, put it into your graveyard. ', 285, 1);
+INSERT INTO carte_langue VALUES ('Atogatog', 'Sacrifice an Atog: Atogatog gets +X/+X until end of turn where X is the sacrificed Atog''s power. ', 286, 1);
+INSERT INTO carte_langue VALUES ('Decimate', 'Destroy target artifact, target creature, target enchantment, and target land. ', 287, 1);
+INSERT INTO carte_langue VALUES ('Iridescent Angel', 'Flying, protection from all colors ', 288, 1);
+INSERT INTO carte_langue VALUES ('Lithatog', 'Sacrifice an artifact: Lithatog gets +1/+1 until end of turn. Sacrifice a land: Lithatog gets +1/+1 until end of turn. ', 289, 1);
+INSERT INTO carte_langue VALUES ('Mystic Enforcer', 'Protection from black Threshold - Mystic Enforcer gets +3/+3 and has flying. (You have threshold as long as seven or more cards are in your graveyard.) ', 290, 1);
+INSERT INTO carte_langue VALUES ('Phantatog', 'Sacrifice an enchantment: Phantatog gets +1/+1 until end of turn. Discard a card from your hand: Phantatog gets +1/+1 until end of turn. ', 291, 1);
+INSERT INTO carte_langue VALUES ('Psychatog', 'Discard a card from your hand: Psychatog gets +1/+1 until end of turn. Remove two cards in your graveyard from the game: Psychatog gets +1/+1 until end of turn. ', 292, 1);
+INSERT INTO carte_langue VALUES ('Sarcatog', 'Remove two cards in your graveyard from the game: Sarcatog gets +1/+1 until end of turn. Sacrifice an artifact: Sarcatog gets +1/+1 until end of turn. ', 293, 1);
+INSERT INTO carte_langue VALUES ('Shadowmage Infiltrator', 'Shadowmage Infiltrator can''t be blocked except by artifact creatures and/or black creatures. Whenever Shadowmage Infiltrator deals combat damage to a player, you may draw a card. ', 294, 1);
+INSERT INTO carte_langue VALUES ('Thaumatog', 'Sacrifice a land: Thaumatog gets +1/+1 until end of turn. Sacrifice an enchantment: Thaumatog gets +1/+1 until end of turn. ', 295, 1);
+INSERT INTO carte_langue VALUES ('Vampiric Dragon', 'Flying Whenever a creature dealt damage by Vampiric Dragon this turn is put into a graveyard, put a +1/+1 counter on Vampiric Dragon. 1R: Vampiric Dragon deals 1 damage to target creature. ', 296, 1);
+INSERT INTO carte_langue VALUES ('Catalyst Stone', 'Flashback costs you pay cost up to 2 less. Flashback costs your opponents pay cost 2 more. ', 297, 1);
+INSERT INTO carte_langue VALUES ('Charmed Pendant', 'Tap, Put the top card of your library into your graveyard: For each colored mana symbol in that card''s mana cost, add one mana of that color to your mana pool. Play this ability only any time you could play an instant. (For example, if the card''s mana cost is 3UUB, you add UUB to your mana pool.) ', 298, 1);
+INSERT INTO carte_langue VALUES ('Darkwater Egg', '2, Tap, Sacrifice Darkwater Egg: Add UB to your mana pool. Draw a card. ', 299, 1);
+INSERT INTO carte_langue VALUES ('Junk Golem', 'Junk Golem comes into play with three +1/+1 counters on it. At the beginning of your upkeep, sacrifice Junk Golem unless you remove a +1/+1 counter from it. 1, Discard a card from your hand: Put a +1/+1 counter on Junk Golem. ', 300, 1);
+INSERT INTO carte_langue VALUES ('Limestone Golem', '2, Sacrifice Limestone Golem: Target player draws a card. ', 301, 1);
+INSERT INTO carte_langue VALUES ('Millikin', 'Tap, Put the top card of your library into your graveyard: Add one colorless mana to your mana pool. ', 302, 1);
+INSERT INTO carte_langue VALUES ('Mirari', 'Whenever you play an instant or sorcery spell, you may pay 3. If you do, put a copy of that spell onto the stack. You may choose new targets for the copy. ', 303, 1);
+INSERT INTO carte_langue VALUES ('Mossfire Egg', '2, Tap, Sacrifice Mossfire Egg: Add RG to your mana pool. Draw a card. ', 304, 1);
+INSERT INTO carte_langue VALUES ('Otarian Juggernaut', 'Otarian Juggernaut can''t be blocked by Walls. Threshold - Otarian Juggernaut gets +3/+0 and attacks each turn if able. (You have threshold as long as seven or more cards are in your graveyard.) ', 305, 1);
+INSERT INTO carte_langue VALUES ('Patchwork Gnomes', 'Discard a card from your hand: Regenerate Patchwork Gnomes. ', 306, 1);
+INSERT INTO carte_langue VALUES ('Sandstone Deadfall', 'Tap, Sacrifice two lands and Sandstone Deadfall: Destroy target attacking creature. ', 307, 1);
+INSERT INTO carte_langue VALUES ('Shadowblood Egg', '2, Tap, Sacrifice Shadowblood Egg: Add BR to your mana pool. Draw a card. ', 308, 1);
+INSERT INTO carte_langue VALUES ('Skycloud Egg', '2, Tap, Sacrifice Skycloud Egg: Add WU to your mana pool. Draw a card. ', 309, 1);
+INSERT INTO carte_langue VALUES ('Steamclaw', '3, Tap: Remove target card in a graveyard from the game.   1, Sacrifice Steamclaw: Remove target card in a graveyard from the game. ', 310, 1);
+INSERT INTO carte_langue VALUES ('Sungrass Egg', '2, Tap, Sacrifice Sungrass Egg: Add GW to your mana pool. Draw a card. ', 311, 1);
+INSERT INTO carte_langue VALUES ('Abandoned Outpost', 'Abandoned Outpost comes into play tapped. Tap: Add W to your mana pool. Tap, Sacrifice Abandoned Outpost: Add one mana of any color to your mana pool. ', 312, 1);
+INSERT INTO carte_langue VALUES ('Barbarian Ring', 'Tap: Add R to your mana pool. Barbarian Ring deals 1 damage to you. Threshold - R, Tap, Sacrifice Barbarian Ring: Barbarian Ring deals 2 damage to target creature or player. (Play this ability only if seven or more cards are in your graveyard.) ', 313, 1);
+INSERT INTO carte_langue VALUES ('Bog Wreckage', 'Bog Wreckage comes into play tapped. Tap: Add B to your mana pool. Tap, Sacrifice Bog Wreckage: Add one mana of any color to your mana pool. ', 314, 1);
+INSERT INTO carte_langue VALUES ('Cabal Pit', 'Tap: Add B to your mana pool. Cabal Pit deals 1 damage to you. Threshold - B, Tap, Sacrifice Cabal Pit: Target creature gets -2/-2 until end of turn. (Play this ability only if seven or more cards are in your graveyard.) ', 315, 1);
+INSERT INTO carte_langue VALUES ('Centaur Garden', 'Tap: Add G to your mana pool. Centaur Garden deals 1 damage to you. Threshold - G, Tap, Sacrifice Centaur Garden: Target creature gets +3/+3 until end of turn. (Play this ability only if seven or more cards are in your graveyard.) ', 316, 1);
+INSERT INTO carte_langue VALUES ('Cephalid Coliseum', 'Tap: Add U to your mana pool. Cephalid Coliseum deals 1 damage to you. Threshold - U, Tap, Sacifice Cephalid Coliseum: Target player draws three cards, then discards three cards from his or her hand. (Play this ability only if seven or more cards are in your graveyard.) ', 317, 1);
+INSERT INTO carte_langue VALUES ('Crystal Quarry', 'Tap: Add one colorless mana to your mana pool. 5, Tap: Add WUBRG to your mana pool. ', 318, 1);
+INSERT INTO carte_langue VALUES ('Darkwater Catacombs', '1, Tap: Add UB to your mana pool. ', 319, 1);
+INSERT INTO carte_langue VALUES ('Deserted Temple', 'Tap: Add one colorless mana to your mana pool 1, Tap: Untap target land. ', 320, 1);
+INSERT INTO carte_langue VALUES ('Mossfire Valley', '1, Tap: Add RG to your mana pool. ', 321, 1);
+INSERT INTO carte_langue VALUES ('Nomad Stadium', 'Tap: Add W to your mana pool. Nomad Stadium deals 1 damage to you. Threshold - W, Tap, Sacrifice Nomad Stadium: You gain 4 life. (Play this ability only if seven or more cards are in your graveyard.) ', 322, 1);
+INSERT INTO carte_langue VALUES ('Petrified Field', 'Tap: Add one colorless mana to your mana pool. Tap, Sacrifice Petrified Field: Return target land card from your graveyard to your hand. ', 323, 1);
+INSERT INTO carte_langue VALUES ('Ravaged Highlands', 'Ravaged Highlands comes into play tapped. Tap: Add R to your mana pool. Tap, Sacrifice Ravaged Highlands: Add one mana of any color to your mana pool. ', 324, 1);
+INSERT INTO carte_langue VALUES ('Seafloor Debris', 'Seafloor Debris comes into play tapped. Tap: Add U to your mana pool. Tap, Sacrifice Seafloor Debris: Add one mana of any color to your mana pool. ', 325, 1);
+INSERT INTO carte_langue VALUES ('Shadowblood Ridge', '1, Tap: Add BR to your mana pool. ', 326, 1);
+INSERT INTO carte_langue VALUES ('Skycloud Expanse', '1, Tap: Add WU to your mana pool. ', 327, 1);
+INSERT INTO carte_langue VALUES ('Sungrass Prairie', '1, Tap: Add GW to your mana pool. ', 328, 1);
+INSERT INTO carte_langue VALUES ('Tarnished Citadel', 'Tap: Add one colorless mana to your mana pool. Tap: Add one mana of any color to your mana pool. Tarnished Citadel deals 3 damage to you. ', 329, 1);
+INSERT INTO carte_langue VALUES ('Timberland Ruins', 'Timberland Ruins comes into play tapped. Tap: Add G to your mana pool. Tap, Sacrifice Timberland Ruins: Add one mana of any color to your mana pool. ', 330, 1);
+INSERT INTO carte_langue VALUES ('Plains', '[W] ', 331, 1);
+INSERT INTO carte_langue VALUES ('Plains', '[W] ', 332, 1);
+INSERT INTO carte_langue VALUES ('Plains', '[W] ', 333, 1);
+INSERT INTO carte_langue VALUES ('Plains', '[W] ', 334, 1);
+INSERT INTO carte_langue VALUES ('Island', '[U] ', 335, 1);
+INSERT INTO carte_langue VALUES ('Island', '[U] ', 336, 1);
+INSERT INTO carte_langue VALUES ('Island', '[U] ', 337, 1);
+INSERT INTO carte_langue VALUES ('Island', '[U] ', 338, 1);
+INSERT INTO carte_langue VALUES ('Swamp', '[B] ', 339, 1);
+INSERT INTO carte_langue VALUES ('Swamp', '[B] ', 340, 1);
+INSERT INTO carte_langue VALUES ('Swamp', '[B] ', 341, 1);
+INSERT INTO carte_langue VALUES ('Swamp', '[B] ', 342, 1);
+INSERT INTO carte_langue VALUES ('Mountain', '[R] ', 343, 1);
+INSERT INTO carte_langue VALUES ('Mountain', '[R] ', 344, 1);
+INSERT INTO carte_langue VALUES ('Mountain', '[R] ', 345, 1);
+INSERT INTO carte_langue VALUES ('Mountain', '[R] ', 346, 1);
+INSERT INTO carte_langue VALUES ('Forest', '[G] ', 347, 1);
+INSERT INTO carte_langue VALUES ('Forest', '[G] ', 348, 1);
+INSERT INTO carte_langue VALUES ('Forest', '[G] ', 349, 1);
+INSERT INTO carte_langue VALUES ('Forest', '[G] ', 350, 1);
+INSERT INTO carte_langue VALUES ('Angel of Retribution', 'Flying, first strike', 351, 1);
+INSERT INTO carte_langue VALUES ('Aven Trooper', 'Flying. 2W, Discard a card from your hand: Aven Trooper gets+1/+2 until end of turn.', 352, 1);
+INSERT INTO carte_langue VALUES ('Cleansing Meditation', 'Destroy all enchantments. Threshold - Instead destroy all enchantments, then return to play all cards in your graveyard destroyed this way. (You have threshold if seven or more cards are in your graveyard.)', 353, 1);
+INSERT INTO carte_langue VALUES ('Equal Treatment', 'If any source would deal 1 or more damage to a creature or player this turn, it deals 2 damage to that creature or player instead. Draw a card.', 354, 1);
+INSERT INTO carte_langue VALUES ('Floating Shield', 'As Floating Shield comes into play, choose a color. Enchanted creature has protection from the chosen color. This effect doesn''t remove Floating Shield. Sacrifice Floating Shield: Target creature gains protection from the chosen color until end of turn.', 355, 1);
+INSERT INTO carte_langue VALUES ('Frantic Purification', 'Destroy target enchantment. Madness W (You may play this card for its madness cost at the time you discard it from your hand.)', 356, 1);
+INSERT INTO carte_langue VALUES ('Hypochondria', 'W, Discard a card from your hand: Prevent the next 3 damage that would be dealt to target creature or player this turn. W, Sacrifice Hypochondria: Prevent the next 3 damage that would be dealt to target creature or player this turn.', 357, 1);
+INSERT INTO carte_langue VALUES ('Major Teroh', 'Flying. 3WW, Sacrifice Major Teroh: Remove all black creatures from the game.', 358, 1);
+INSERT INTO carte_langue VALUES ('Militant Monk', 'Attacking doesn''t cause Militant Monk to tap. TAP: Prevent the next 1 damage that would be dealt to target creature or player this turn.', 359, 1);
+INSERT INTO carte_langue VALUES ('Morningtide', 'Remove all cards in all graveyards from the game.', 360, 1);
+INSERT INTO carte_langue VALUES ('Mystic Familiar', 'Flying. Threshold - Mystic Familiar gets +1/+1 and has protection from black. (You have threshold as long as seven or more cards are in your graveyard.)', 361, 1);
+INSERT INTO carte_langue VALUES ('Pay No Heed', 'Prevent all damage a source of your choice would deal this turn.', 362, 1);
+INSERT INTO carte_langue VALUES ('Possessed Nomad', 'Attacking doesn''t cause Possessed Nomad to tap. Threshold - Possessed Nomad gets +1/+1, is black, and has "2B, TAP: Destroy target white creature." (You have threshold as long as seven or more cards are in your graveyard.)', 363, 1);
+INSERT INTO carte_langue VALUES ('Reborn Hero', 'Attacking doesn''t cause Reborn Hero to tap. Threshold - When Reborn Hero is put into a graveyard from play, you may pay WW. If you do, return Reborn Hero to play under your control. (You have threshold if seven or more cards are in your graveyard.)', 364, 1);
+INSERT INTO carte_langue VALUES ('Spirit Flare', 'Tap target untapped creature you control. If you do, it deals damage equal to its power to target attacking or blocking creature an opponent controls. Flashback-1W, Pay 3 life. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 365, 1);
+INSERT INTO carte_langue VALUES ('Stern Judge', 'TAP: Each player loses 1 life for each swamp he or she controls.', 366, 1);
+INSERT INTO carte_langue VALUES ('Strength of Isolation', 'Enchanted creature gets +1/+2 and has protection from black. Madness W (You may play this card for its madness cost at the time you discard it from your hand.)', 367, 1);
+INSERT INTO carte_langue VALUES ('Teroh''s Faithful', 'When Teroh''s Faithful comes into play, you gain 4 life.', 368, 1);
+INSERT INTO carte_langue VALUES ('Teroh''s Vanguard', 'You may play Teroh''s Vanguard any time you could play an instant. Threshold - When Teroh''s Vanguard comes into play, creatures you control gain protection from black until end of turn. (You have threshold if seven or more cards are in your graveyard.)', 369, 1);
+INSERT INTO carte_langue VALUES ('Transcendence', 'You don''t lose the game for having 0 or less life. When you have 20 or more life, you lose the game. Whenever you lose life, you gain 2 life for each 1 life you lost. (Damage dealt to you causes you to lose life.)', 370, 1);
+INSERT INTO carte_langue VALUES ('Vengeful Dreams', 'As an additional cost to play Vengeful Dreams, discard X cards from your hand. Remove X target attacking creatures from the game.', 371, 1);
+INSERT INTO carte_langue VALUES ('Alter Reality', 'Change the text of target permanent or spell by replacing all instances of one color word with another. (This effect doesn''t end at end of turn.) Flashback 1U (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 372, 1);
+INSERT INTO carte_langue VALUES ('Ambassador Laquatus', '3: Target player puts the top three cards of his or her library into his or her graveyard.', 373, 1);
+INSERT INTO carte_langue VALUES ('Aquamoeba', 'Discard a card from your hand: Switch Aquamoeba''s power and toughness until end of turn.', 374, 1);
+INSERT INTO carte_langue VALUES ('Balshan Collaborator', 'Flying. B: Balshan Collaborator gets +1/+1 until end of turn.', 375, 1);
+INSERT INTO carte_langue VALUES ('Breakthrough', 'Draw four cards, then choose X cards in your hand and discard the rest from it.', 376, 1);
+INSERT INTO carte_langue VALUES ('Cephalid Aristocrat', 'Whenever Cephalid Aristocrat becomes the target of a spell or ability, put the top two cards of your library into your graveyard.', 377, 1);
+INSERT INTO carte_langue VALUES ('Cephalid Illusionist', 'Whenever Cephalid Illusionist becomes the target of a spell or ability, put the top three cards of your library into your graveyard. 2U, TAP: This turn prevent all combat damage that would be dealt to and dealt by target creature you control.', 378, 1);
+INSERT INTO carte_langue VALUES ('Cephalid Sage', 'Threshold - When Cephalid Sage comes into play, draw three cards, then discard two cards from your hand. (You have threshold if seven or more cards are in your graveyard.)', 379, 1);
+INSERT INTO carte_langue VALUES ('Cephalid Snitch', 'Sacrifice Cephalid Snitch: Target creature loses protection from black until end of turn.', 380, 1);
+INSERT INTO carte_langue VALUES ('Cephalid Vandal', 'At the beginning of your upkeep, put a shred counter on Cephalid Vandal. Then put the top card of your library into your graveyard for each shred counter on Cephalid Vandal.', 381, 1);
+INSERT INTO carte_langue VALUES ('Churning Eddy', 'Return target creature and target land to their owners'' hands.', 382, 1);
+INSERT INTO carte_langue VALUES ('Circular Logic', 'Counter target spell unless its controller pays 1 for each card in your graveyard. Madness U (You may play this card for its madness cost at the time you discard it from your hand.)', 383, 1);
+INSERT INTO carte_langue VALUES ('Compulsion', '1U, Discard a card from your hand: Draw a card.  1U, Sacrifice Compulsion: Draw a card.', 384, 1);
+INSERT INTO carte_langue VALUES ('Coral Net', 'Coral Net can enchant only a green or white creature. Enchanted creature has "At the beginning of your upkeep, sacrifice this creature unless you discard a card from your hand."', 385, 1);
+INSERT INTO carte_langue VALUES ('Deep Analysis', 'Target player draws two cards. Flashback-1U, Pay 3 life. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 386, 1);
+INSERT INTO carte_langue VALUES ('False Memories', 'Put the top seven cards of your library into your graveyard. At end of turn, remove seven cards in your graveyard from the game.', 387, 1);
+INSERT INTO carte_langue VALUES ('Ghostly Wings', 'Enchanted creature gets +1/+1 and has flying. Discard a card from your hand: Return enchanted creature to its owner''s hand.', 388, 1);
+INSERT INTO carte_langue VALUES ('Hydromorph Guardian', 'U, Sacrifice Hydromorph Guardian: Counter target spell that targets one or more creatures you control.', 389, 1);
+INSERT INTO carte_langue VALUES ('Hydromorph Gull', 'Flying. U, Sacrifice Hydromorph Gull: Counter target spell that targets one or more creatures you control.', 390, 1);
+INSERT INTO carte_langue VALUES ('Liquify', 'Counter target spell with converted mana cost 3 or less. If it''s countered this way, remove it from the game instead of putting it into its owner''s graveyard.', 391, 1);
+INSERT INTO carte_langue VALUES ('Llawan, Cephalid Empress', 'When Llawan, Cephalid Empress comes into play, return all blue creatures your opponents control to their owners'' hands. Your opponents can''t play blue creature spells.', 392, 1);
+INSERT INTO carte_langue VALUES ('Obsessive Search', 'Draw a card. Madness U (You may play this card for its madness cost at the time you discard it from your hand.)', 393, 1);
+INSERT INTO carte_langue VALUES ('Plagiarize', 'Until end of turn, if target player would draw a card, instead that player skips that draw and you draw a card.', 394, 1);
+INSERT INTO carte_langue VALUES ('Possessed Aven', 'Flying. Threshold - Possessed Aven gets +1/+1, is black, and has "2B, TAP: Destroy target blue creature."" (You have threshold as long as seven or more cards are in your graveyard.)', 395, 1);
+INSERT INTO carte_langue VALUES ('Retraced Image', 'Reveal a card in your hand, then put that card into play if it has the same name as a permanent in play.', 396, 1);
+INSERT INTO carte_langue VALUES ('Skywing Aven', 'Flying. Discard a card from your hand: Return Skywing Aven to its owner''s hand.', 397, 1);
+INSERT INTO carte_langue VALUES ('Stupefying Touch', 'When Stupefying Touch comes into play, draw a card. Enchanted creature''s activated abilities can''t be played.', 398, 1);
+INSERT INTO carte_langue VALUES ('Turbulent Dreams', 'As an additional cost to play Turbulent Dreams, discard X cards from your hand. Return X target nonland permanents to their owners'' hands.', 399, 1);
+INSERT INTO carte_langue VALUES ('Boneshard Slasher', 'Flying. Threshold - Boneshard Slasher gets +2/+2 and has "When Boneshard Slasher becomes the target of a spell or ability, sacrifice it." (You have threshold as long as seven or more cards are in your graveyard.)', 400, 1);
+INSERT INTO carte_langue VALUES ('Cabal Ritual', 'Add BBB to your mana pool. Threshold - Instead add BBBBB to your mana pool. (You have threshold if seven or more cards are in your graveyard.)', 401, 1);
+INSERT INTO carte_langue VALUES ('Cabal Surgeon', '2BB, TAP, Remove two cards in your graveyard from the game: Return target creature card from your graveyard to your hand.', 402, 1);
+INSERT INTO carte_langue VALUES ('Cabal Torturer', 'B, TAP: Target creature gets -1/-1 until end of turn. Threshold - 3BB, TAP: Target creature gets -2/-2 until end of turn. (Play this ability only if seven or more cards are in your graveyard.)', 403, 1);
+INSERT INTO carte_langue VALUES ('Carrion Rats', 'Whenever Carrion Rats attacks or blocks, any player may remove a card in his or her graveyard from the game. If a player does, Carrion Rats deals no combat damage this turn.', 404, 1);
+INSERT INTO carte_langue VALUES ('Carrion Wurm', 'Whenever Carrion Wurm attacks or blocks, any player may remove three cards in his or her graveyard from the game. If a player does, Carrion Wurm deals no combat damage this turn.', 405, 1);
+INSERT INTO carte_langue VALUES ('Chainer, Dementia Master', 'All Nightmares get +1/+1. BBB, Pay 3 life: Put target creature card from a graveyard into play under your control. That creature is black and is a Nightmare in addition to its creature types. When Chainer, Dementia Master leaves play, remove all Nightmares from the game.', 406, 1);
+INSERT INTO carte_langue VALUES ('Chainer''s Edict', 'Target player sacrifices a creature. Flashback 5BB (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 407, 1);
+INSERT INTO carte_langue VALUES ('Crippling Fatigue', 'Target creature gets -2/-2 until end of turn. Flashback-1B, Pay 3 life. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 408, 1);
+INSERT INTO carte_langue VALUES ('Dawn of the Dead', 'At the beginning of your upkeep, you lose 1 life. At the beginning of your upkeep, you may return target creature card from your graveyard to play. That creature gains haste until end of turn. Remove it from the game at end of turn.', 409, 1);
+INSERT INTO carte_langue VALUES ('Faceless Butcher', 'When Faceless Butcher comes into play, remove target creature other than Faceless Butcher from the game. When Faceless Butcher leaves play, return the removed card to play under its owner''s control.', 410, 1);
+INSERT INTO carte_langue VALUES ('Gloomdrifter', 'Flying. Threshold - When Gloomdrifter comes into play, nonblack creatures get -2/-2 until end of turn. (You have threshold if seven or more cards are in your graveyard.)', 411, 1);
+INSERT INTO carte_langue VALUES ('Gravegouger', 'When Gravegouger comes into play, remove up to two target cards in a single graveyard from the game. When Gravegouger leaves play, return the removed cards to their owner''s graveyard.', 412, 1);
+INSERT INTO carte_langue VALUES ('Grotesque Hybrid', 'Whenever Grotesque Hybrid deals combat damage to a creature, destroy that creature. It can''t be regenerated. Discard a card from your hand: Grotesque Hybrid gains flying and protection from green and from white until end of turn.', 413, 1);
+INSERT INTO carte_langue VALUES ('Hypnox', 'Flying. When Hypnox comes into play, if you played it from your hand, remove all cards in target opponent''s hand from the game. When Hypnox leaves play, return the removed cards to their owner''s hand.', 414, 1);
+INSERT INTO carte_langue VALUES ('Ichorid', 'Haste. At end of turn, sacrifice Ichorid. At the beginning of your upkeep, if Ichorid is in your graveyard, you may remove a black creature card in your graveyard other than Ichorid from the game. If you do, return Ichorid to play.', 415, 1);
+INSERT INTO carte_langue VALUES ('Insidious Dreams', 'As an additional cost to play Insidious Dreams, discard X cards from your hand. Search your library for X cards. Then shuffle your library and put those cards on top of it in any order.', 416, 1);
+INSERT INTO carte_langue VALUES ('Laquatus''s Champion', 'When Laquatus''s Champion comes into play, target player loses 6 life.  When Laquatus''s Champion leaves play, that player gains 6 life. B: Regenerate Laquatus''s Champion.', 417, 1);
+INSERT INTO carte_langue VALUES ('Last Laugh', 'Whenever a permanent other than Last Laugh is put into a graveyard from play, Last Laugh deals 1 damage to each creature and each player. When no creatures are in play, sacrifice Last Laugh.', 418, 1);
+INSERT INTO carte_langue VALUES ('Mesmeric Fiend', 'When Mesmeric Fiend comes into play, target opponent reveals his or her hand and you choose a nonland card from it. Remove that card from the game. When Mesmeric Fiend leaves play, return the removed card to its owner''s hand.', 419, 1);
+INSERT INTO carte_langue VALUES ('Mind Sludge', 'Target player discards a card from his or her hand for each swamp you control.', 420, 1);
+INSERT INTO carte_langue VALUES ('Mortal Combat', 'At the beginning of your upkeep, if twenty or more creature cards are in your graveyard, you win the game.', 421, 1);
+INSERT INTO carte_langue VALUES ('Mortiphobia', '1B, Discard a card from your hand: Remove target card in a graveyard from the game. 1B, Sacrifice Mortiphobia: Remove target card in a graveyard from the game.', 422, 1);
+INSERT INTO carte_langue VALUES ('Mutilate', 'All creatures get -1/-1 until end of turn for each swamp you control.', 423, 1);
+INSERT INTO carte_langue VALUES ('Nantuko Shade', 'B: Nantuko Shade gets +1/+1 until end of turn.', 424, 1);
+INSERT INTO carte_langue VALUES ('Organ Grinder', 'TAP, Remove three cards in your graveyard from the game: Target player loses 3 life.', 425, 1);
+INSERT INTO carte_langue VALUES ('Psychotic Haze', 'Psychotic Haze deals 1 damage to each creature and each player. Madness 1B (You may play this card for its madness cost at the time you discard it from your hand.)', 426, 1);
+INSERT INTO carte_langue VALUES ('Putrid Imp', 'Discard a card from your hand: Putrid Imp gains flying until end of turn. Threshold - Putrid Imp gets +1/+1 and can''t block. (You have threshold as long as seven or more cards are in your graveyard.)', 427, 1);
+INSERT INTO carte_langue VALUES ('Rancid Earth', 'Destroy target land. Threshold - Instead destroy that land and Rancid Earth deals 1 damage to each creature and each player. (You have threshold if seven or more cards are in your graveyard.)', 428, 1);
+INSERT INTO carte_langue VALUES ('Restless Dreams', 'As an additional cost to play Restless Dreams, discard X cards from your hand. Return X target creature cards from your graveyard to your hand.', 429, 1);
+INSERT INTO carte_langue VALUES ('Sengir Vampire', 'Flying. Whenever a creature dealt damage by Sengir Vampire this turn is put into a graveyard, put a +1/+1 counter on Sengir Vampire.', 430, 1);
+INSERT INTO carte_langue VALUES ('Shade''s Form', 'Enchanted creature has "B: This creature gets +1/+1 until end of turn." When enchanted creature is put into a graveyard, return that creature to play under your control.', 431, 1);
+INSERT INTO carte_langue VALUES ('Shambling Swarm', 'When Shambling Swarm is put into a graveyard from play, distribute three -1/-1 counters among one, two, or three target creatures. Remove those counters at end of turn.', 432, 1);
+INSERT INTO carte_langue VALUES ('Sickening Dreams', 'As an additional cost to play Sickening Dreams, discard X cards from your hand. Sickening Dreams deals X damage to each creature and each player.', 433, 1);
+INSERT INTO carte_langue VALUES ('Slithery Stalker', 'Swampwalk. When Slithery Stalker comes into play, remove target green or white creature an opponent controls from the game. When Slithery Stalker leaves play, return the removed card to play under its owner''s control.', 434, 1);
+INSERT INTO carte_langue VALUES ('Soul Scourge', 'Flying. When Soul Scourge comes into play, target player loses 3 life. When Soul Scourge leaves play, that player gains 3 life.', 435, 1);
+INSERT INTO carte_langue VALUES ('Strength of Lunacy', 'Enchanted creature gets +2/+1 and has protection from white. Madness B (You may play this card for its madness cost at the time you discard it from your hand.)', 436, 1);
+INSERT INTO carte_langue VALUES ('Unhinge', 'Target player discards a card from his or her hand. Draw a card.', 437, 1);
+INSERT INTO carte_langue VALUES ('Waste Away', 'As an additional cost to play Waste Away, discard a card from your hand. Target creature gets -5/-5 until end of turn.', 438, 1);
+INSERT INTO carte_langue VALUES ('Zombie Trailblazer', 'Tap an untapped Zombie you control: Target land becomes a swamp until end of turn. Tap an untapped Zombie you control: Target creature gains swampwalk until end of turn.', 439, 1);
+INSERT INTO carte_langue VALUES ('Accelerate', 'Target creature gains haste until end of turn. Draw a card.', 440, 1);
+INSERT INTO carte_langue VALUES ('Balthor the Stout', 'All Barbarians get +1/+1. R: Target Barbarian gets +1/+0 until end of turn.', 441, 1);
+INSERT INTO carte_langue VALUES ('Barbarian Outcast', 'When you control no swamps, sacrifice Barbarian Outcast.', 442, 1);
+INSERT INTO carte_langue VALUES ('Crackling Club', 'Enchanted creature gets +1/+0. Sacrifice Crackling Club: Crackling Club deals 1 damage to target creature.', 443, 1);
+INSERT INTO carte_langue VALUES ('Crazed Firecat', 'When Crazed Firecat comes into play, flip a coin until you lose a flip. Put a +1/+1 counter on Crazed Firecat for each flip you win.', 444, 1);
+INSERT INTO carte_langue VALUES ('Devastating Dreams', 'As an additional cost to play Devastating Dreams, discard X cards at random from your hand. Each player sacrifices X lands. Devastating Dreams deals X damage to each creature.', 445, 1);
+INSERT INTO carte_langue VALUES ('Enslaved Dwarf', 'R, Sacrifice Enslaved Dwarf: Target black creature gets +1/+0 and gains first strike until end of turn.', 446, 1);
+INSERT INTO carte_langue VALUES ('Fiery Temper', 'Fiery Temper deals 3 damage to target creature or player. Madness R (You may play this card for its madness cost at the time you discard it from your hand.)', 447, 1);
+INSERT INTO carte_langue VALUES ('Flaming Gambit', 'Flaming Gambit deals X damage to target player. That player may choose a creature he or she controls and have Flaming Gambit deal that damage to it instead. Flashback XRR (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 448, 1);
+INSERT INTO carte_langue VALUES ('Flash of Defiance', 'Players can''t block with green and/or white creatures this turn. Flashback-1R, Pay 3 life. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 449, 1);
+INSERT INTO carte_langue VALUES ('Grim Lavamancer', 'R, TAP, Remove two cards in your graveyard from the game: Grim Lavamancer deals 2 damage to target creature or player.', 450, 1);
+INSERT INTO carte_langue VALUES ('Hell-Bent Raider', 'First strike, haste. Discard a card at random from your hand: Hell-Bent Raider gains protection from white until end of turn.', 451, 1);
+INSERT INTO carte_langue VALUES ('Kamahl''s Sledge', 'Kamahl''s Sledge deals 4 damage to target creature. Threshold - Instead Kamahl''s Sledge deals 4 damage to that creature and 4 damage to that creature''s controller. (You have threshold if seven or more cards are in your graveyard.)', 452, 1);
+INSERT INTO carte_langue VALUES ('Longhorn Firebeast', 'When Longhorn Firebeast comes into play, any opponent may have it deal 5 damage to him or her. If a player does, sacrifice Longhorn Firebeast.', 453, 1);
+INSERT INTO carte_langue VALUES ('Overmaster', 'The next instant or sorcery spell you play this turn can''t be countered by spells or abilities. Draw a card.', 454, 1);
+INSERT INTO carte_langue VALUES ('Pardic Arsonist', 'Threshold - When Pardic Arsonist comes into play, it deals 3 damage to target creature or player. (You have threshold if seven or more cards are in your graveyard.)', 455, 1);
+INSERT INTO carte_langue VALUES ('Pardic Collaborator', 'First strike. B: Pardic Collaborator gets +1/+1 until end of turn.', 456, 1);
+INSERT INTO carte_langue VALUES ('Pardic Lancer', 'Discard a card at random from your hand: Pardic Lancer gets +1/+0 and gains first strike until end of turn.', 457, 1);
+INSERT INTO carte_langue VALUES ('Petradon', 'When Petradon comes into play, remove two target lands from the game. When Petradon leaves play, return the removed cards to play under their owners'' control. R: Petradon gets +1/+0 until end of turn.', 458, 1);
+INSERT INTO carte_langue VALUES ('Petravark', 'When Petravark comes into play, remove target land from the game. When Petravark leaves play, return the removed card to play under its owner''s control.', 459, 1);
+INSERT INTO carte_langue VALUES ('Pitchstone Wall', '(Walls can''t attack.) Whenever you discard a card from your hand, you may sacrifice Pitchstone Wall. If you do, return the discarded card from your graveyard to your hand.', 460, 1);
+INSERT INTO carte_langue VALUES ('Possessed Barbarian', 'First strike. Threshold - Possessed Barbarian gets +1/+1, is black, and has "2B, TAP: Destroy target red creature."(You have threshold as long as seven or more cards are in your graveyard.)', 461, 1);
+INSERT INTO carte_langue VALUES ('Pyromania', '1R, Discard a card at random from your hand: Pyromania deals 1 damage to target creature or player. 1R, Sacrifice Pyromania: Pyromania deals 1 damage to target creature or player.', 462, 1);
+INSERT INTO carte_langue VALUES ('Radiate', 'Choose target instant or sorcery spell that targets only a single permanent or player. For each other permanent or player that spell could target, put a copy of the spell onto the stack. Each copy targets a different one of those permanents and players.', 463, 1);
+INSERT INTO carte_langue VALUES ('Skullscorch', 'Target player discards two cards at random from his or her hand unless that player has Skullscorch deal 4 damage to him or her.', 464, 1);
+INSERT INTO carte_langue VALUES ('Sonic Seizure', 'As an additional cost to play Sonic Seizure, discard a card at random from your hand. Sonic Seizure deals 3 damage to target creature or player.', 465, 1);
+INSERT INTO carte_langue VALUES ('Temporary Insanity', 'Untap target creature with power less than the number of cards in your graveyard and gain control of it until end of turn. That creature gains haste until end of turn.', 466, 1);
+INSERT INTO carte_langue VALUES ('Violent Eruption', 'Violent Eruption deals 4 damage divided as you choose among any number of target creatures and/or players. Madness 1RR (You may play this card for its madness cost at the time you discard it from your hand.)', 467, 1);
+INSERT INTO carte_langue VALUES ('Acorn Harvest', 'Put two 1/1 green Squirrel creature tokens into play. Flashback-1G, Pay 3 life. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 468, 1);
+INSERT INTO carte_langue VALUES ('Anurid Scavenger', 'Protection from black. At the beginning of your upkeep, sacrifice Anurid Scavenger unless you put a card from your graveyard on the bottom of your library.', 469, 1);
+INSERT INTO carte_langue VALUES ('Arrogant Wurm', 'Trample. Madness 2G (You may play this card for its madness cost at the time you discard it from your hand.)', 470, 1);
+INSERT INTO carte_langue VALUES ('Basking Rootwalla', '1G: Basking Rootwalla gets +2/+2 until end of turn. Play this ability only once each turn. Madness 0 (You may play this card for its madness cost at the time you discard it from your hand.)', 471, 1);
+INSERT INTO carte_langue VALUES ('Centaur Chieftain', 'Haste. Threshold - When Centaur Chieftain comes into play, creatures you control get +1/+1 and gain trample until end of turn. (You have threshold if seven or more cards are in your graveyard.)', 472, 1);
+INSERT INTO carte_langue VALUES ('Centaur Veteran', 'Trample. G, Discard a card from your hand: Regenerate Centaur Veteran.', 473, 1);
+INSERT INTO carte_langue VALUES ('Dwell on the Past', 'Target player shuffles up to four target cards from his or her graveyard into his or her library.', 474, 1);
+INSERT INTO carte_langue VALUES ('Far Wanderings', 'Search your library for a basic land card and put that card into play tapped. Then shuffle your library. Threshold - Instead search your library for three basic land cards and put them into play tapped. Then shuffle your library. (You have threshold if seven or more cards are in your graveyard.)', 475, 1);
+INSERT INTO carte_langue VALUES ('Gurzigost', 'At the beginning of your upkeep, sacrifice Gurzigost unless you put two cards from your graveyard on the bottom of your library. GG, Discard a card from your hand: You may have Gurzigost deal its combat damage to defending player this turn as though it weren''t blocked.', 476, 1);
+INSERT INTO carte_langue VALUES ('Insist', 'The next creature spell you play this turn can''t be countered by spells or abilities. Draw a card.', 477, 1);
+INSERT INTO carte_langue VALUES ('Invigorating Falls', 'You gain life equal to the number of creature cards in all graveyards.', 478, 1);
+INSERT INTO carte_langue VALUES ('Krosan Constrictor', 'Swampwalk. TAP: Target black creature gets -2/-0 until end of turn.', 479, 1);
+INSERT INTO carte_langue VALUES ('Krosan Restorer', 'TAP: Untap target land. Threshold - TAP: Untap up to three target lands. (Play this ability only if seven or more cards are in your graveyard.)', 480, 1);
+INSERT INTO carte_langue VALUES ('Nantuko Blightcutter', 'Protection from black. Threshold - Nantuko Blightcutter gets +1/+1 for each black permanent your opponents control. (You have threshold as long as seven or more cards are in your graveyard.)', 481, 1);
+INSERT INTO carte_langue VALUES ('Nantuko Calmer', 'G, TAP, Sacrifice Nantuko Calmer: Destroy target enchantment. Threshold - Nantuko Calmer gets +1/+1. (You have threshold as long as seven or more cards are in your graveyard.)', 482, 1);
+INSERT INTO carte_langue VALUES ('Nantuko Cultivator', 'When Nantuko Cultivator comes into play, you may discard any number of land cards from your hand. Put that many +1/+1 counters on Nantuko Cultivator and draw that many cards."', 483, 1);
+INSERT INTO carte_langue VALUES ('Narcissism', 'G, Discard a card from your hand: Target creature gets +2/+2 until end of turn. G, Sacrifice Narcissism: Target creature gets +2/+2 until end of turn.', 484, 1);
+INSERT INTO carte_langue VALUES ('Nostalgic Dreams', 'As an additional cost to play Nostalgic Dreams, discard X cards from your hand. Return X target cards from your graveyard to your hand. Remove Nostalgic Dreams from the game.', 485, 1);
+INSERT INTO carte_langue VALUES ('Parallel Evolution', 'For each creature token in play, its controller puts a creature token into play that''s a copy of that creature. Flashback 4GGG (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 486, 1);
+INSERT INTO carte_langue VALUES ('Possessed Centaur', 'Trample. Threshold - Possessed Centaur gets +1/+1, is black, and has ""2B, TAP: Destroy target green creature." (You have threshold as long as seven or more cards are in your graveyard.)', 487, 1);
+INSERT INTO carte_langue VALUES ('Seton''s Scout', 'Seton''s Scout may block as though it had flying. Threshold - Seton''s Scout gets +2/+2. (You have threshold as long as seven or more cards are in your graveyard.)', 488, 1);
+INSERT INTO carte_langue VALUES ('Cabal Coffers', '2, TAP: Add B to your mana pool for each swamp you control.', 489, 1);
+INSERT INTO carte_langue VALUES ('Tainted Field', 'TAP: Add one colorless mana to your mana pool. TAP: Add W or B to your mana pool. Play this ability only if you control a swamp.', 490, 1);
+INSERT INTO carte_langue VALUES ('Tainted Isle', 'TAP: Add one colorless mana to your mana pool. TAP: Add U or B to your mana pool. Play this ability only if you control a swamp.', 491, 1);
+INSERT INTO carte_langue VALUES ('Tainted Peak', 'TAP: Add one colorless mana to your mana pool. TAP: Add B or R to your mana pool. Play this ability only if you control a swamp.', 492, 1);
+INSERT INTO carte_langue VALUES ('Tainted Wood', 'TAP: Add one colorless mana to your mana pool. TAP: Add B or G to your mana pool. Play this ability only if you control a swamp.', 493, 1);
+INSERT INTO carte_langue VALUES ('Ancestor''s Chosen', '"First strike When Ancestor''s Chosen comes into play, you gain 1 life for each card in your graveyard."', 494, 1);
+INSERT INTO carte_langue VALUES ('Aven Warcraft', 'Creatures you control get +0/+2 until end of turn. Threshold - Creatures you control also gain protection from the color of your choice until end of turn. (You have threshold if seven or more cards are in your graveyard.)', 495, 1);
+INSERT INTO carte_langue VALUES ('Battle Screech', 'Put two 1/1 white Bird creature tokens with flying into play. Flashback-Tap three untapped white creatures you control. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 496, 1);
+INSERT INTO carte_langue VALUES ('Battlewise Aven', 'Flying. Threshold - Battlewise Aven gets +1/+1 and has first strike. (You have threshold as long as seven or more cards are in your graveyard.)', 497, 1);
+INSERT INTO carte_langue VALUES ('Benevolent Bodyguard', 'Sacrifice Benevolent Bodyguard: Target creature you control gains protection from the color of your choice until end of turn.', 498, 1);
+INSERT INTO carte_langue VALUES ('Border Patrol', 'Attacking doesn''t cause Border Patrol to tap.', 499, 1);
+INSERT INTO carte_langue VALUES ('Cagemail', 'Enchanted creature gets +2/+2 and can''t attack.', 500, 1);
+INSERT INTO carte_langue VALUES ('Chastise', 'Destroy target attacking creature. You gain life equal to its power.', 501, 1);
+INSERT INTO carte_langue VALUES ('Commander Eesha', 'Flying, protection from creatures', 502, 1);
+INSERT INTO carte_langue VALUES ('Funeral Pyre', 'Remove target card in a graveyard from the game. Its owner puts a 1/1 white Spirit creature token with flying into play.', 503, 1);
+INSERT INTO carte_langue VALUES ('Glory', 'Flying. 2W: Creatures you control gain protection from the color of your choice until end of turn. Play this ability only if Glory is in your graveyard.', 504, 1);
+INSERT INTO carte_langue VALUES ('Golden Wish', '"Choose an artifact or enchantment card you own from outside the game, reveal that card, and put it into your hand. Remove Golden Wish from the game."', 505, 1);
+INSERT INTO carte_langue VALUES ('Guided Strike', 'Target creature gets +1/+0 and gains first strike until end of turn. Draw a card.', 506, 1);
+INSERT INTO carte_langue VALUES ('Lead Astray', 'Tap up to two target creatures.', 507, 1);
+INSERT INTO carte_langue VALUES ('Nomad Mythmaker', 'W, {tap}: Put target enchant creature card from a graveyard into play enchanting a creature you control. (You control that enchantment.)', 508, 1);
+INSERT INTO carte_langue VALUES ('Phantom Flock', 'Flying. Phantom Flock comes into play with three +1/+1 counters on it. If damage would be dealt to Phantom Flock, prevent that damage. Remove a +1/+1 counter from Phantom Flock.', 509, 1);
+INSERT INTO carte_langue VALUES ('Phantom Nomad', 'Phantom Nomad comes into play with two +1/+1 counters on it. If damage would be dealt to Phantom Nomad, prevent that damage. Remove a +1/+1 counter from Phantom Nomad.', 510, 1);
+INSERT INTO carte_langue VALUES ('Prismatic Strands', 'Prevent all damage that sources of the color of your choice would deal this turn. Flashback-Tap an untapped white creature you control. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 511, 1);
+INSERT INTO carte_langue VALUES ('Pulsemage Advocate', '{tap}: Return three target cards in an opponent''s graveyard to his or her hand.  Return target creature card from your graveyard to play.', 512, 1);
+INSERT INTO carte_langue VALUES ('Ray of Revelation', 'Destroy target enchantment. Flashback G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 513, 1);
+INSERT INTO carte_langue VALUES ('Selfless Exorcist', '{tap}: Remove target creature card in a graveyard from the game. That card deals damage equal to its power to Selfless Exorcist. (A * on a card not in play is 0.)', 514, 1);
+INSERT INTO carte_langue VALUES ('Shieldmage Advocate', '{tap}: Return target card in an opponent''s graveyard to his or her hand. Prevent all damage that would be dealt to target creature or player this turn by a source of your choice.', 515, 1);
+INSERT INTO carte_langue VALUES ('Silver Seraph', 'Flying. Threshold - Other creatures you control get +2/+2. (You have threshold as long as seven or more cards are in your graveyard.)', 516, 1);
+INSERT INTO carte_langue VALUES ('Solitary Confinement', 'At the beginning of your upkeep, sacrifice Solitary Confinement unless you discard a card from your hand.Skip your draw step. You can''t be the target of spells or abilities. Prevent all damage that would be dealt to you.', 517, 1);
+INSERT INTO carte_langue VALUES ('Soulcatchers'' Aerie', 'Whenever a Bird is put into your graveyard from play, put a feather counter on Soulcatchers'' Aerie. All Birds get +1/+1 for each feather counter on Soulcatchers'' Aerie.', 518, 1);
+INSERT INTO carte_langue VALUES ('Spirit Cairn', 'Whenever a player discards a card from his or her hand, you may pay W. If you do, put a 1/1 white Spirit creature token with flying into play.', 519, 1);
+INSERT INTO carte_langue VALUES ('Spurnmage Advocate', '{tap}: Return two target cards in an opponent''s graveyard to his or her hand. Destroy target attacking creature.', 520, 1);
+INSERT INTO carte_langue VALUES ('Suntail Hawk', 'Flying.', 521, 1);
+INSERT INTO carte_langue VALUES ('Test of Endurance', 'At the beginning of your upkeep, if you have 50 or more life, you win the game.', 522, 1);
+INSERT INTO carte_langue VALUES ('Trained Pronghorn', 'Discard a card from your hand: Prevent all damage that would be dealt to Trained Pronghorn this turn.', 523, 1);
+INSERT INTO carte_langue VALUES ('Unquestioned Authority', 'When Unquestioned Authority comes into play, draw a card. Enchanted creature has protection from creatures.', 524, 1);
+INSERT INTO carte_langue VALUES ('Valor', 'First strike As long as Valor is in your graveyard and you control a plains, creatures you control have first strike.', 525, 1);
+INSERT INTO carte_langue VALUES ('Vigilant Sentry', 'Threshold - Vigilant Sentry gets +1/+1 and has "{tap}: Target attacking or blocking creature gets +3/+3 until end of turn." (You have threshold as long as seven or more cards are in your graveyard.)', 526, 1);
+INSERT INTO carte_langue VALUES ('Aven Fogbringer', 'Flying. When Aven Fogbringer comes into play, return target land to its owner''s hand.', 527, 1);
+INSERT INTO carte_langue VALUES ('Cephalid Constable', 'Whenever Cephalid Constable deals combat damage to a player, return up to X target permanents that player controls to their owners'' hands, where X is the damage it dealt to that player.', 528, 1);
+INSERT INTO carte_langue VALUES ('Cephalid Inkshrouder', 'Discard a card from your hand: Cephalid Inkshrouder can''t be the target of spells or abilities and is unblockable this turn.', 529, 1);
+INSERT INTO carte_langue VALUES ('Cunning Wish', 'Choose an instant card you own from outside the game, reveal that card, and put it into your hand. Remove Cunning Wish from the game.', 530, 1);
+INSERT INTO carte_langue VALUES ('Defy Gravity', 'Target creature gains flying until end of turn. Flashback U (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 531, 1);
+INSERT INTO carte_langue VALUES ('Envelop', 'Counter target sorcery spell.', 532, 1);
+INSERT INTO carte_langue VALUES ('Flash of Insight', 'Look at the top X cards of your library. Put one of them into your hand and the rest on the bottom of your library. Flashback-1U, Remove X blue cards in your graveyard from the game. (You can''t remove Flash of Insight to pay for its own flashback cost.)', 533, 1);
+INSERT INTO carte_langue VALUES ('Grip of Amnesia', 'Counter target spell unless its controller removes his or her graveyard from the game. Draw a card.', 534, 1);
+INSERT INTO carte_langue VALUES ('Hapless Researcher', 'Sacrifice Hapless Researcher: Draw a card, then discard a card from your hand.', 535, 1);
+INSERT INTO carte_langue VALUES ('Keep Watch', 'Draw a card for each attacking creature.', 536, 1);
+INSERT INTO carte_langue VALUES ('Laquatus''s Disdain', 'Counter target spell played from a graveyard. Draw a card.', 537, 1);
+INSERT INTO carte_langue VALUES ('Lost in Thought', 'Enchanted creature can''t attack or block and its activated abilities can''t be played. Its controller may remove three cards in his or her graveyard from the game to ignore this ability until end of turn.', 538, 1);
+INSERT INTO carte_langue VALUES ('Mental Note', 'Put the top two cards of your library into your graveyard. Draw a card.', 539, 1);
+INSERT INTO carte_langue VALUES ('Mirror Wall', '(Walls can''t attack.) W: Mirror Wall may attack this turn as though it weren''t a Wall. ', 540, 1);
+INSERT INTO carte_langue VALUES ('Mist of Stagnation', 'Permanents don''t untap during their controllers'' untap steps. At the beginning of each player''s upkeep, that player untaps a permanent for each card in his or her graveyard.', 541, 1);
+INSERT INTO carte_langue VALUES ('Quiet Speculation', 'Search target player''s library for up to three cards with flashback and put them into that player''s graveyard. Then the player shuffles his or her library.', 542, 1);
+INSERT INTO carte_langue VALUES ('Scalpelexis', 'Flying. Whenever Scalpelexis deals combat damage to a player, that player removes the top four cards of his or her library from the game. If two or more of those cards have the same name, repeat this process.', 543, 1);
+INSERT INTO carte_langue VALUES ('Spelljack', 'Counter target spell. If it''s countered this way, remove it from the game instead of putting it into its owner''s graveyard. As long as it remains removed from the game, you may play it as though it were in your hand without paying its mana cost. If it has X in its mana cost, X is 0.', 544, 1);
+INSERT INTO carte_langue VALUES ('Telekinetic Bonds', 'Whenever a player discards a card from his or her hand, you may pay 1U. If you do, tap or untap target permanent.', 545, 1);
+INSERT INTO carte_langue VALUES ('Web of Inertia', 'At the beginning of each opponent''s combat phase, that player may remove a card in his or her graveyard from the game. If the player doesn''t, creatures he or she controls can''t attack you this turn.', 546, 1);
+INSERT INTO carte_langue VALUES ('Wonder', 'Flying. As long as Wonder is in your graveyard and you control an island, creatures you control have flying.', 547, 1);
+INSERT INTO carte_langue VALUES ('Wormfang Behemoth', 'When Wormfang Behemoth comes into play, remove all cards in your hand from the game. When Wormfang Behemoth leaves play, return the removed cards to their owner''s hand.', 548, 1);
+INSERT INTO carte_langue VALUES ('Wormfang Crab', 'Wormfang Crab is unblockable. When Wormfang Crab comes into play, an opponent chooses a permanent you control and removes it from the game. When Wormfang Crab leaves play, return the removed card to play under its owner''s control.', 549, 1);
+INSERT INTO carte_langue VALUES ('Wormfang Drake', 'Flying. When Wormfang Drake comes into play, sacrifice it unless you remove a creature you control other than Wormfang Drake from the game. When Wormfang Drake leaves play, return the removed card to play under its owner''s control.', 550, 1);
+INSERT INTO carte_langue VALUES ('Wormfang Manta', 'Flying. When Wormfang Manta comes into play, you skip your next turn. When Wormfang Manta leaves play, you take an extra turn after this one.', 551, 1);
+INSERT INTO carte_langue VALUES ('Wormfang Newt', 'When Wormfang Newt comes into play, remove a land you control from the game. When Wormfang Newt leaves play, return the removed card to play under its owner''s control.', 552, 1);
+INSERT INTO carte_langue VALUES ('Wormfang Turtle', 'When Wormfang Turtle comes into play, remove a land you control from the game. When Wormfang Turtle leaves play, return the removed card to play under its owner''s control.', 553, 1);
+INSERT INTO carte_langue VALUES ('Balthor the Defiled', 'All Minions get +1/+1. BBB, Remove Balthor the Defiled from the game: Each player returns all black and all red creature cards from his or her graveyard to play.', 554, 1);
+INSERT INTO carte_langue VALUES ('Cabal Therapy', 'Name a nonland card. Target player reveals his or her hand and discards from it all cards with that name. Flashback-Sacrifice a creature. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 555, 1);
+INSERT INTO carte_langue VALUES ('Cabal Trainee', 'Sacrifice Cabal Trainee: Target creature gets -2/-0 until end of turn.', 556, 1);
+INSERT INTO carte_langue VALUES ('Death Wish', 'Choose a card you own from outside the game and put it into your hand. You lose half your life, rounded up. Remove Death Wish from the game.', 557, 1);
+INSERT INTO carte_langue VALUES ('Earsplitting Rats', 'When Earsplitting Rats comes into play, each player discards a card from his or her hand. Discard a card from your hand: Regenerate Earsplitting Rats.', 558, 1);
+INSERT INTO carte_langue VALUES ('Filth', 'Swampwalk As long as Filth is in your graveyard and you control a swamp, creatures you control have swampwalk.', 559, 1);
+INSERT INTO carte_langue VALUES ('Grave Consequences', 'Each player may remove any number of cards in his or her graveyard from the game. Then each player loses 1 life for each card in his or her graveyard. Draw a card.', 560, 1);
+INSERT INTO carte_langue VALUES ('Guiltfeeder', 'Guiltfeeder can''t be blocked except by artifact creatures and/or black creatures. Whenever Guiltfeeder attacks and isn''t blocked, defending player loses 1 life for each card in his or her graveyard.', 561, 1);
+INSERT INTO carte_langue VALUES ('Masked Gorgon', 'Green creatures and white creatures have protection from Gorgons. Threshold - Masked Gorgon has protection from green and from white. (You have threshold as long as seven or more cards are in your graveyard.)', 562, 1);
+INSERT INTO carte_langue VALUES ('Morality Shift', 'Exchange your graveyard and library. Then shuffle your library.', 563, 1);
+INSERT INTO carte_langue VALUES ('Rats'' Feast', 'Remove X target cards in a single graveyard from the game.', 564, 1);
+INSERT INTO carte_langue VALUES ('Stitch Together', 'Return target creature card from your graveyard to your hand. Threshold - Instead return that card from your graveyard to play. (You have threshold if seven or more cards are in your graveyard.)', 565, 1);
+INSERT INTO carte_langue VALUES ('Sutured Ghoul', 'Trample. As Sutured Ghoul comes into play, remove any number of creature cards in your graveyard from the game. Sutured Ghoul''s power is equal to the total power of the removed cards andcr its toughness is equal to their total toughness. (A * on a card not in play is 0.)', 566, 1);
+INSERT INTO carte_langue VALUES ('Toxic Stench', 'Target nonblack creature gets -1/-1 until end of turn. Threshold - Instead destroy that creature. It can''t be regenerated. (You have threshold if seven or more cards are in your graveyard.)', 567, 1);
+INSERT INTO carte_langue VALUES ('Treacherous Vampire', 'Flying. Whenever Treacherous Vampire attacks or blocks, sacrifice it unless you remove a card in your graveyard from the game. Threshold - Treacherous Vampire gets +2/+2 and has "When Treacherous Vampire is put into a graveyard from play, you lose 6 life.', 568, 1);
+INSERT INTO carte_langue VALUES ('Treacherous Werewolf', 'Threshold - Treacherous Werewolf gets +2/+2 and has "When Treacherous Werewolf is put into a graveyard from play, you lose 4 life." (You have threshold as long as seven or more cards are in your graveyard.)', 569, 1);
+INSERT INTO carte_langue VALUES ('Anger', 'Haste. As long as Anger is in your graveyard and you control a mountain, creatures you control have haste.', 570, 1);
+INSERT INTO carte_langue VALUES ('Arcane Teachings', 'Enchanted creature gets +2/+2 and has "{tap}: This creature deals 1 damage to target creature or player.', 571, 1);
+INSERT INTO carte_langue VALUES ('Barbarian Bully', 'Discard a card at random from your hand: Barbarian Bully gets +2/+2 until end of turn unless a player has Barbarian Bully deal 4 damage to him or her. Play this ability only once each turn.', 572, 1);
+INSERT INTO carte_langue VALUES ('Book Burning', 'Unless a player has Book Burning deal 6 damage to him or her, put the top six cards of target player''slibrary into his or her graveyard.', 573, 1);
+INSERT INTO carte_langue VALUES ('Breaking Point', 'Destroy all creatures unless a player has Breaking Point deal 6 damage to him or her. Creatures destroyed this way can''t be regenerated.', 574, 1);
+INSERT INTO carte_langue VALUES ('Browbeat', 'Unless a player has Browbeat deal 5 damage to him or her, target player draws three cards.', 575, 1);
+INSERT INTO carte_langue VALUES ('Burning Wish', 'Choose a sorcery card you own from outside the game, reveal that card, and put it into your hand. RemoveBurning Wish from the game.', 576, 1);
+INSERT INTO carte_langue VALUES ('Dwarven Bloodboiler', 'Tap an untapped Dwarf you control: Target creature gets +2/+0 until end of turn.', 577, 1);
+INSERT INTO carte_langue VALUES ('Dwarven Driller', '{tap}: Destroy target land unless its controller has Dwarven Driller deal 2 damage to him or her.', 578, 1);
+INSERT INTO carte_langue VALUES ('Dwarven Scorcher', 'Sacrifice Dwarven Scorcher: Dwarven Scorcher deals 1 damage to target creature unless that creature''s controller has Dwarven Scorcher deal 2 damage to him or her.', 579, 1);
+INSERT INTO carte_langue VALUES ('Ember Shot', 'Ember Shot deals 3 damage to target creature or player. Draw a card.', 580, 1);
+INSERT INTO carte_langue VALUES ('Firecat Blitz', 'Put X 1/1 red Cat creature tokens with haste into play. Remove them from the game at end of turn. Flashback-RR, Sacrifice X mountains. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 581, 1);
+INSERT INTO carte_langue VALUES ('Flaring Pain', 'Damage can''t be prevented this turn. Flashback R (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 582, 1);
+INSERT INTO carte_langue VALUES ('Fledgling Dragon', 'Flying. Threshold - Fledgling Dragon gets +3/+3 and has "R: Fledgling Dragon gets +1/+0 until end of turn." (You have threshold as long as seven or more cards are in your graveyard.)', 583, 1);
+INSERT INTO carte_langue VALUES ('Goretusk Firebeast', 'When Goretusk Firebeast comes into play, it deals 4 damage to target player.', 584, 1);
+INSERT INTO carte_langue VALUES ('Infectious Rage', 'Enchanted creature gets +2/-1. When enchanted creature is put into a graveyard, choose a creature at random Infectious Rage can enchant. Return Infectious Rage to play enchanting that creature.', 585, 1);
+INSERT INTO carte_langue VALUES ('Jeska, Warrior Adept', 'First strike, haste. {tap}: Jeska, Warrior Adept deals 1 damage to target creature or player.', 586, 1);
+INSERT INTO carte_langue VALUES ('Lava Dart', 'Lava Dart deals 1 damage to target creature or player. Flashback-Sacrifice a mountain. (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 587, 1);
+INSERT INTO carte_langue VALUES ('Liberated Dwarf', 'R, Sacrifice Liberated Dwarf: Target green creature gets +1/+0 and gains first strike until end of turn.', 588, 1);
+INSERT INTO carte_langue VALUES ('Lightning Surge', 'Lightning Surge deals 4 damage to target creature or player. Threshold - Instead Lightning Surge deals 6 damage to that creature or player and the damage can''t be prevented. Flashback 5RR (You may play this card from yourgraveyard for its flashback cost. Then remove it from the game.)', 589, 1);
+INSERT INTO carte_langue VALUES ('Planar Chaos', 'At the beginning of your upkeep, flip a coin. If you lose the flip, sacrifice Planar Chaos. Whenever a player plays a spell, that player flips a coin. If he or she loses the flip, counter that spell.', 590, 1);
+INSERT INTO carte_langue VALUES ('Shaman''s Trance', 'Until end of turn, other players can''t play cards from their graveyards, and you may play cards from other players'' graveyards as though they were in your graveyard.', 591, 1);
+INSERT INTO carte_langue VALUES ('Soulgorger Orgg', 'Trample. When Soulgorger Orgg comes into play, you lose all but 1 life. When Soulgorger Orgg leaves play, you gain life equal to the life you lost when it came into play.', 592, 1);
+INSERT INTO carte_langue VALUES ('Spellgorger Barbarian', 'When Spellgorger Barbarian comes into play, discard a card at random from your hand. When Spellgorger Barbarian leaves play, draw a card.', 593, 1);
+INSERT INTO carte_langue VALUES ('Swelter', 'Swelter deals 2 damage to each of two target creatures.', 594, 1);
+INSERT INTO carte_langue VALUES ('Swirling Sandstorm', 'Threshold - Swirling Sandstorm deals 5 damage to each creature without flying. (You have threshold if seven or more cards are in your graveyard.)', 595, 1);
+INSERT INTO carte_langue VALUES ('Worldgorger Dragon', 'Flying, trample. When Worldgorger Dragon comes into play, remove all other permanents you control from the game. When Worldgorger Dragon leaves play, return the removed cards to play under their owners'' control.', 596, 1);
+INSERT INTO carte_langue VALUES ('Anurid Barkripper', 'Threshold - Anurid Barkripper gets +2/+2. (You have threshold as long as seven or more cards are in your graveyard.)', 597, 1);
+INSERT INTO carte_langue VALUES ('Anurid Swarmsnapper', 'Anurid Swarmsnapper may block as though it had flying. 1G: Anurid Swarmsnapper may block an additional creature this turn.', 598, 1);
+INSERT INTO carte_langue VALUES ('Battlefield Scrounger', 'Threshold - Put three cards from your graveyard on the bottom of your library: Battlefield Scrounger gets +3/+3 until end of turn. Play this ability only once each turn. (Play this ability only if seven or more cards are in yourgraveyard.)', 599, 1);
+INSERT INTO carte_langue VALUES ('Brawn', 'Trample. As long as Brawn is in your graveyard and you control a forest, creatures you control have trample.', 600, 1);
+INSERT INTO carte_langue VALUES ('Canopy Claws', 'Target creature loses flying until end of turn. Flashback G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 601, 1);
+INSERT INTO carte_langue VALUES ('Centaur Rootcaster', 'Whenever Centaur Rootcaster deals combat damage to a player, you may search your library for a basic land card and put that card into play tapped. If you do, shuffle your library.', 602, 1);
+INSERT INTO carte_langue VALUES ('Crush of Wurms', 'Put three 6/6 green Wurm creature tokens into play. Flashback 9GGG (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 603, 1);
+INSERT INTO carte_langue VALUES ('Elephant Guide', 'Enchanted creature gets +3/+3. When enchanted creature is put into a graveyard, put a 3/3 green Elephant creature token into play.', 604, 1);
+INSERT INTO carte_langue VALUES ('Epic Struggle', 'At the beginning of your upkeep, if you control twenty or more creatures, you win the game.', 605, 1);
+INSERT INTO carte_langue VALUES ('Erhnam Djinn', 'At the beginning of your upkeep, target non-Wall creature an opponent controls gains forestwalk until your next upkeep.', 606, 1);
+INSERT INTO carte_langue VALUES ('Exoskeletal Armor', 'Enchanted creature gets +X/+X, where X is the number of creature cards in all graveyards.', 607, 1);
+INSERT INTO carte_langue VALUES ('Folk Medicine', 'You gain 1 life for each creature you control. Flashback 1W (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 608, 1);
+INSERT INTO carte_langue VALUES ('Forcemage Advocate', '{tap}: Return target card in an opponent''s graveyard to his or her hand. Put a +1/+1 counter on target creature.', 609, 1);
+INSERT INTO carte_langue VALUES ('Genesis', 'At the beginning of your upkeep, if Genesis is in your graveyard, you may pay 2G. If you do, return target creature card from your graveyard to your hand."', 610, 1);
+INSERT INTO carte_langue VALUES ('Giant Warthog', 'Trample', 611, 1);
+INSERT INTO carte_langue VALUES ('Grizzly Fate', 'Put two 2/2 green Bear creature tokens into play. Threshold - Instead put four 2/2 green Bear creature tokens into play. Flashback 5GG (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 612, 1);
+INSERT INTO carte_langue VALUES ('Harvester Druid', '{tap}: Add to your mana pool one mana of any color that a land you control could produce.', 613, 1);
+INSERT INTO carte_langue VALUES ('Ironshell Beetle', 'When Ironshell Beetle comes into play, put a +1/+1 counter on target creature.', 614, 1);
+INSERT INTO carte_langue VALUES ('Krosan Reclamation', 'Target player shuffles up to two target cards from his or her graveyard into his or her library. Flashback 1G (You may play this card from your graveyard for its flashback cost. Then remove it from the game.)', 615, 1);
+INSERT INTO carte_langue VALUES ('Krosan Wayfarer', 'Sacrifice Krosan Wayfarer: Put a land card from your hand into play.', 616, 1);
+INSERT INTO carte_langue VALUES ('Living Wish', 'Choose a creature or land card you own from outside the game, reveal that card, and put it into your hand. Remove Living Wish from the game.', 617, 1);
+INSERT INTO carte_langue VALUES ('Nantuko Tracer', 'When Nantuko Tracer comes into play, you may put target card from a graveyard on the bottom of its owner''s library.', 618, 1);
+INSERT INTO carte_langue VALUES ('Nullmage Advocate', '{tap}: Return two target cards in an opponent''s graveyard to his or her hand. Destroy target artifact or enchantment.', 619, 1);
+INSERT INTO carte_langue VALUES ('Phantom Centaur', 'Protection from black. Phantom Centaur comes into play with three +1/+1 counters on it. If damage would be dealt to Phantom Centaur, prevent that damage. Remove a +1/+1 counter from Phantom Centaur.', 620, 1);
+INSERT INTO carte_langue VALUES ('Phantom Nantuko', 'Trample. Phantom Nantuko comes into play with two +1/+1 counters on it. If damage would be dealt to Phantom Nantuko, prevent that damage. Remove a +1/+1 counter from Phantom Nantuko. {tap}: Put a +1/+1 counter on Phantom Nantuko.', 621, 1);
+INSERT INTO carte_langue VALUES ('Phantom Tiger', 'Phantom Tiger comes into play with two +1/+1 counters on it. If damage would be dealt to Phantom Tiger, prevent that damage. Remove a +1/+1 counter from Phantom Tiger.', 622, 1);
+INSERT INTO carte_langue VALUES ('Seedtime', 'Play Seedtime only during your turn. Take an extra turn after this one if an opponent played a blue spell this turn.', 623, 1);
+INSERT INTO carte_langue VALUES ('Serene Sunset', 'Prevent all combat damage X target creatures would deal this turn.', 624, 1);
+INSERT INTO carte_langue VALUES ('Sudden Strength', 'Target creature gets +3/+3 until end of turn. Draw a card.', 625, 1);
+INSERT INTO carte_langue VALUES ('Sylvan Safekeeper', 'Sacrifice a land: Target creature you control can''t be the target of spells or abilities this turn.', 626, 1);
+INSERT INTO carte_langue VALUES ('"Thriss, Nantuko Primus"', 'G, {tap}: Target creature gets +5/+5 until end of turn.', 627, 1);
+INSERT INTO carte_langue VALUES ('Tunneler Wurm', 'Discard a card from your hand: Regenerate Tunneler Wurm.', 628, 1);
+INSERT INTO carte_langue VALUES ('Venomous Vines', 'Destroy target enchanted permanent.', 629, 1);
+INSERT INTO carte_langue VALUES ('Anurid Brushhopper', 'Discard two cards from your hand: Remove Anurid Brushhopper from the game. Return it to play under its owner''s control at end of turn.', 630, 1);
+INSERT INTO carte_langue VALUES ('Hunting Grounds', 'Threshold - Whenever an opponent plays a spell, you may put a creature card from your hand into play. (You have threshold as long as seven or more cards are in your graveyard.)', 631, 1);
+INSERT INTO carte_langue VALUES ('Mirari''s Wake', 'Creatures you control get +1/+1. Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced.', 632, 1);
+INSERT INTO carte_langue VALUES ('Phantom Nishoba ', 'Trample. Phantom Nishoba comes into play with seven +1/+1 counters on it. Whenever Phantom Nishoba deals damage, you gain that much life. If damage would be dealt to Phantom Nishoba, prevent that damage. Remove a +1/+1 counter from Phantom Nishoba.', 633, 1);
+INSERT INTO carte_langue VALUES ('Krosan Verge', 'Krosan Verge comes into play tapped. {tap}: Add one colorless mana to your mana pool. 2, {tap}, Sacrifice Krosan Verge: Search your library for a forest card and a plains card and put them into play tapped. Then shuffle your library.', 634, 1);
+INSERT INTO carte_langue VALUES ('Nantuko Monastery', '{tap}: Add one colorless mana to your mana pool. Threshold - GW: Nantuko Monastery becomes a 4/4 green and white creature with first strike until end of turn. It''s still a land. (Play this ability only if seven or more cards are in your graveyard.)', 635, 1);
+INSERT INTO carte_langue VALUES ('Riftstone Portal', '{tap}: Add one colorless mana to your mana pool. As long as Riftstone Portal is in your graveyard, lands you control have "{tap}: Add G or W to your mana pool."', 636, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Acrobatic Maneuver', 'Exile target creature you control, then return that card to the battlefield under its owner''s control. Draw a card.', 637, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Aerial Responder', 'Flying, vigilance, lifelink', 638, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Aetherstorm Roc', 'Whenever Aetherstorm Roc or another creature enters the battlefield under your control, you get {E} (an energy counter). Whenever Aetherstorm Roc attacks, you may pay {E}{E}. If you do, put a +1/+1 counter on it and tap up to one target creature defending player controls.', 639, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Angel of Invention', 'Flying, vigilance, lifelink Fabricate 2 (When this creature enters the battlefield, put two +1/+1 counters on it or create two 1/1 colorless Servo artifact creature tokens.) Other creatures you control get +1/+1.', 640, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Authority of the Consuls', 'Creatures your opponents control enter the battlefield tapped. Whenever a creature enters the battlefield under an opponent''s control, you gain 1 life.', 641, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Aviary Mechanic', 'When Aviary Mechanic enters the battlefield, you may return another permanent you control to its owner''s hand.', 642, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Built to Last', 'Target creature gets +2/+2 until end of turn. If it''s an artifact creature, it gains indestructible until end of turn. (Damage and effects that say "destroy" don''t destroy it.)', 643, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Captured by the Consulate', 'Enchant creature you don''t control Enchanted creature can''t attack. Whenever an opponent casts a spell, if it has a single target, change the target to enchanted creature if able.', 644, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Cataclysmic Gearhulk', 'When Cataclysmic Gearhulk enters the battlefield, each player chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents he or she controls, then sacrifices the rest.', 645, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Consulate Surveillance', 'When Consulate Surveillance enters the battlefield, you get {E}{E}{E}{E} (four energy counters). Pay {E}{E}: Prevent all damage that would be dealt to you this turn by a source of your choice.', 646, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Consul''s Shieldguard', 'When Consul''s Shieldguard enters the battlefield, you get ee (two energy counters). Whenever Consul''s Shieldguard attacks, you may pay e. If you do, another target attacking creature gains indestructible until end of turn.', 647, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Eddytrail Hawk', 'When Eddytrail Hawk enters the battlefield, you get ee (two energy counters). Whenever Eddytrail Hawk attacks, you may pay e. If you do, another target attacking creature gains flying until end of turn.', 648, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Fairgrounds Warden', 'When Fairgrounds Warden enters the battlefield, exile target creature an opponent controls until Fairgrounds Warden leaves the battlefield.', 649, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Fragmentize', 'Destroy target artifact or enchantment with converted mana cost 4 or less.', 650, 1);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Manoeuvre acrobatique', 'Exilez une créature ciblée que vous contrôlez, puis renvoyez cette carte sur le champ de bataille sous le contrôle de son propriétaire. Piochez une carte.', 637, 2);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Secoureur aérien', 'Vol, vigilance, lien de vie', 638, 2);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Rokh tempéther', 'À chaque fois que le Rokh tempéther ou une autre créature arrive sur le champ de bataille sous votre contrôle, vous gagnez e (un marqueur « énergie »). À chaque fois que le Rokh tempéther attaque, vous pouvez payer ee. Si vous faites ainsi, mettez un marqueur +1/+1 sur lui et engagez jusqu''à une créature ciblée que le joueur défenseur contrôle.', 639, 2);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Ange de l’inventivité', 'Vol, vigilance, lien de vie Fabrication 2 (Quand cette créature arrive sur le champ de bataille, mettez deux marqueurs +1/+1 sur elle ou créez deux jetons de créature-artefact 1/1 incolore Servo.) Les autres créatures que vous contrôlez gagnent +1/+1.', 640, 2);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Autorité des consuls', 'Les créatures que vos adversaires contrôlent arrivent sur le champ de bataille engagées. À chaque fois qu''une créature arrive sur le champ de bataille sous le contrôle d''un adversaire, vous gagnez 1 point de vie.', 641, 2);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Mécanicienne de la volière', 'Quand la Mécanicienne de la volière arrive sur le champ de bataille, vous pouvez renvoyer un autre permanent que vous contrôlez dans la main de son propriétaire.', 642, 2);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Construit pour durer', 'La créature ciblée gagne +2/+2 jusqu''à la fin du tour. Si c''est une créature-artefact, elle acquiert l''indestructible jusqu''à la fin du tour. (Les blessures et les effets qui disent « détruisez » ne la détruisent pas.)', 643, 2);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Capturée par le consultant', 'La créature enchantée ne peut pas attaquer. À chaque fois qu''un adversaire lance un sort, s''il a une seule cible, remplacez la cible par la créature enchantée si possible.', 644, 2);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Carcasse mécanique cataclysme', 'Quand la Carcasse mécanique cataclysmique arrive sur le champ de bataille, chaque joueur choisit un artefact, une créature, un enchantement et un planeswalker parmi les permanents non-terrain qu''il contrôle, puis sacrifie le reste.', 645, 2);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Surveillance du consulat', 'Quand la Surveillance du consulat arrive sur le champ de bataille, vous gagnez eeee (quatre marqueurs « énergie »). Payez ee : Prévenez toutes les blessures qui devraient vous être infligées ce tour-ci par une source de votre choix.', 646, 2);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Gardebouclier du consul', 'Quand le Gardebouclier du consul arrive sur le champ de bataille, vous gagnez ee (deux marqueurs « énergie »). À chaque fois que le Gardebouclier du consul attaque, vous pouvez payer e. Si vous faites ainsi, une autre créature attaquante ciblée acquiert l''indestructible jusqu''à la fin du tour.', 647, 2);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Faucon des courants', 'Quand le Faucon des courants arrive sur le champ de bataille, vous gagnez ee (deux marqueurs « énergie »). À chaque fois que le Faucon des courants attaque, vous pouvez payer e. Si vous faites ainsi, une autre créature attaquante ciblée acquiert le vol jusqu''à la fin du tour.', 648, 2);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Garde de la foire', 'Quand le Garde de la foire arrive sur le champ de bataille, exilez une créature ciblée qu''un adversaire contrôle jusqu''à ce que le Garde de la foire quitte le champ de bataille.', 649, 2);
+INSERT INTO CARTE_LANGUE (CARTE_NOM, CARTE_TEXTE, CARTE_ID, LANG_ID) VALUES ('Fragmentation', 'Détruisez l''artefact ou l''enchantement avec un coût converti de mana inférieur ou égal à 4 ciblé.', 650, 2);

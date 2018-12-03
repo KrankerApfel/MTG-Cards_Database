@@ -34,7 +34,7 @@ CREATE TABLE collection(
 CREATE TABLE carte_virtuelle (
  carte_id SERIAL PRIMARY KEY,
  carte_couleur CHAR NOT NULL CHECK(carte_couleur IN('W', 'B', 'N', 'R', 'V', 'M', 'I', 'T')),
- carte_type VARCHAR(20) NOT NULL CHECK(carte_type IN('terrain', 'creature', 'enchantement', 'rituel', 'ephemere', 'artefact')),
+ carte_type VARCHAR(20) NOT NULL CHECK (carte_type IN ('terrain', 'creature', 'enchantement', 'rituel', 'ephemere', 'artefact', 'sort', 'arpenteur', 'tribal', 'permanent')),
  carte_cout varchar(10) NOT NULL,
  carte_force INT CHECK((carte_type = 'creature' AND carte_force >= -1) OR (carte_type != 'creature' AND carte_force IS NULL)),
  carte_endurance INT CHECK((carte_type = 'creature' AND carte_endurance >= -1) OR (carte_type != 'creature' AND carte_endurance IS NULL)),
