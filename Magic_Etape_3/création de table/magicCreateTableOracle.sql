@@ -4,9 +4,9 @@ PURGE est l'équivalent de CASCADE en MySQL, i.e. supprime aussi
 DROP TABLE possession PURGE;
 DROP TABLE carte_langue PURGE;
 DROP TABLE carte_virtuelle PURGE;
+DROP TABLE langue_serie PURGE;
 DROP TABLE langue PURGE;
 DROP TABLE collection PURGE;
-DROP TABLE langue_serie PURGE;
 DROP TABLE serie PURGE;
 
 DROP SEQUENCE langue_lang_id_seq;
