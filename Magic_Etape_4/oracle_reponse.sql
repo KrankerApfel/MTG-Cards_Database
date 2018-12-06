@@ -152,46 +152,28 @@ CREATE OR REPLACE TRIGGER trig_update_possession
 UPDATE POSSESSION SET POS_QUANTITE = 0  WHERE carte_id=7;
 SELECT * FROM POSSESSION WHERE carte_id=7;
 
---2. Le trigger trig_nb_inserer_total_before (respectivement trig_nb_inserer_total_after) informe l'utilisateur du nombre
----- de cartes totales contenues dans toutes les collections confondues avant (respectivement après) sa liste d'insertion.
----- Dans ce but, elle utilise la fonction fun_after_insert_on_possession qui se comporte différemment selon qu'elle est
----- appellé lors d'un trigger de type before ou after.
---- Utilité : Permet à l'utilisateur de savoir combien d'insertion dans la table Possession ont fonctionné.
---- En effet, si le nombre de cartes totales possédées retournées après l'insertion ne correspond pas aux nombre de carte
---- totales possédées additionné aux nombres de cartes à insérer, alors il y a eu des insertions qui se sont mal déroulées.
-
-
-create function fun_after_insert_on_possession return trigger is
-  declare
-    compteurAvant integer;
-    compteurApres integer;
-  begin
-    dbms_output.put_line('Nombre de cartes possédées dans toutes les collections confondues');
-    if(tg_when = 'BEFORE') THEN
-			select * into compteurAvant from nbcartesutilisateur();
-			DBMS_OUTPUT.PUT_LINE(compteurAvant || ' avant l''insertion');
-		end if;
-		if(tg_when = 'AFTER') THEN
-			select * into compteurApres from nbcartesutilisateur();
-			DBMS_OUTPUT.PUT_LINE(compteurAvant || ' apres l''insertion');
-		end if;
-		RETURN NEW;
-	end;
-
 /**
- * Combinaison de Trigger before et after insert sur collection
- */
+* Les deux triggers suivant servent à afficher le nombre de cartes possédées avant et après une insertion sur la table POSSESSION
+* Utilité : permettre à l'utilisateur d'avoir un aperçu du nombre de carte qu'il a inséré après de l'opération
+* d'insertion afin de déceler d'éventuelles erreurs
+*/
 
 create trigger trig_nb_inserer_total_before
   before insert on possession
+  declare
+    compteur NUMERIC;
   begin
-    fun_after_insert_on_possession();
+    compteur := nbcartesutilisateur();
+		DBMS_OUTPUT.PUT_LINE(compteur || ' nombre de cartes avant l''insertion');
   end;
 
 create trigger trig_nb_inserer_total_after
   after insert on possession
+  declare
+    compteur NUMERIC;
   begin
-    fun_after_insert_on_possession();
+    compteur := nbcartesutilisateur();
+		DBMS_OUTPUT.PUT_LINE(compteur || ' nombre de cartes apres l''insertion');
   end;
 
 

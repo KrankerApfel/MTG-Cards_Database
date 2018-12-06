@@ -114,12 +114,14 @@ INSERT INTO collection VALUES	(4,'Collection_Tahina'),
                               (8,'Collection_Sonny');
 
 /**
-* Fonction qui affiche le nombre de carte possédé avant et après une insertion sur la table POSSESSION
-* Cette fonction sera utilisée dans les triggers trig_nb_inserer_total_before et trig_nb_inserer_total_after
-* Utilité : permettre à l'utilisateur d'avoir un aperçu du nombre de carte qu'il a inséré après de l'opération
-* d'insertion afin de déceler d'éventuelles erreurs
-*/
-
+ *  Le trigger trig_nb_inserer_total_before (respectivement trig_nb_inserer_total_after) informe l'utilisateur du nombre
+ *  de cartes totales contenues dans toutes les collections confondues avant (respectivement après) sa liste d'insertion.
+ *  Dans ce but, elle utilise la fonction fun_after_insert_on_possession qui se comporte différemment selon qu'elle est
+ *  appellé lors d'un trigger de type before ou after.
+ *  Utilité : Permet à l'utilisateur de savoir combien d'insertion dans la table Possession ont fonctionné.
+ *  En effet, si le nombre de cartes totales possédées retournées après l'insertion ne correspond pas aux nombre de carte
+ *  totales possédées additionné aux nombres de cartes à insérer, alors il y a eu des insertions qui se sont mal déroulées.
+ */
 create function fun_after_insert_on_possession() returns trigger AS $$
   declare
     compteurAvant integer;
