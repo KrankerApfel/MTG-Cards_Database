@@ -52,3 +52,32 @@ $$ language plpgsql;
 create trigger recommandation
   after insert on possession
   for each statement execute procedure fun_recommandation();
+
+
+/*Trigger comptant le nombre de carte inséré*/
+
+create function fun_after_insert_on_possession() returns trigger AS $$
+  declare
+    compteurAvant integer;
+    compteurApres integer;
+    nbChangement integer;
+  begin
+    if(tg_when = 'BEFORE') THEN
+			select * into compteurAvant from nbcartesutilisateur(new.col_id);
+		end if;
+		if(tg_when = 'AFTER') THEN
+			select * into compteurApres from nbcartesutilisateur(new.col_id);
+		end if;
+		nbChangement := compteurApres - compteurAvant;
+		raise notice '% cartes possédées',compteurApres;
+		raise notice '% cartes ajoutées',nbChangement;
+	end;
+  $$ language plpgsql;
+
+/**
+ * Trigger after insert sur collection
+ */
+create trigger trig_nb_inserer_total
+  after insert on possession
+  for each statement execute procedure fun_after_insert_on_possession();
+
