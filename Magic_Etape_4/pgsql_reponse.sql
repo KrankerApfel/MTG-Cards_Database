@@ -77,7 +77,7 @@ $$ LANGUAGE plpgsql;
 -- Triggers
 
 /**
- * Fonction qui retourne les noms de collections qui n'ont pas encore été utilisés
+ * Trigger permettant de créer une collection en vérifiant que le nom de la collection n'existe pas déjà au préalable
  */
 
 CREATE FUNCTION existe_nom() RETURNS trigger AS $$
@@ -107,6 +107,8 @@ INSERT INTO collection VALUES	(4,'Collection_Tahina'),
 															(6,'Collection_Valentin'),
 															(7,'Collection_Stephan');
 
+
+
 create or replace function fun_recommandation() returns trigger as $$
   declare
 		carte carteTotale%ROWTYPE;
@@ -131,6 +133,9 @@ create trigger recommandation
   after insert on possession
   for each statement execute procedure fun_recommandation();
 
+/**
+* Trigger qui permet d'afficher le nombre de cartes possédées avant et après insertion dans la base de données
+*/
 
 create function fun_after_insert_on_possession() returns trigger AS $$
   declare
