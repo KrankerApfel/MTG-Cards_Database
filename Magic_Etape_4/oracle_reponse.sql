@@ -83,7 +83,7 @@ CREATE OR REPLACE FUNCTION carte_non_posseder(idCol NUMERIC)
 END;
 
 /* Vous pouvez tester cette fonction via cette commande : */
-SELECT  carte_non_posseder(1) FROM dual;
+SELECT * FROM TABLE(carte_non_posseder(1));
 
 
 -- Triggers
