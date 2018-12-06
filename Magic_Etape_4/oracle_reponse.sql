@@ -62,6 +62,21 @@ CREATE OR REPLACE FUNCTION get_card_id(nom_de_carte IN VARCHAR2)
         WHEN NO_DATA_FOUND THEN
         DBMS_OUTPUT.PUT_LINE('ERROR : La carte ' || nom_de_carte || 'est introuvable. Essayez une autre orthographe');
   END;
+  
+  --------------------------------------------------------------------------------
+ --2 bis (car on a fait deux examples pour cette question)
+ -- La fonction nbcartesutilisateur compte le nombre de cartes possédée par tout les utilisateurs
+ -- Utilité : L’intérêt de cette fonction est de permettre à un utilisateur de s’y retrouver dans 
+ -- sa base de données et évaluer l’ampleur de sa collection.
+
+create or replace function nbcartesutilisateur return integer is
+  DECLARE
+	nbCartes INTEGER;
+BEGIN
+	SELECT sum(pos_quantite) INTO nbCartes from possession;
+	RETURN nbCartes;
+END;
+--------------------------------------------------------------------------------
 
 /* Vous pouvez tester cette fonction via cette commande : */
 SELECT get_card_id('Aven Flock') AS carte_identifiant FROM dual;
@@ -137,16 +152,14 @@ CREATE OR REPLACE TRIGGER trig_update_possession
 UPDATE POSSESSION SET POS_QUANTITE = 0  WHERE carte_id=7;
 SELECT * FROM POSSESSION WHERE carte_id=7;
 
-/**
- * Fonction comptant le nombre de cartes possédée par tout les utilisateurs
- */
-create or replace function nbcartesutilisateur return integer is
-  DECLARE
-	nbCartes INTEGER;
-BEGIN
-	SELECT sum(pos_quantite) INTO nbCartes from possession;
-	RETURN nbCartes;
-END;
+--2. Le trigger trig_nb_inserer_total_before (respectivement trig_nb_inserer_total_after) informe l'utilisateur du nombre
+---- de cartes totales contenues dans toutes les collections confondues avant (respectivement après) sa liste d'insertion.
+---- Dans ce but, elle utilise la fonction fun_after_insert_on_possession qui se comporte différemment selon qu'elle est
+---- appellé lors d'un trigger de type before ou after.
+--- Utilité : Permet à l'utilisateur de savoir combien d'insertion dans la table Possession ont fonctionné.
+--- En effet, si le nombre de cartes totales possédées retournées après l'insertion ne correspond pas aux nombre de carte
+--- totales possédées additionné aux nombres de cartes à insérer, alors il y a eu des insertions qui se sont mal déroulées.
+
 
 create function fun_after_insert_on_possession return trigger is
   declare
@@ -184,5 +197,3 @@ create trigger trig_nb_inserer_total_after
   end;
 
 
---2.
---- Utilité :
