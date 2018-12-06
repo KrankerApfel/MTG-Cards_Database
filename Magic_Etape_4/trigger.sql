@@ -29,3 +29,26 @@ INSERT INTO collection VALUES	(4,'Collection_Tahina'),
 															(6,'Collection_Valentin'),
 															(7,'Collection_Stephan');
 
+create or replace function fun_recommandation() returns trigger as $$
+  declare
+		carte carteTotale%ROWTYPE;
+    rep VARCHAR(3);
+  begin
+    SELECT * INTO carte FROM cartesNonPossedees(NEW.col_id) CN
+    	WHERE ser_code = (SELECT ser_code FROM carte_virtuelle WHERE carte_virtuelle.carte_id = NEW.carte_id)
+    	  		AND CN.carte_id != NEW.carte_id; -- Que les cartes différentes de la nouvelle carte insérée
+
+    RAISE NOTICE 'Recommandation : % | % | %' ,carte.carte_nom, carte.carte_texte, carte.ser_code;
+    RAISE NOTICE 'Ajouter ?';
+		rep := '&saisie';
+		IF rep = 'oui' THEN
+			SELECT * FROM creer_carte(carte.carte_nom, carte.carte_texte, carte.lang_id, carte.carte_artiste, carte.carte_cout,carte.carte_type, carte.carte_ordre_serie, carte.carte_endurance, carte.carte_force, carte.carte_couleur, carte.carte_rarete, carte.ser_code);
+			RAISE NOTICE '% ajouté à votre collection', carte.carte_nom;
+		end if;
+		RETURN NEW;
+	end;
+$$ language plpgsql;
+
+create trigger recommandation
+  after insert on possession
+  for each statement execute procedure fun_recommandation();
