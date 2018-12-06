@@ -107,7 +107,9 @@ INSERT INTO collection VALUES	(4,'Collection_Tahina'),
 															(6,'Collection_Valentin'),
 															(7,'Collection_Stephan');
 
-
+/**
+* Trigger permettant de suggérer une carte à un utilisateur après qu'il ait inséré des cartes dans sa collection
+*/
 
 create or replace function fun_recommandation() returns trigger as $$
   declare
