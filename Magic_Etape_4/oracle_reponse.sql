@@ -6,9 +6,9 @@
 Create View carteTotale(carte_id, carte_nom, carte_couleur, carte_type, carte_cout, carte_force, carte_endurance, carte_texte, carte_artiste, carte_rarete, carte_ordre_serie, ser_code, lang_id) as SELECT carte_id, carte_nom, carte_couleur, carte_type, carte_cout, carte_force, carte_endurance, carte_texte, carte_artiste, carte_rarete, carte_ordre_serie, ser_code, lang_id from carte_virtuelle NATURAL JOIN carte_langue;
 
 --2. Vue qui regroupe les cartes anglaises possédées
--- Utilité : Cela permet à l’utilisateur de notre base de donné de ne manipuler que les cartes de cette langues.
+-- Utilité : Cela permet à l’utilisateur de notre base de donné de ne manipuler que les cartes de cette langue.
 -- sans risquer de modifier les cartes éditées dans d'autre langues. Cette vue peut être pratique dans le cas d’un tournoi
--- qui n’autorise que les cartes d’une langue en particulier, nous pouvons vérifier rapidement si nous pouvons faire un deck
+-- qui n’autorise que les cartes d’une langue en particulier où nous pouvons vérifier rapidement si nous pouvons faire un deck
 -- de cette langue. Il suffit juste de modifier l’attribut lang_id pour avoir les cartes en fonction d’une langue précise,
 -- par défaut cela est placé sur anglais.
 Create View cartesAnglaises(col_id, carte_id, pos_quantite) as SELECT col_id, carte_id, pos_quantite FROM possession WHERE lang_id = 1;
@@ -165,7 +165,6 @@ create function fun_after_insert_on_possession return trigger is
   declare
     compteurAvant integer;
     compteurApres integer;
-    nbChangement integer;
   begin
     dbms_output.put_line('Nombre de cartes possédées dans toutes les collections confondues');
     if(tg_when = 'BEFORE') THEN
@@ -174,7 +173,6 @@ create function fun_after_insert_on_possession return trigger is
 		end if;
 		if(tg_when = 'AFTER') THEN
 			select * into compteurApres from nbcartesutilisateur();
-			nbChangement := compteurApres - compteurAvant;
 			DBMS_OUTPUT.PUT_LINE(compteurAvant || ' apres l''insertion');
 		end if;
 		RETURN NEW;
