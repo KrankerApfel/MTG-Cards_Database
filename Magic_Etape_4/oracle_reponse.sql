@@ -48,14 +48,43 @@ CREATE OR REPLACE FUNCTION get_card_id(nom_de_carte IN VARCHAR2)
         DBMS_OUTPUT.PUT_LINE('ERROR : La carte ' || nom_de_carte || 'est introuvable. Essayez une autre orthographe');
   END;
 
--- 3. PAS FINI
-CREATE TYPE carte AS OBJECT (carte_id IN NUMERIC, carte_nom IN VARCHAR2,carte_texte IN VARCHAR2,lang_id IN NUMERIC,carte_artiste IN VARCHAR2,carte_cout IN VARCHAR2,carte_type IN VARCHAR2,carte_ordre_serie IN NUMERIC,endurance IN NUMERIC,cforce IN NUMERIC,couleur IN VARCHAR2,rarete IN NUMERIC,sercode IN VARCHAR2);
-
-CREATE OR REPLACE FUNCTION carte_non_posseder(identifiant NUMERIC)
-  RETURN
-
 /* Vous pouvez tester cette fonction via cette commande : */
 SELECT get_card_id('Aven Flock') AS carte_identifiant FROM dual;
+
+-- 3. La fonction carte_non_posseder permet de retourner l'ensemble des cartes non possédées par l'utilisateur
+CREATE TYPE carte AS OBJECT (carte_id  NUMERIC, carte_nom  VARCHAR2(30 CHAR),carte_texte  VARCHAR2(500 CHAR),lang_id  NUMERIC,carte_artiste  VARCHAR2(30 CHAR),carte_cout  VARCHAR2(30 CHAR),carte_type  VARCHAR2(30 CHAR),carte_ordre_serie  NUMERIC,carte_endurance  NUMERIC,carte_force  NUMERIC,carte_couleur  VARCHAR2(1 CHAR),carte_rarete  NUMERIC,ser_code  VARCHAR2(3 CHAR));
+CREATE OR REPLACE TYPE tab_carte as TABLE OF carte;
+
+CREATE OR REPLACE FUNCTION carte_non_posseder(idCol NUMERIC)
+  RETURN  tab_carte PIPELINED
+  IS c carte := carte(NULL, NULL,NULL, NULL,NULL, NULL,NULL, NULL,NULL, NULL,NULL, NULL,NULL);
+  BEGIN
+  FOR cc IN (SELECT * FROM carteTotale WHERE (carte_id, lang_id) NOT IN (Select carte_id, lang_id FROM possession WHERE col_id = idCol))
+      LOOP
+
+      c.carte_id := cc.carte_id;
+      c.carte_nom := cc.carte_nom;
+      c.carte_texte := cc.carte_texte;
+      c.lang_id :=cc.lang_id;
+      c.carte_artiste :=cc.carte_artiste;
+      c.carte_cout :=cc.carte_cout;
+      c.carte_type :=cc.carte_type;
+      c.carte_ordre_serie:=cc.carte_ordre_serie;
+      c.carte_endurance :=cc.carte_endurance;
+      c.carte_force :=cc.carte_force;
+      c.carte_couleur:=cc.carte_couleur;
+      c.carte_rarete :=cc.carte_rarete;
+      c.ser_code:=cc.ser_code;
+
+  	  PIPE ROW (c);
+      END LOOP;
+
+  RETURN;
+END;
+
+/* Vous pouvez tester cette fonction via cette commande : */
+SELECT  carte_non_posseder(1) FROM dual;
+
 
 -- Triggers
 -- 1. trigger executer avant la mise à jour d'une ligne de la table POSSESSION pour controller la valeur de POS_QUANTITE
@@ -83,7 +112,4 @@ CREATE OR REPLACE TRIGGER trig_update_possession
 
 /* Vous pouvez tester avec ces commandes : */
 UPDATE POSSESSION SET POS_QUANTITE = 0  WHERE carte_id=7;
-SELECT  * FROM POSSESSION WHERE carte_id=7;
-
-
-
+SELECT * FROM POSSESSION WHERE carte_id=7;
