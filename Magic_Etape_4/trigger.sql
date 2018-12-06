@@ -81,3 +81,5 @@ create trigger trig_nb_inserer_total
   after insert on possession
   for each statement execute procedure fun_after_insert_on_possession();
 
+
+

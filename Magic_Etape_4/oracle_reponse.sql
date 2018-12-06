@@ -137,5 +137,52 @@ CREATE OR REPLACE TRIGGER trig_update_possession
 UPDATE POSSESSION SET POS_QUANTITE = 0  WHERE carte_id=7;
 SELECT * FROM POSSESSION WHERE carte_id=7;
 
+/**
+ * Fonction comptant le nombre de cartes possédée par tout les utilisateurs
+ */
+create or replace function nbcartesutilisateur return integer is
+  DECLARE
+	nbCartes INTEGER;
+BEGIN
+	SELECT sum(pos_quantite) INTO nbCartes from possession;
+	RETURN nbCartes;
+END;
+
+create function fun_after_insert_on_possession return trigger is
+  declare
+    compteurAvant integer;
+    compteurApres integer;
+    nbChangement integer;
+  begin
+    dbms_output.put_line('Nombre de cartes possédées dans toutes les collections confondues');
+    if(tg_when = 'BEFORE') THEN
+			select * into compteurAvant from nbcartesutilisateur();
+			DBMS_OUTPUT.PUT_LINE(compteurAvant || ' avant l''insertion');
+		end if;
+		if(tg_when = 'AFTER') THEN
+			select * into compteurApres from nbcartesutilisateur();
+			nbChangement := compteurApres - compteurAvant;
+			DBMS_OUTPUT.PUT_LINE(compteurAvant || ' apres l''insertion');
+		end if;
+		RETURN NEW;
+	end;
+
+/**
+ * Combinaison de Trigger before et after insert sur collection
+ */
+
+create trigger trig_nb_inserer_total_before
+  before insert on possession
+  begin
+    fun_after_insert_on_possession();
+  end;
+
+create trigger trig_nb_inserer_total_after
+  after insert on possession
+  begin
+    fun_after_insert_on_possession();
+  end;
+
+
 --2.
 --- Utilité :
