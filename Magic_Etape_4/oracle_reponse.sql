@@ -70,7 +70,6 @@ CREATE OR REPLACE FUNCTION get_card_id(nom_de_carte IN VARCHAR2)
  -- sa base de données et évaluer l’ampleur de sa collection.
 
 create or replace function nbcartesutilisateur return integer is
-  DECLARE
 	nbCartes INTEGER;
 BEGIN
 	SELECT sum(pos_quantite) INTO nbCartes from possession;
@@ -176,4 +175,4 @@ create trigger trig_nb_inserer_total_after
 		DBMS_OUTPUT.PUT_LINE(compteur || ' nombre de cartes apres l''insertion');
   end;
 
-
+insert into POSSESSION values (3,34,1,1);
